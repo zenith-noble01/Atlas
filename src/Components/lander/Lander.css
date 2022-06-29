@@ -1,0 +1,200 @@
+.Lander {
+  height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--trans);
+}
+
+.Lander .Landercontainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.Lander .Landercontainer .leftContainer {
+  width: 50%;
+  height: 100%;
+  padding-left: 10%;
+}
+
+.Landercontainer .leftContainer .lock {
+  font-weight: 700;
+  font-size: 3.3em;
+  text-align: left;
+  color: #285ca9;
+  font-family: "Poppins";
+  margin-top: 50px;
+  text-transform: capitalize;
+}
+
+.lock span {
+  color: #fcb526;
+}
+
+.Landercontainer .leftContainer .desc {
+  font-weight: 300;
+  font-size: 15px;
+  text-align: left;
+  color: #285ca9;
+  font-family: "Poppins";
+  margin-top: 20px;
+}
+.Landercontainer .leftContainer button {
+  margin-top: 50px;
+  cursor: pointer;
+  background: #fcb526;
+  color: #fff;
+  border: none;
+  height: 40px;
+  padding: 5px 30px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.Lander .Landercontainer .rightContainer {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  position: relative;
+}
+
+.Lander .Landercontainer .rightContainer .containerR {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(40% 0, 100% 0%, 100% 100%, 0 100%);
+  background: #fcb526;
+}
+
+.Lander .Landercontainer .rightContainer .absoluteContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.Lander .Landercontainer .rightContainer .absoluteContainer .content {
+  background: white;
+  font-family: "Poppins";
+}
+.Lander .Landercontainer .rightContainer .absoluteContainer .content.Content1 {
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0px 10px rgb(0, 0, 0, 0.3);
+  background: whitesmoke;
+  font-size: 12px;
+  color: #285ca9;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  font-weight: 400;
+  transition: var(--trans);
+  z-index: 1;
+}
+
+.Lander
+  .Landercontainer
+  .rightContainer
+  .absoluteContainer
+  .content.Content1
+  .circle {
+  min-height: 30px;
+  min-width: 30px;
+  background: #335fa1;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.Lander .Landercontainer .rightContainer .absoluteContainer .content.content2 {
+  background: white;
+}
+.Lander .Landercontainer .rightContainer .absoluteContainer .content3 {
+  background: white;
+}
+
+.Lander .Landercontainer .rightContainer img {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.content.Content3 {
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0px 10px rgb(0, 0, 0, 0.3);
+  background: whitesmoke;
+  font-size: 12px;
+  color: #285ca9;
+  transition: var(--trans);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-weight: 400;
+}
+
+.content.Content2 {
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0px 10px rgb(0, 0, 0, 0.3);
+  background: whitesmoke;
+  font-size: 12px;
+  color: #285ca9;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  transition: var(--trans);
+  top: 40%;
+  right: 30px;
+  font-weight: 400;
+}
+
+@media (max-width: 800px) {
+  .Lander {
+    height: 100%;
+    width: 100%;
+    padding: 0 10%;
+  }
+
+  .Lander .Landercontainer {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .Lander .Landercontainer .rightContainer {
+    width: 100%;
+    height: 100%;
+    background: red;
+    display: none;
+  }
+
+  .Lander .Landercontainer .leftContainer {
+    /* background; */
+    width: 100%;
+    padding-left: 0;
+    height: 100%;
+  }
+
+  .Landercontainer .leftContainer .lock {
+    font-weight: 700;
+    font-size: 2em;
+    text-align: left;
+    color: #285ca9;
+    font-family: "Poppins";
+    margin-top: 50px;
+    text-transform: capitalize;
+  }
+}

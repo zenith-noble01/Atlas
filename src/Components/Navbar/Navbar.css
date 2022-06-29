@@ -1,0 +1,143 @@
+.Navbar {
+  height: 70px;
+  width: 100%;
+  background: white;
+  padding: 0 10%;
+  border-bottom: var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: var(--trans);
+  position: sticky;
+  top: 0;
+  font-family: "poppins";
+}
+
+.Navbar img {
+  width: 100px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.Navbar.change {
+  box-shadow: 0 0px 10px rgb(0, 0, 0, 0.3);
+}
+
+.Navbar .ulList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar .nav__items {
+  flex: 0.8;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__items ul li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  cursor: pointer;
+}
+
+.Navbar .ctaLayer {
+  display: flex;
+  align-items: center;
+}
+
+.ctaLayer li.btnSign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 5px 30px;
+  border-radius: 5px;
+  background: var(--blue);
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+  cursor: pointer;
+  transition: var(--trans);
+  margin-left: 30px;
+}
+
+.Navbar .ulList li.btnSign:hover {
+  color: #fcb526;
+}
+
+.Navbar .ulList li:hover {
+  color: var(--blue);
+}
+
+.Navbar .mobileNav {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .Navbar .ulList {
+    display: none;
+  }
+  .Navbar .mobileNav {
+    display: block;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .Navbar .ctaLayer li.btnSign {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .menu span {
+    height: 5px;
+    border-radius: 5px;
+    width: 100%;
+    background: #fcb526;
+  }
+
+  .mobileNav .mobileList {
+    position: fixed;
+    top: 70px;
+    background: #fcb526;
+    z-index: 999;
+    width: 60vw;
+    transition: var(--trans);
+    color: var(--blue);
+    padding: 40px;
+    height: calc(100vh - 70px);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    list-style: none;
+  }
+
+  .mobileList .btnSign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 30px;
+    border-radius: 10px;
+    background: var(--blue);
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    cursor: pointer;
+    transition: var(--trans);
+  }
+}

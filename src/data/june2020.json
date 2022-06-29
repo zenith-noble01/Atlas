@@ -1,0 +1,90 @@
+{
+  "questionYear": "June 2014",
+  "questions": [
+    {
+      "questionTitle": "1. The acronym ASCII stands for",
+      "suggestions": [
+        "American standard code for information interface",
+        "America standard for communication and interchange",
+        "American standard code for information interchange",
+        "America standard for communication and information interface"
+      ],
+      "correct": "America standard for communication and interchange"
+    },
+    {
+      "questionTitle": "2. A network uses a star topology if",
+      "suggestions": [
+        "Computers are arranged in a close loop.",
+        "All computers are attached to a central point",
+        "All computers are attached to one long cable.",
+        "Computers attach to multiple hierarchical cables."
+      ],
+      "correct": "All computers are attached to one long cable."
+    },
+    {
+      "questionTitle": "3. A fully connected mesh network topology with 5 nodes means each node is linked to:",
+      "suggestions": ["5 others.", "6 others.", "4 others.", "3 others."],
+      "correct": "5 others."
+    },
+    {
+      "questionTitle": "4. The main function of a browser is to",
+      "suggestions": [
+        "Compile HTML",
+        "Interpret HTML",
+        "De-compile HTML",
+        "Interpret CGI programs"
+      ],
+      "correct": "Interpret HTML"
+    },
+    {
+      "questionTitle": "5. Which of the following triples are nested in each other?",
+      "suggestions": [
+        "Disk, file, folder.",
+        "Disk, folder, file.",
+        "Folder, disk, file.",
+        "Folder, file, disk."
+      ],
+      "correct": "Folder, file, disk."
+    },
+    {
+      "questionTitle": "6. The following are-security measures for protecting data EXCEPT",
+      "suggestions": [
+        "Firewall.",
+        "Iris scanning.",
+        "Voice recognition.",
+        "Change of filename."
+      ],
+      "correct": "Voice recognition."
+    },
+    {
+      "questionTitle": "7. Which of the following examples use an embedded system, select the best answer",
+      "suggestions": [
+        "Desktop compute",
+        "Network server",
+        "Television set",
+        "Network router"
+      ],
+      "correct": "Network router"
+    },
+    {
+      "questionTitle": "8. Arrange in increasing order of storage capacity",
+      "suggestions": [
+        "Register, RAM, Tapes, Disks",
+        "Register, Tapes, RAM, Disks.",
+        "Tapes, Disks, RAM, Registers.",
+        "Register, RAM, Disks, Tapes."
+      ],
+      "correct": "Register, RAM, Tapes, Disks"
+    },
+    {
+      "questionTitle": "9. When the main memory of a computer is unable to keep all data and instructions of a program the program can behave as if it has unlimited memory by- using a(n);",
+      "suggestions": ["Cache memory.", "DRAM.", "Virtual memory.", "SRAM."],
+      "correct": "Cache memory."
+    },
+    {
+      "questionTitle": "10. How many bits are in the extended ASCII code of a character?",
+      "suggestions": ["16", "7.", "32.", "8."],
+      "correct": "16"
+    }
+  ]
+}
