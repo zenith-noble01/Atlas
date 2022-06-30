@@ -67,7 +67,7 @@ const Question = ({
           Your time left is <span>{changeTimeFormat(totalTime)}</span>
         </p>
         <div className="content">
-          <h2 className="questionTt">{data.questionTitle}</h2>
+          <h2 className="questionTt">{data?.questionTitle}</h2>
           <div className="control" ref={radiosWrapper}>
             {data.suggestions.map((choice, i) => (
               <label className="radio has-background-light" key={i}>

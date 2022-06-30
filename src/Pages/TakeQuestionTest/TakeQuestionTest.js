@@ -36,15 +36,6 @@ const App = () => {
     }
   };
 
-  // useEffect(() => {
-  //   const updateTotalTime = () => {
-
-  //   if (totalTime === 0) {
-  //     setShowModal(true);
-  //     setAnswers(answers);
-  //   }
-  // }, [totalTime]);
-
   useEffect(() => {
     const getQuestions = async () => {
       await axios
