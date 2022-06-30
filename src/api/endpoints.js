@@ -1,5 +1,6 @@
-const url = "http://localhost:5000/api";
+// const url = "http://localhost:5000/api";
+const production = "https://ticorg.herokuapp.com/api";
 
-export const questionRoute = `${url}/question/q/`;
-export const authRegister = `${url}/auth/register`;
-export const authLogin = `${url}/auth/login`;
+export const questionRoute = `${production}/question/q/`;
+export const authRegister = `${production}/auth/register`;
+export const authLogin = `${production}/auth/login`;

@@ -7,23 +7,13 @@ export default function Timer({
   setActiveQuestion,
   activeQuestion,
 }) {
-  const [timer, setTimer] = useState(30);
+  const [timer, setTimer] = useState(540);
 
   useEffect(() => {
-    if (timer === 0 && activeQuestion < numberOfQuestions - 1) {
-      setTimeOut(true);
-      if (activeQuestion < numberOfQuestions - 1) {
-        setActiveQuestion(activeQuestion + 1);
-      }
-    }
     const interval = setInterval(() => {
       setTimer((prev) => prev - 1);
     }, 1000);
     return () => clearInterval(interval);
-  }, [timer, setTimeOut, activeQuestion, setActiveQuestion, numberOfQuestions]);
-
-  useEffect(() => {
-    setTimer(30);
-  }, [activeQuestion]);
+  }, [timer, setTimeOut]);
   return timer;
 }

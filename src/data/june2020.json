@@ -1,90 +1,458 @@
 {
-  "questionYear": "June 2014",
+  "questionName": "computer science",
+  "questionYear": "June 2020",
   "questions": [
     {
-      "questionTitle": "1. The acronym ASCII stands for",
+      "questionTitle": "1. Computer organisation is how",
       "suggestions": [
-        "American standard code for information interface",
-        "America standard for communication and interchange",
-        "American standard code for information interchange",
-        "America standard for communication and information interface"
+        "The computer hardware logic is organised to carry out its operations.",
+        "Computer hardware is organised into functional units and subsystems.",
+        "Computer hardware is organised into functional units and subsystems.",
+        "The computer hardware is designed to provide services and facilities for use."
       ],
-      "correct": "America standard for communication and interchange"
+      "correct": "The computer hardware logic is organised to carry out its operations."
     },
     {
-      "questionTitle": "2. A network uses a star topology if",
+      "questionTitle": "2 .In this classification, each instruction is executed using its own input data, independently of how other instructions get their data. We are using a(n):",
       "suggestions": [
-        "Computers are arranged in a close loop.",
-        "All computers are attached to a central point",
-        "All computers are attached to one long cable.",
-        "Computers attach to multiple hierarchical cables."
+        "Multiple Instruction Multiple Data.",
+        "Multiple Instruction Multiple Data.",
+        "Single Instruction Single Data.",
+        "Single Instruction Multiple Data "
       ],
-      "correct": "All computers are attached to one long cable."
+      "correct": "Multiple Instruction Multiple Data."
     },
     {
-      "questionTitle": "3. A fully connected mesh network topology with 5 nodes means each node is linked to:",
-      "suggestions": ["5 others.", "6 others.", "4 others.", "3 others."],
-      "correct": "5 others."
+      "questionTitle": "3. It is used for long-term storage of information, but also as an overflow area for executing programs:",
+      "suggestions": ["Hard disk.", "CDROM.", "CMOS.", "ROM"],
+      "correct": "Hard disk."
     },
     {
-      "questionTitle": "4. The main function of a browser is to",
+      "questionTitle": "4. What is the result of the following in sign­ absolute notation? 01ll0100-01001100.",
+      "suggestions": ["00101 000.", "10 101 000.", "00 010 100.", "10011000"],
+      "correct": "00101 000."
+    },
+    {
+      "questionTitle": "5. What is R in the following circuit diagram?",
+      "image": "zenith",
+      "suggestions": ["A·B+A +B.", "A·B·A +B.", "A+B+A·B.", "A·B+A•B"],
+      "correct": "A·B+A +B."
+    },
+    {
+      "questionTitle": "6. It looks for an instruction ·uses circuits to interpret it, and then carries out the instruction in a process known as the:",
       "suggestions": [
-        "Compile HTML",
-        "Interpret HTML",
-        "De-compile HTML",
-        "Interpret CGI programs"
+        "Program Instruction Cycle.",
+        "Machine Instruction Cycle.",
+        "Machine Execution Cycle.",
+        "Program Execution Cycle."
       ],
-      "correct": "Interpret HTML"
+      "correct": "Program Instruction Cycle."
     },
     {
-      "questionTitle": "5. Which of the following triples are nested in each other?",
+      "questionTitle": "7. When the processor receives a signal, it stops what it is doing in order to attend to the request. The mechanism exploited here is:",
       "suggestions": [
-        "Disk, file, folder.",
-        "Disk, folder, file.",
-        "Folder, disk, file.",
-        "Folder, file, disk."
+        "Interrupt signal·",
+        "Spooling.",
+        "Interrupt handling.",
+        "Polling."
       ],
-      "correct": "Folder, file, disk."
+      "correct": "Interrupt signal."
     },
     {
-      "questionTitle": "6. The following are-security measures for protecting data EXCEPT",
+      "questionTitle": "8. The following is true of indirect operand addressing mode:",
       "suggestions": [
-        "Firewall.",
-        "Iris scanning.",
-        "Voice recognition.",
-        "Change of filename."
+        "The data occupies the address just after the instruction.",
+        "The data occupies two memory cells of the instruction.",
+        "One needs to read two more memory cells to get the data.",
+        "One needs to index memory cells to get the data."
       ],
-      "correct": "Voice recognition."
+      "correct": "The data occupies the address just after the instruction."
     },
     {
-      "questionTitle": "7. Which of the following examples use an embedded system, select the best answer",
+      "questionTitle": "9. Which of the following is NOT true of machine instruction code?",
       "suggestions": [
-        "Desktop compute",
-        "Network server",
-        "Television set",
-        "Network router"
+        "It has an instruction format.",
+        "Its b:t pattern is for specific machines.",
+        "It has clear addressing formats.",
+        "All machines have same instructions format."
       ],
-      "correct": "Network router"
+      "correct": "It has clear addressing formats."
     },
     {
-      "questionTitle": "8. Arrange in increasing order of storage capacity",
+      "questionTitle": "10. Its software directly controls the hardware components in order to carry out tasks they are designed for but, essentially, it acts as a c9mputer and is seen as such. It is:",
       "suggestions": [
-        "Register, RAM, Tapes, Disks",
-        "Register, Tapes, RAM, Disks.",
-        "Tapes, Disks, RAM, Registers.",
-        "Register, RAM, Disks, Tapes."
+        "A monitoring system.",
+        "An embedded system.",
+        "An automated system.",
+        "A control system."
       ],
-      "correct": "Register, RAM, Tapes, Disks"
+      "correct": "An embedded system."
     },
     {
-      "questionTitle": "9. When the main memory of a computer is unable to keep all data and instructions of a program the program can behave as if it has unlimited memory by- using a(n);",
-      "suggestions": ["Cache memory.", "DRAM.", "Virtual memory.", "SRAM."],
-      "correct": "Cache memory."
+      "questionTitle": "11. We use them to manipulate and disseminate information among individuals and organisations, possibly over long distances.",
+      "suggestions": [
+        "Management Information Systems.",
+        "Information & Communication Systems.",
+        "Geographic Information Systems.",
+        "Data Communication Systems."
+      ],
+      "correct": "Management Information Systems."
     },
     {
-      "questionTitle": "10. How many bits are in the extended ASCII code of a character?",
-      "suggestions": ["16", "7.", "32.", "8."],
-      "correct": "16"
+      "questionTitle": "12.Joe hacked into Dan's online bank account and withdrew and returned money Dan stole from Jane. Joe accessed the account by supplying the information Dan normally gives. Joe commit a computer crime.",
+      "suggestions": [
+        "Joe illegally accessed an account, whether or not he used computers.",
+        "No. Joe simply helped Jane to get what was rightfully hers.",
+        "Joe used computing skills to access an account he shouldn't.",
+        " No. Joe supplied all the information to legally access the account."
+      ],
+      "correct": "Joe illegally accessed an account, whether or not he used computers."
+    },
+    {
+      "questionTitle": "13. Which of the following controls the aspect the public can see or inquire about you, if stored in a computer system, but allows you to verify or correct the information so stored? .",
+      "suggestions": [
+        "Computer Security.",
+        "Computer Privacy.",
+        "Joe used computing skills to access an account he shouldn't.",
+        " No. Joe supplied all the information to legally access the account."
+      ],
+      "correct": "Computer Security."
+    },
+    {
+      "questionTitle": "14. Given today's technology and his immediate access to resources all over the world, Ngene says he is a citizen of the world, not just a· Cameroonian. We agree with him because:",
+      "suggestions": [
+        "His computing skills are useful all over the world.",
+        "He accesses facilities all over the world, as would one living in those countries.",
+        "His computing skills gives him the same rights as citizens in other countries.",
+        "D His computing skills gives him extra advantages over ordinary citizens of the world."
+      ],
+      "correct": "His computing skills are useful all over the world."
+    },
+    {
+      "questionTitle": "15. Mojoko submitted many problems and their data at a computing Centre, to later get her result online. Processing her work must have required: ",
+      "suggestions": [
+        "An online processing system.",
+        "A real-time processing system.",
+        "A transaction processing system.",
+        "A batch processing system."
+      ],
+      "correct": "An online processing system."
+    },
+    {
+      "questionTitle": "16. Cloud computing handles resources, data and information in certain ways:",
+      "suggestions": [
+        "It provides them as services over the internet.",
+        "It allows them to be transmitted to assorted machines accross the internet.",
+        "Allows them to be used over the internet, where they are found.",
+        " Allows them to be used more efficiently than on stand-alone devices."
+      ],
+      "correct": "It provides them as services over the internet."
+    },
+    {
+      "questionTitle": "17. Certain programs facilitate the construction of other programs, and can be used over and over again rather than constructed. They are:",
+      "suggestions": [
+        "Application programs.",
+        "Systems programs.",
+        "Library programs.",
+        "Utility programs."
+      ],
+      "correct": "Application programs."
+    },
+    {
+      "questionTitle": "18. A ___ is used such that correct programs in a source programming language are possibly made more efficient while they are made ready for maching execution.",
+      "suggestions": [
+        "An assembler.",
+        "An optimiser.",
+        "A translator",
+        "A compiler."
+      ],
+      "correct": "An optimiser."
+    },
+    {
+      "questionTitle": "19. Bisi's computer Help Desk uses many software platforms. She has to quickly respond to frequently asked questions from her clients, so she most probably uses:",
+      "suggestions": [
+        "A Graphical User Interface (GUI).",
+        "A Command Line Interface (CLI).",
+        "A Linux Interface.",
+        "An MS Windows Interface."
+      ],
+      "correct": "A Graphical User Interface (GUI)."
+    },
+    {
+      "questionTitle": "20. Jobs P1, P2, and P3 need 6, 4 and 2 units of execution time respectively. They arrive at times I, 4 and 6 as shown below. Which job is . completed last if a Shortest Job First scheduling policy is used?",
+      "image": "zenith",
+      "suggestions": ["P1.", "P2", "P3.", "P2 and P3"],
+      "correct": "P2 and P3"
+    },
+    {
+      "questionTitle": "21. Which of the following is false for segmented paged memory allocation?",
+      "suggestions": [
+        "Pages of a program can be in any order in memory.",
+        "Segments are overlaid onto the physical address space.",
+        "A page need not occupy a whole segment of memory.",
+        "The address in a program requires an offset from its page address only."
+      ],
+      "correct": "A page need not occupy a whole segment of memory."
+    },
+    {
+      "questionTitle": "22. What input device might a multi-choice questionnaire writer use to input completed forms into a computer.",
+      "suggestions": [
+        "Magnetic Ink Character Recognition (MICR)",
+        "SOptical Mark Reco1mition (OMR)",
+        "Optical Character Reco ition (OCR).",
+        "Hand-held computers"
+      ],
+      "correct": "Optical Character Reco ition (OCR)."
+    },
+    {
+      "questionTitle": "23. The number -17 translated into an 8-bits two's complement binary integer is:",
+      "suggestions": ["11101111", "11101101", "10010011", "11101100"],
+      "correct": "11101111"
+    },
+    {
+      "questionTitle": "24. The positive binary number 1O101111 translated into hexadecimal is:",
+      "suggestions": ["AE", "AF", "EF", "FA"],
+      "correct": "AE"
+    },
+    {
+      "questionTitle": "25. Two Components of the Von Neumann Architecture are:",
+      "suggestions": [
+        "Memory and Processor",
+        "Hard disk and RAM",
+        "Processor and CPU ·",
+        "ALU and processor"
+      ],
+      "correct": "Memory and Processor"
+    },
+    {
+      "questionTitle": "26. Location 600 contains 601, 601 contains 607 and 607 contains 613. What are the contents of register R after the following instruction? (The parentheses indicate indirect addressing) LOAD R, (600)",
+      "suggestions": ["600", "607", "601", "613"],
+      "correct": "601"
+    },
+    {
+      "questionTitle": "27.  A table in third normal form is one which:",
+      "suggestions": [
+        "Has only one primary key.",
+        "Is linked to another table by means of a foreign key.",
+        "Have no repeating fields.",
+        "Contains no non-key dependencies"
+      ],
+      "correct": "Is linked to another table by means of a foreign key."
+    },
+    {
+      "questionTitle": "28. In mesh topology, relationship between one device and another is",
+      "suggestions": [
+        "Server to Peer",
+        "Peer to server",
+        "Client-Server.",
+        "Peer to Peer"
+      ],
+      "correct": "Peer to Peer"
+    },
+    {
+      "questionTitle": "29. The performance of data communications network depends on:",
+      "suggestions": [
+        "Number of users connected.",
+        "The hardware and-software.",
+        "The transmission.",
+        "All of the above."
+      ],
+      "correct": "All of the above."
+    },
+    {
+      "questionTitle": "30. Which OSI layer has routers? ·",
+      "suggestions": [
+        "Network Layer.",
+        "Transport Layer.",
+        "Session Layer.",
+        "Presentation."
+      ],
+      "correct": "Network Layer."
+    },
+    {
+      "questionTitle": "31. When an entity has the primary key of another entity as an attribute, this creates",
+      "suggestions": [
+        "Parent-Child relationship between the tables that connect them.",
+        "Many to many relationship between the tables that connect them.",
+        "Network model between the tables that connect them..",
+        "A one to many relation between the tables that connect them."
+      ],
+      "correct": "Parent-Child relationship between the tables that connect them."
+    },
+    {
+      "questionTitle": "32. A one to many relation between the tables that connect them.",
+      "suggestions": [
+        "The list must be sorted.",
+        "There should be the direct access to the middle element in any sub list.",
+        "There must be mechanism to delete and/or insert elements in list.",
+        "Direct access to the middle element in any sub list."
+      ],
+      "correct": "There must be mechanism to delete and/or insert elements in list."
+    },
+    {
+      "questionTitle": "33. In the database relation R(a, b, d, e,J) attribute b and dare dependent only on a; e only on d; and/only on d. Which of these sets of relations is equivalent to R in third normal form (3NF), if key attributes are underlined? ",
+      "suggestions": [
+        "RI(a, b), R2(d, e, f), R3(a,  d).",
+        "RI(a, b,_d), R2(d_, e), R3(e, f).",
+        "RI(a, b, d), R2(d,  e), R3(e, f).",
+        "RI(a, b, d), R2(d, e, f)."
+      ],
+      "correct": "RI(a, b, d), R2(d, e, f)."
+    },
+    {
+      "questionTitle": "34. When data goes through a network, data privacy is available when: ",
+      "suggestions": [
+        "Only authorized people can control what information can be gathered or disclosed.",
+        "ndividuals control what information can be collected or disclosed about them.",
+        "A system is always available to perform its intended functions on data.",
+        "Only authorised people can access and modify information through a network."
+      ],
+      "correct": "Only authorized people can control what information can be gathered or disclosed."
+    },
+    {
+      "questionTitle": "35. Which data type best holds for processing in the same fashion, the names of a number of plants? ",
+      "suggestions": ["Record", "Array", "Strings", "Characters"],
+      "correct": "Array"
+    },
+    {
+      "questionTitle": "36. How many distinct memory addresses can a processor access if its machine word has 8 bytes?",
+      "suggestions": ["64.", "2 & 16", "8 & 8.", "2 & 64."],
+      "correct": "2 & 64."
+    },
+    {
+      "questionTitle": "37. The design strategy that identifies subtasks based on the operations carried out in them to provide a service or feature is known as:",
+      "suggestions": [
+        "Modular design.",
+        "Functional design.",
+        "Bottom-up design.",
+        "Top-down design."
+      ],
+      "correct": "Bottom-up design."
+    },
+    {
+      "questionTitle": "38. A binary tree whose every node has either zero or two children is called:",
+      "suggestions": [
+        "Complete binary tree.",
+        "Binary search tree.",
+        "Extended binary tree.",
+        "Binary tree."
+      ],
+      "correct": "Binary tree."
+    },
+    {
+      "questionTitle": "39. The post order traversal of a binary tree is DEBFCA. Find out the preorder traversal.",
+      "suggestions": ["ACBEDF.", "ACBDFE.", "ACBDEf.", "ACBFDG."],
+      "correct": "ACBDFE."
+    },
+    {
+      "questionTitle": "40. Which of the following sorting algorithms is of divide-and-conquer type?·",
+      "suggestions": [
+        "Bubble sort.",
+        "Insertion sort.",
+        "Quick sort.",
+        "Algorithm."
+      ],
+      "correct": "Quick sort."
+    },
+    {
+      "questionTitle": "41. Program Readability is typically understood to be:",
+      "suggestions": [
+        "The comments and program instructions in a source code.",
+        "The manual that shows people how to run the program.",
+        "The book that explains to users the program's features and how they work.",
+        "The document that describes how the program was constructed."
+      ],
+      "correct": "The comments and program instructions in a source code."
+    },
+    {
+      "questionTitle": "42. It is used to observe how values change in memory locations, without altering program instructions, or altering memory locations; during debugging",
+      "suggestions": [
+        "Breakpoint",
+        "Watchpoint",
+        "Trace point.",
+        "Print statement."
+      ],
+      "correct": "Breakpoint"
+    },
+    {
+      "questionTitle": "43. Some programs will always guarantee an answer if there is one but may run for ever if there is none. Such problems are:",
+      "suggestions": [
+        "Uncomputable.",
+        "Partially computable.",
+        "Undecidable.",
+        "Semi-decidable."
+      ],
+      "correct": "Undecidable."
+    },
+    {
+      "questionTitle": "44. Algorithms or problems they solve are sometimes described as hard or intractable. This is often a measure of:",
+      "suggestions": [
+        "How much time a human needs to produce the program.",
+        "How much time a computer needs to execute the program.",
+        "How complex a program can be to a programmer.",
+        "How complex a program can be to a computer."
+      ],
+      "correct": "How complex a program can be to a computer."
+    },
+    {
+      "questionTitle": "45. rototyping is a technique that:",
+      "suggestions": [
+        "Permits one to design software quickly.",
+        "Allows software to be quickly adapted to a user's needs.",
+        "Allows developers to better understand a user's needs.",
+        "Allows people to start using software before their complete implementation."
+      ],
+      "correct": "Allows people to start using software before their complete implementation."
+    },
+    {
+      "questionTitle": "46. The space factor when determining the efficiency of algorithm is measured by counting the:",
+      "suggestions": [
+        "Maximum memory needed by the algorithm.",
+        "Minimum memory needed by the algorithm.",
+        "Average memory needed by the algorithm.",
+        "Maximum disk space needed by the algorithm."
+      ],
+      "correct": "Maximum memory needed by the algorithm."
+    },
+    {
+      "questionTitle": " To solve a certain problem, some of its procedures are executed on distinct machines, possibly across the world. We designed a(an):",
+      "suggestions": [
+        "Parallel algorithm.",
+        "Distributed algorithm.",
+        "Internet algorithm.",
+        "Serial Algorithm."
+      ],
+      "correct": "Serial Algorithm."
+    },
+    {
+      "questionTitle": "48. The following are in distinct classes of declarative languages:",
+      "suggestions": [
+        "Logic and functional programs.",
+        "Applicative and functional programs.",
+        "Applicative and object-orient d programs.",
+        "Object-oriented and logic programs."
+      ],
+      "correct": "Object-oriented and logic programs."
+    },
+    {
+      "questionTitle": "49. Programming language (PL) functions are designed to return a value; the values returned by PL functions are often passed in other functions or procedures:",
+      "suggestions": [
+        "As output.",
+        "As parameter.",
+        "By value.",
+        "By reference."
+      ],
+      "correct": "By value."
+    },
+    {
+      "questionTitle": "50. We examine a program, executing and checking its instructions, so as to establish that it behaves as expected. We are doing:",
+      "suggestions": [
+        "Black box testing.",
+        "White box testing.",
+        "Code inspection.",
+        "Program review."
+      ],
+      "correct": "Code inspection."
     }
   ]
 }

@@ -188,9 +188,27 @@
 
       .questions__carryers {
         .card-content {
+          .time__left__container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+
+            span {
+              background: #f7f7f7;
+              padding: 6px 1rem;
+              margin-left: 2rem;
+              border-radius: 20px;
+            }
+          }
+
           .content {
             h2 {
               margin-bottom: 1rem;
+
+              @media screen and (max-width: 800px) {
+                font-size: 1.5rem;
+              }
             }
 
             button {
@@ -333,7 +351,7 @@
                 margin: 10px 2rem;
                 color: var(--white);
                 &.success {
-                  background: #48c774;
+                  background: #3273dc;
                 }
                 &.wrong {
                   background: #f14668;

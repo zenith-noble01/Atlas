@@ -1,6 +1,10 @@
 const mongoose = require("mongoose");
 
 const questionSchema = new mongoose.Schema({
+  questionName: {
+    type: String,
+    required: true,
+  },
   questionYear: {
     type: String,
     required: true,
@@ -10,39 +14,18 @@ const questionSchema = new mongoose.Schema({
   },
   questions: [
     {
-      qustionTitle: {
+      questionTitle: {
         type: String,
         required: true,
       },
       p: {
         type: String,
       },
-
-      suggestions: [
-        {
-          a: {
-            type: String,
-            required: true,
-          },
-          b: {
-            type: String,
-            required: true,
-          },
-          c: {
-            type: String,
-            required: true,
-          },
-          d: {
-            type: String,
-            required: true,
-          },
-
-          correct: {
-            type: String,
-            required: true,
-          },
-        },
-      ],
+      suggestions: [],
+      correct: {
+        type: String,
+        required: true,
+      },
     },
   ],
 });

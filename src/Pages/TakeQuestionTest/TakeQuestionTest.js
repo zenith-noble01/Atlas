@@ -2,9 +2,11 @@ import React, { useState, useEffect } from "react";
 import "./TakeQuestionTest.scss";
 
 import { Question, End, Start, Modal } from "../../Components";
-import quizData from "../../data/june2020.json";
+// import quizData from "../../data/june2020.json";
 import { CancelTwoTone } from "../../Images";
+import { questionRoute } from "../../api/endpoints";
 import { subject, examYears } from "../../data/dummy";
+import axios from "axios";
 
 let interval;
 
@@ -16,7 +18,10 @@ const App = () => {
   const [time, setTime] = useState(0);
   const [click, setClick] = useState(false);
   const [instruction, setInstruction] = useState(true);
+  const [questions, setQuestions] = useState([]);
   const [id, setId] = useState("");
+  // const [totalTime, setTotalTime] = useState(5400);
+
   useEffect(() => {
     if (step === 3) {
       clearInterval(interval);
@@ -31,6 +36,27 @@ const App = () => {
     }
   };
 
+  // useEffect(() => {
+  //   const updateTotalTime = () => {
+
+  //   if (totalTime === 0) {
+  //     setShowModal(true);
+  //     setAnswers(answers);
+  //   }
+  // }, [totalTime]);
+
+  useEffect(() => {
+    const getQuestions = async () => {
+      await axios
+        .get(questionRoute + id)
+        .then((res) => setQuestions(res.data))
+        .catch((err) => console.log(err));
+    };
+
+    getQuestions();
+  }, [id]);
+
+  console.log(questions);
   const quizStartHandler = () => {
     setStep(2);
     interval = setInterval(() => {
@@ -108,9 +134,9 @@ const App = () => {
                 {step === 1 && <Start onQuizStart={quizStartHandler} />}
                 {step === 2 && (
                   <Question
-                    data={quizData.questions[activeQuestion]}
+                    data={questions?.questions[activeQuestion]}
                     onAnswerUpdate={setAnswers}
-                    numberOfQuestions={quizData.questions.length}
+                    numberOfQuestions={questions?.questions.length}
                     activeQuestion={activeQuestion}
                     onSetActiveQuestion={setActiveQuestion}
                     onSetStep={setStep}
@@ -119,7 +145,7 @@ const App = () => {
                 {step === 3 && (
                   <End
                     results={answers}
-                    data={quizData.questions}
+                    data={questions?.questions}
                     onReset={resetClickHandler}
                     onAnswersCheck={() => setShowModal(true)}
                     time={time}
@@ -129,7 +155,7 @@ const App = () => {
                   <Modal
                     onClose={() => setShowModal(false)}
                     results={answers}
-                    data={quizData.questions}
+                    data={questions?.questions}
                   />
                 )}
               </div>
