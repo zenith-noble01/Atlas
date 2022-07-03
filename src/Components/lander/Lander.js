@@ -1,6 +1,7 @@
 import React from "react";
 import "./Lander.css";
 import img1 from "../../Images/img1.png";
+import { Link } from "react-router-dom";
 
 const Lander = () => {
   return (
@@ -16,7 +17,9 @@ const Lander = () => {
             in the accredited and bespoke training courses. we crush the
             barriers to getting your GCE Exam{" "}
           </p>
-          <button>Create Account</button>
+          <button>
+            <Link to="/questionTest">Try Now</Link>
+          </button>
         </div>
         <div className="rightContainer">
           <div className="containerR">

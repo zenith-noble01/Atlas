@@ -8,6 +8,10 @@ export default function Timer({
   activeQuestion,
 }) {
   const [timer, setTimer] = useState(540);
+  if (timer === 0) {
+    setActiveQuestion(activeQuestion + 1);
+    setTimeOut(true);
+  }
 
   useEffect(() => {
     const interval = setInterval(() => {

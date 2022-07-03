@@ -28,54 +28,42 @@ module.exports.createStudent = async (req, res) => {
   user.save((err, user) => {
     if (err) {
       return res.status(400).json({
-        message: "Error while creating user",
-      });
-    } else {
-      res.status(200).json({
-        msg: `Hey ${user.username} please check your email to verify your account`,
+        msg: "Error while creating user",
       });
     }
-    const msg = {
+    sendGrid.send({
       to: user.email,
       from: {
         name: "Atlas",
-        email: "zenithnoble354@gmail.com",
+        email: process.env.SENDER__EMAIL,
       },
       subject: "Verify your email",
-      html: `<h1>Please verify your email</h1>
-      <p>Click on the link below to verify your email</p>
-      <a href="http://${req.headers.host}/api/auth/verify/${user.emailToken}">Verify</a>`,
-    };
-    sendGrid
-      .send(msg)
-      .then((data) => {
-        console.log(`Message sent to ${user.username}`);
-      })
-      .catch((err) => {
-        console.log(err.message);
-      });
+      html: `<h1>Verify your email</h1>
+      <p>Please click on the link to verify your email</p>
+      <a href="http://${req.headers.host}/api/auth/verify/${user.emailToken}">Verify Email</a>`,
+    });
+    res.status(200).json({
+      msg: "User created successfully please check your email to verify your account",
+    });
   });
 };
 
 //veryfying the student email
 module.exports.verifyStudent = async (req, res) => {
   const { id } = req.params;
-
-  try {
-    const student = await Student.findOne({ id });
-    if (!student) return res.status(400).json({ msg: "Invalid Link" });
-    user.isVerified = true;
-    user.save((err, user) => {
-      if (err)
-        return res
-          .status(400)
-          .json({ msg: `Error ${err.message} occured while verifying user` });
-      user.emailToken = "";
-      res.send("user verify");
-      res.redirect("http://localhost:3000/");
-      console.log(user);
+  const student = await Student.findOne({ emailToken: id });
+  if (!student) {
+    return res.status(400).json({
+      message: "Student not found",
     });
-  } catch (error) {}
+  }
+  student.isVerified = true;
+  student.emailToken = "";
+  student.save();
+  // res.status(200).json({
+  //   message: "Student verified successfully",
+  // });
+  res.redirect("https://ticsummit.org");
 };
 
 //login user
@@ -91,6 +79,7 @@ module.exports.loginStudent = async (req, res) => {
 
     //checking if the user with the email exist in the database
     const student = await Student.findOne({ email });
+
     if (!student) {
       return res.status(400).json({
         message: "Student not found",
@@ -107,6 +96,7 @@ module.exports.loginStudent = async (req, res) => {
         message: "Please verify your email",
       });
     }
+
     res.status(200).json(student);
   } catch (error) {
     res.status(500).json(error.message);

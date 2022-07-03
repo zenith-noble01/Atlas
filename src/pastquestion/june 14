@@ -1,0 +1,508 @@
+{
+  "questionName": "computer science",
+  "questionYear": "June 2014",
+  "questions": [
+    {
+      "questionTitle": "1. The acronym ASCII stands for",
+      "suggestions": [
+        "American standard code for information interface",
+        "America standard for communication and interchange",
+        "American standard code for information interchange",
+        "America standard for communication and information interface"
+      ],
+      "correct": "American standard code for information interface"
+    },
+    {
+      "questionTitle": "2. A network uses a star topology if",
+      "suggestions": [
+        "Computers are arranged in a close loop",
+        "All computers are attached to a central point",
+        "All computers are attached to one long cable",
+        "Computers attach to multiple hierarchical cables"
+      ],
+      "correct": "All computers are attached to a central point"
+    },
+    {
+      "questionTitle": "3. A fully connected mesh network topology with 5 nodes means each node is linked to:",
+      "suggestions": [
+        "5 others",
+        "6 others",
+        "4 others",
+        "3 others"
+      ],
+      "correct": "5 others"
+    },
+    {
+      "questionTitle": "4. The main function of a browser is to",
+      "suggestions": [
+        "Compile HTML",
+        "Interpret HTML",
+        "De-compile HTML",
+        "Interpret CGI programs"
+      ],
+      "correct": "Interpret HTML"
+    },
+    {
+      "questionTitle": "5. Which of the following triples are nested in each other?",
+      "suggestions": [
+        "Disk, file, folder",
+        "Disk, folder, file",
+        "Folder, disk, file",
+        "Folder, file, disk"
+      ],
+      "correct": "Disk, file, folder"
+    },
+    {
+      "questionTitle": "6. The following are-security measures for protecting data EXCEPT",
+      "suggestions": [
+        "Firewall",
+        "Iris scanning",
+        "Voice recognition",
+        "Change of filename"
+      ],
+      "correct": "Firewall"
+    },
+    {
+      "questionTitle": "7. Which of the following examples use an embedded system, select the best answer",
+      "suggestions": [
+        "Desktop compute",
+        "Network server",
+        "Television set",
+        "Network router"
+      ],
+      "correct": "Desktop compute"
+    },
+    {
+      "questionTitle": "8. Arrange in increasing order of storage capacity",
+      "suggestions": [
+        "Register, RAM, Tapes, Disks",
+        "Register, Tapes, RAM, Disks",
+        "Tapes, Disks, RAM, Registers",
+        "Register, RAM, Disks, Tapes"
+      ],
+      "correct": "Register, RAM, Tapes, Disks"
+    },
+    {
+      "questionTitle": "9. When the main memory of a computer is unable to keep all data and instructions of a program the program can behave as if it has unlimited memory by- using a(n);",
+      "suggestions": [
+        "Cache memory",
+        "DRAM",
+        "Virtual memory",
+        "SRAM"
+      ],
+      "correct": "SRAM"
+    },
+    {
+      "questionTitle": "10. How many bits are in the extended ASCII code of a character?",
+      "suggestions": [
+        "16",
+        "7",
+        "32",
+        "8"
+      ],
+      "correct": "8"
+    },
+    {
+      "questionTitle": "11. The register that keeps track of program instruction during execution is a(n)",
+      "suggestions": [
+        "Address register",
+        "Program counter",
+        "Data register",
+        "Accumulator"
+      ],
+      "correct": "Accumulator"
+    },
+    {
+      "questionTitle": "12. Programs which are treated as hardware and stored in the ROM are known as",
+      "suggestions": [
+        "Middleware",
+        "Software",
+        "Firmware",
+        "ROMware"
+      ],
+      "correct": "ROMware"
+    },
+    {
+      "questionTitle": "13. The examining and possibly changing of sets of single bits within a machine word is called",
+      "suggestions": [
+        "Word manipulation",
+        "Byte manipulation",
+        "Bit manipulation",
+        "Bit slice manipulation"
+      ],
+      "correct": "Bit slice manipulation"
+    },
+    {
+      "questionTitle": "14. A technique used to convert an analogue signal into a digital signal is known as;",
+      "suggestions": [
+        "Demodulation",
+        "Signal conversion",
+        "Modulation",
+        "Signal decoding"
+      ],
+      "correct": "Modulation"
+    },
+    {
+      "questionTitle": "15. A translator for low-level programming language is known as a(n)",
+      "suggestions": [
+        "Assembler",
+        "Compiler",
+        "Linker",
+        "Loader"
+      ],
+      "correct": "Assembler"
+    },
+    {
+      "questionTitle": "16. Question 16 depends on Figure I below for some three entities in a database: Author, Book and Publisher. The attribute IDA is the identity (ID) of the author, IDB is the book ID and IDP is publisher ID",
+      "p": "Author, Bock and Publisher have the following relationship",
+      "image": "zenith",
+      "suggestions": [
+        "Only author and Book must be in a single database",
+        "Author, Book and Publisher must be in a single database",
+        "Only Author and Publisher are related",
+        "The Publisher is related to the Author of a book"
+      ],
+      "correct": "The Publisher is related to the Author of a book"
+    },
+    {
+      "questionTitle": "17. If data is processed as it arrives, this type of processing is called:",
+      "suggestions": [
+        "Real time processing",
+        "Batch processing",
+        "Distributed processing",
+        "Off-line processing"
+      ],
+      "correct": "Off-line processing"
+    },
+    {
+      "questionTitle": "18. As an operating system concept, a process is:",
+      "suggestions": [
+        "A program that has been executed.",
+        "An executable program.",
+        "A program in execution",
+        "A program in its critical section."
+      ],
+      "correct": "An executable program."
+    },
+    {
+      "questionTitle": "19. Which of the following process scheduling algorithms is mostly suited to batch processing system?",
+      "suggestions": [
+        "Shortest Job First",
+        "Round-Robin",
+        "Priority Scheduling",
+        "Lottery Scheduling"
+      ],
+      "correct": "Round-Robin"
+    },
+    {
+      "questionTitle": "20. One of the following scheduling algorithms may lead to some processes having unduly limited or no processor time:",
+      "suggestions": [
+        "First-come, First-served",
+        "Shortest Job First",
+        "round-Robin",
+        "Shortest remaining time next"
+      ],
+      "correct": "Shortest Job First"
+    },
+    {
+      "questionTitle": "21. A signal sent to the CPU from a device, causing the CPU to stop what it is doing and start doing something else is known as:",
+      "suggestions": [
+        "An interrupt signal",
+        "An interrupt",
+        "Process interrupt",
+        "An I/O interrupt"
+      ],
+      "correct": "An I/O interrupt"
+    },
+    {
+      "questionTitle": "22. The strategy for suspending or delaying processes that are running or can run is called:",
+      "suggestions": [
+        "Pre-emptive scheduling",
+        "Non pre-emptive scheduling",
+        "Interrupts",
+        "Spooling"
+      ],
+      "correct": "Spooling"
+    },
+    {
+      "questionTitle": "23. In memory management strategies, the LRU algorithm",
+      "suggestions": [
+        "Swaps out pages that have been used recently",
+        "Swaps out pages that have not been used recently",
+        "Swaps out pages that have not been used often lately",
+        "Swaps out pages that have been used often lately"
+      ],
+      "correct": "Swaps out pages that have been used recently"
+    },
+    {
+      "questionTitle": "24. Which of the following is not logically a database structure?",
+      "suggestions": [
+        "Flat file",
+        "Relational",
+        "Chain",
+        "Network"
+      ],
+      "correct": "Flat file"
+    },
+    {
+      "questionTitle": "25. The search algorithm that will most usefully benefit from the fact that the elements of an array are already sorted is:",
+      "suggestions": [
+        "linear search",
+        "Binary search",
+        "Quick search",
+        "Random search"
+      ],
+      "correct": "linear search"
+    },
+    {
+      "questionTitle": "26. Each pass through a loop is a(n):",
+      "suggestions": [
+        "Scan",
+        "Iteration",
+        "Execution",
+        "None of the above"
+      ],
+      "correct": "Iteration"
+    },
+    {
+      "questionTitle": "27. The number of address line required to address a memory of size 32KB is:",
+      "suggestions": [
+        "15 lines",
+        "16 lines",
+        "18 lines",
+        "14 lines"
+      ],
+      "correct": "15 lines"
+    },
+    {
+      "questionTitle": "28. variable x is defined as being of type x-type. Which of the following is correct?",
+      "suggestions": [
+        "X is the data type",
+        "X can take integers, characters and real numbers",
+        "Arithmetic and logic operations that can involve x are known",
+        "The memory size of x need not be known"
+      ],
+      "correct": "X is the data type"
+    },
+    {
+      "questionTitle": "29. One major shortcoming of low-level language is",
+      "suggestions": [
+        "Programs do not run fast enough",
+        "Programs do not make system calls",
+        "Programs are not easy to understand",
+        "Machine understands directly"
+      ],
+      "correct": "Programs do not run fast enough"
+    },
+    {
+      "questionTitle": "30. What is the role of an index in searching or sorting an array?",
+      "suggestions": [
+        "it indicates the number of elements that can be added to the table",
+        "it indicates the number of elements currently in the table",
+        "It indicates the element currently being considered in the table",
+        "In indicates the total number of elements that can be in the table"
+      ],
+      "correct": "it indicates the number of elements that can be added to the table"
+    },
+    {
+      "questionTitle": "31. The following is generally true for the time t 1 had taken to search a binary search tree and the time t 2 to search a linked list;",
+      "suggestions": [
+        "t 1 ≥t 2",
+        "t 1 >t 2",
+        "t 1 <t 2",
+        "t 1 ≤t 2"
+      ],
+      "correct": "t 1 ≥t 2"
+    },
+    {
+      "questionTitle": "32. The time complexity of an algorithm refers to:",
+      "suggestions": [
+        "Time and space taken to write an algorithm",
+        "Time and space use to correct an algorithm",
+        "Time and resources taken to develop the algorithm",
+        "Time and space used to executed the algorithm"
+      ],
+      "correct": "Time and space used to executed the algorithm"
+    },
+    {
+      "questionTitle": "33. With respect to many everyday computing tasks, why is the time complexity a less important concept come today than in previous years?",
+      "suggestions": [
+        "Better techniques of the program development are used. Processors",
+        "Faster processors and large memories are used",
+        "Data access today uses cache memory which is faster",
+        "Today's computing facilities are more advanced"
+      ],
+      "correct": "Data access today uses cache memory which is faster"
+    },
+    {
+      "questionTitle": "34. Select the best answer. For a function in a program 10 be easily reused in another program it must;",
+      "suggestions": [
+        "Return a value",
+        "Not make use of global variables",
+        "Not change global variables",
+        "Make use of global variables"
+      ],
+      "correct": "Not change global variables"
+    },
+    {
+      "questionTitle": "35. The function U is define as U(n) = 3 + U(n − 1), with U(0) = 0",
+      "suggestions": [
+        "U is defined iteratively",
+        "U is define recursively",
+        "U(n) cannot be determined for n>0",
+        "U(n) is not computable"
+      ],
+      "correct": "U(n) cannot be determined for n>0"
+    },
+    {
+      "questionTitle": "36. Which of the following algorithmic structures is NOT based on a condition?",
+      "suggestions": [
+        "Sequence",
+        "Selection",
+        "Recursionr",
+        "Instruction"
+      ],
+      "correct": "Recursionr"
+    },
+    {
+      "questionTitle": "37. A system program that combines the separately compiled modules of a program into a suitable form for execution is a(n);",
+      "suggestions": [
+        "Assembler",
+        "Linker",
+        "Cross compiler",
+        "Translator"
+      ],
+      "correct": "Translator"
+    },
+    {
+      "questionTitle": "38. When a function finishes its execution:",
+      "suggestions": [
+        "Control returns from the function call",
+        "ontrol returns to the function call",
+        "Control returns to the statement immediately following the function call",
+        "Control returns to a statement following the function call"
+      ],
+      "correct": "Control returns to a statement following the function call"
+    },
+    {
+      "questionTitle": "39. Analysis is the ________ step in developing a program",
+      "suggestions": [
+        "Pre-planning",
+        "Middle",
+        "Post-design",
+        "First"
+      ],
+      "correct": "Post-design"
+    },
+    {
+      "questionTitle": "40. The approach used in top-down analysis and design is:",
+      "suggestions": [
+        "To identify the top level functions by combining many similar components",
+        "To produce flow charts before programming is done",
+        "To identify a top-level function and then create from a hierarchy of lower level components",
+        "All of the above"
+      ],
+      "correct": "To identify a top-level function and then create from a hierarchy of lower level components"
+    },
+    {
+      "questionTitle": "41. Which of the following is Not a factor in the failure of a system development project?",
+      "suggestions": [
+        "Size of the company",
+        "Inadequate user involvement",
+        "Failure of system integration",
+        "Continuation of a project that should have been cancelled"
+      ],
+      "correct": "Failure of system integration"
+    },
+    {
+      "questionTitle": "42. With respect to software life cycle, documentation is prepared:",
+      "suggestions": [
+        "At every stage of SDLC",
+        "At system design Stage of SIDLC",
+        "At system analysis phase of SDLC",
+        "Al system development phase of SDLC"
+      ],
+      "correct": "At system analysis phase of SDLC"
+    },
+    {
+      "questionTitle": "43. In the initial phase (phase I of the SDLC which of the following aspects are usually analyzed?",
+      "suggestions": [
+        "Requirements",
+        "Inputs",
+        "Controls",
+        "All of the above"
+      ],
+      "correct": "All of the above"
+    },
+    {
+      "questionTitle": "44. Recursive functions are implemented with the aid of the data structure called:",
+      "suggestions": [
+        "A queue",
+        "a stack",
+        "A linked list",
+        "A tree"
+      ],
+      "correct": "A tree"
+    },
+    {
+      "questionTitle": "45. An address bus from a storage unit has 32 bust lines. What is the capacity of the storage unit? (Assume 1GB = 1024MB and 1MB=1024KB)",
+      "suggestions": [
+        "4GB",
+        "512MB",
+        "512GB",
+        "4MB"
+      ],
+      "correct": "4GB"
+    },
+    {
+      "questionTitle": "46. Given a 7-segment decoder that prints digits in the form below: 8 ≡8 2≡2 etc. for digits 0 to 9, how many bits should the decoder have for its inputs?",
+      "suggestions": [
+        "7 bits",
+        "10 bits",
+        "4 bits",
+        "8 bits"
+      ],
+      "correct": "8 bits"
+    },
+    {
+      "questionTitle": "47. The expression ̅̅̅̅̅̅̅̅̅̅̅̅̅ AB + AB algebra in equivalent to;",
+      "suggestions": [
+        "A̅ B.AB",
+        "pending",
+        "A B+AB",
+        "A̅ B+AB̅"
+      ],
+      "correct": "A B+AB"
+    },
+    {
+      "questionTitle": "48. What is the equivalent circuit for the expression? A̅ B+AB̅ =S",
+      "suggestions": [
+        "pending..",
+        "pending..",
+        "pending..",
+        "pending.."
+      ],
+      "correct": "pending.."
+    },
+    {
+      "questionTitle": "49. An important aspect in coding is:",
+      "suggestions": [
+        "Readability",
+        "Productivity",
+        "Using the smallest memory space possible",
+        "Brevity"
+      ],
+      "correct": "Readability"
+    },
+    {
+      "questionTitle": "50. The extent to which software can continue to operate correctly despite the introduction of invalid inputs is called:",
+      "suggestions": [
+        "Reliability",
+        "Robustness",
+        "Fault-tolerance",
+        "Adaptability"
+      ],
+      "correct": "Robustness"
+    }
+  ]
+}

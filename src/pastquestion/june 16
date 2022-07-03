@@ -1,0 +1,455 @@
+{
+  "questionYear": "June 2016",
+  "questions": [
+    {
+      "questionTitle": "1. It is a machine type which is analogous to parallel processing.",
+      "suggestions": [
+        "RISC.",
+        "SIMD.",
+        "CISC.",
+        "MIMD."
+      ]
+    },
+    {
+      "questionTitle": "2. Virtual memory can be implemented with",
+      "suggestions": [
+        "Segmentation.",
+        "Paging.",
+        "Segmentation with paging.",
+        "All of the above."
+      ]
+    },
+    {
+      "questionTitle": "3. The Cache memory is between",
+      "suggestions": [
+        "CPU and RAM.",
+        "RAM and REGISTERS.",
+        "SCPU and ACCUMULATORS.",
+        "RAM and HARD DISK."
+      ]
+    },
+    {
+      "questionTitle": "4. The cost of accessing information in computations is minimum when using a",
+      "suggestions": [
+        "Cache.",
+        "Register.",
+        "Secondary memory.",
+        "Magnetic tape."
+      ]
+    },
+    {
+      "questionTitle": "5. Floating point representation is used to store",
+      "suggestions": [
+        "Boolean numbers.",
+        "Natural numbers.",
+        "Fractional numbers.",
+        "Complex numbers."
+      ]
+    },
+    {
+      "questionTitle": "6. Logic XOR operation (11101010) 2 & (10101010) 2 has as result",
+      "suggestions": [
+        "10010001.",
+        "01100000.",
+        "01000000.",
+        "10100000."
+      ]
+    },
+    {
+      "questionTitle": "7. A storage device is classified as RAM if",
+      "suggestions": [
+        "The memory locations are accessed rapidly..",
+        "The time taken to access any of its memory locations is the same..",
+        "Data cannot be retrieved randomly.",
+        "The access mechanism is stored in a random location."
+      ]
+    },
+    {
+      "questionTitle": "8. The Simplified form of the Boolean expression (X+Y+XY) (X+Z)",
+      "suggestions": [
+        "X+Y+ZX+Y.",
+        "XY+YZ.",
+        "X+YZ.",
+        "XZ+Y."
+      ]
+    },
+    {
+      "questionTitle": "9. Interrupt driven input/output leads to",
+      "suggestions": [
+        "Wastage of CPU time.",
+        "Optimum use of CPU time.",
+        "Z=xy’.",
+        "Non-execution of priority processes."
+      ]
+    },
+    {
+      "questionTitle": "10. What will be the 6-bit word of the 2's compliment of the number 1010?",
+      "suggestions": [
+        "111010.",
+        "110110.",
+        "1101 11.",
+        "101100."
+      ]
+    },
+    {
+      "questionTitle": "11. Program pre-emption is",
+      "suggestions": [
+        "orced withdrawal of CPU from a program which is executing.",
+        "Release of CPU by a program due to an interrupt.",
+        "Forceful allocation of CPU by a program to itself.",
+        "Program termination due to detection of an interrupt."
+      ]
+    },
+    {
+      "questionTitle": "12. Which scheduling strategy is most suitable for a time sharing operating system?",
+      "suggestions": [
+        "Shortest Job First.",
+        "First come first served.",
+        "Round Robin.",
+        "Longest job first."
+      ]
+    },
+    {
+      "questionTitle": "13.An operating system contains 3 user processes, each process requiring 2 units of the resource R. The minimum number of units of R required such that there is no possibility of deadlock on R is",
+      "suggestions": [
+        "6",
+        "3",
+        "5.",
+        "4"
+      ]
+    },
+    {
+      "questionTitle": "14. To avoid a race condition, the maximum number of processes that may be in their critical section simultaneously is",
+      "suggestions": [
+        "Zero",
+        "One",
+        "Two",
+        "Two or less"
+      ]
+    },
+    {
+      "questionTitle": "15. A program in execution is called",
+      "suggestions": [
+        "A process",
+        "An instruction",
+        "A procedure",
+        "A function"
+      ]
+    },
+    {
+      "questionTitle": "16. The program counter (PC) is",
+      "suggestions": [
+        "A CPU register that indicates the address of the instruction currently being executed.",
+        "A CPU register that indicates the address of the next instruction in a program.",
+        "A CPU register which stores the state of a process",
+        "A CPU register that signals a change of context"
+      ]
+    },
+    {
+      "questionTitle": "17. If data is processed as it arrives, this type of data processing is called.",
+      "suggestions": [
+        "Real time processing",
+        "Batch processing",
+        "Synchronous processing",
+        "Parallel processing"
+      ]
+    },
+    {
+      "questionTitle": "18. A page fault means that we referenced a page",
+      "suggestions": [
+        "Outside the memory boundaries.",
+        "With an incorrect I/O request.",
+        "That was not in secondary storage.",
+        "That was not in main memory."
+      ]
+    },
+    {
+      "questionTitle": "19. Several processes access and manipulate the same data concurrently and the outcome of the execution depends on the particular order in which the access takes place; this is called a/an",
+      "suggestions": [
+        "Shared memory condition.",
+        "Race condition",
+        "Multi- processing",
+        "Process synchronization."
+      ]
+    },
+    {
+      "questionTitle": "20. The search for an element on a binary search tree has an average complexity which is",
+      "suggestions": [
+        "Linear",
+        "Logarithmic",
+        "Polynomial",
+        "Exponential"
+      ]
+    },
+    {
+      "questionTitle": "21. Given the function for f(n) = n!, n a natural number and defined EITHER as in f 1 (n) = n(n − 1)! with 0! = 1 OR f 2 (n) = 1 ∗ 2 ∗ 3 ∗ ... .∗ n",
+      "suggestions": [
+        "f 1 is an iterative definition of the factorial function?",
+        "f 1 executes with no internal stack while f 2 does",
+        "f 2 and f 1 will have the same runtime efficiency",
+        "f 2 his more efficient than f 1"
+      ]
+    },
+    {
+      "questionTitle": "22. A programming paradigm that packages data and functions and manipulates the data into one structure, is known as",
+      "suggestions": [
+        "Imperative programming.",
+        "Modular programming.",
+        "Object oriented programming.",
+        "Functional programming."
+      ]
+    },
+    {
+      "questionTitle": "23. A piece of software, possibly incomplete, that is meant to facilitate agreement on system specifications between software producer and customer is",
+      "suggestions": [
+        "User interface.",
+        "System prototype.",
+        "Pseudocode.",
+        "System model."
+      ]
+    },
+    {
+      "questionTitle": "24. In debugging a program,",
+      "suggestions": [
+        "We are searching for availability of errors",
+        "We want to see whether a program executes with errors",
+        "We want to prove that the program is working without errors",
+        "We are correcting errors."
+      ]
+    },
+    {
+      "questionTitle": "25.The postfix form of the expression; A*B+C/D is:",
+      "suggestions": [
+        "AB/CD+",
+        "A*BC+/D",
+        "AB*CD/+",
+        "ABCD+/*"
+      ]
+    },
+    {
+      "questionTitle": "26. A binary search algorithm on an array of N elements has an average complexity in the order of",
+      "suggestions": [
+        "Nlog 2 N",
+        "log 2 N",
+        "N-1",
+        "2 N"
+      ]
+    },
+    {
+      "questionTitle": "27. The operation of processing each element in a list is known as",
+      "suggestions": [
+        "Sorting",
+        "Searching",
+        "Indexing",
+        "Traversal."
+      ]
+    },
+    {
+      "questionTitle": "28. Generally, a variable defined within a block is visible",
+      "suggestions": [
+        "From the point of definition onward in a sub routine",
+        "From the point of definition onward in the function",
+        "From the point of definition onward in the block",
+        "Throughout the function"
+      ]
+    },
+    {
+      "questionTitle": "29. A linear collection of data elements where its elements are accessed by means of a pointer is called a (an)",
+      "suggestions": [
+        "Linked list",
+        "I-D Array",
+        "Record",
+        "Sorted list."
+      ]
+    },
+    {
+      "questionTitle": "30.Locking was introduced into databases so that",
+      "suggestions": [
+        "Keys can be provided to maintain security",
+        "All simultaneous transactions are prevented",
+        "Passwords can be provided to maintain security",
+        "Consistency can be enforced"
+      ]
+    },
+    {
+      "questionTitle": "31. A data model is a collection of conceptual tools for describing",
+      "suggestions": [
+        "Data and data relationships ",
+        "Data semantics and consistency constraints",
+        "Data, data relationship, data semantics and consistency constraints",
+        "Encryption and decryption."
+      ]
+    },
+    {
+      "questionTitle": "32. Modifying software to respond to changes in its environment is called",
+      "suggestions": [
+        "Adaptive maintenance.",
+        "Corrective maintenance.",
+        "Pre-emptive maintenance.",
+        "Preventive maintenance."
+      ]
+    },
+    {
+      "questionTitle": "33. The mechanism of deriving a class from another derived class is known as",
+      "suggestions": [
+        "Polymorphism",
+        "Single Inheritance",
+        "Multilevel Inheritance",
+        "Message Passing"
+      ]
+    },
+    {
+      "questionTitle": "34. An ASCII character is said to be codded in one byte, how many bits are needed to code the word CODING.",
+      "suggestions": [
+        "42",
+        "6",
+        "48",
+        "64"
+      ]
+    },
+    {
+      "questionTitle": "35. For deadlock to occur,",
+      "suggestions": [
+        "There must be mutual exclusion in resource allocation to process",
+        "There must be hold and wait of resources by processes",
+        "There must be circular waiting",
+        "All of the above."
+      ]
+    },
+    {
+      "questionTitle": "36. PA program that makes one kind of computer act as if it was another kind is called a(n)",
+      "suggestions": [
+        "Virus",
+        "Object code",
+        "Virtual machine",
+        "Source code"
+      ]
+    },
+    {
+      "questionTitle": "37. The protocol CSMA/CD is used in a",
+      "suggestions": [
+        "Shared media",
+        "Dedicated media.",
+        "iga Ethernet (optical fibers)",
+        "Radio waves"
+      ]
+    },
+    {
+      "questionTitle": "38. The following transmission media are ranked in increasing order of their transmission rates and effectiveness.",
+      "suggestions": [
+        "AIncrease in money laundry",
+        "Rise in unemployment worldwide",
+        "Further impoverishment of the poor",
+        "Hunger."
+      ]
+    },
+    {
+      "questionTitle": "39. The following transmission media are ranked in increasing order of their transmission rates and effectiveness.",
+      "suggestions": [
+        "Optical fibers, UTP Cables, Micro-Waves",
+        "Optical fibers, Micro-Waves, UTP Cables",
+        "Micro-Waves, Optical fibers, UTP Cables",
+        "Micro-Waves, UTP Cables, Optical fibers."
+      ]
+    },
+    {
+      "questionTitle": "40. The rules that govern how entities communicate or interact in a network are",
+      "suggestions": [
+        "Network topology",
+        "OSI model",
+        "Protocols",
+        "Standards and Protocols"
+      ]
+    },
+    {
+      "questionTitle": "41. A network interface card (NIC) is found",
+      "suggestions": [
+        "In every network data terminal equipment (host).",
+        "In the server only.",
+        "In the Application layer of OSI model.",
+        "At the terminal of every transmission media."
+      ]
+    },
+    {
+      "questionTitle": "42. In Round Robin CPU scheduling, as the time quantum increases, the average turnaround time",
+      "suggestions": [
+        "Increases",
+        "Decreases",
+        "Remains constant",
+        "Varies unpredictably"
+      ]
+    },
+    {
+      "questionTitle": "43. If a computer in a network that shares resources for others to use, is called",
+      "suggestions": [
+        "A server",
+        "A Router",
+        "A Switch",
+        "Hub"
+      ]
+    },
+    {
+      "questionTitle": "44. Given the database relation CUSTOMER (Customer ID, Name, Address, Customer- Status, Customer type). A suitable primary key for CUSTOMER is:",
+      "suggestions": [
+        "Name",
+        "CustomerlD",
+        "Customer status",
+        "Customer-type."
+      ]
+    },
+    {
+      "questionTitle": "45. A data structure may be considered as:",
+      "suggestions": [
+        "Method for formatting the components of data input.",
+        "A format for organizing and sorting data for algorithmic efficiency.",
+        "A representation of data in the computer",
+        "A way of classifying data for better accessibility."
+      ]
+    },
+    {
+      "questionTitle": "46. An interpreted programming language that works within another application to perform tasks and used by web designers to build interactive features in a web page is known as:",
+      "suggestions": [
+        "Scripting language",
+        "Compiled language",
+        "Machine language",
+        "Mark-up language."
+      ]
+    },
+    {
+      "questionTitle": "47. In the initial phase (phase l) of the SDLC, which of the following aspects are usually analyzed?",
+      "suggestions": [
+        "Requirements",
+        "Inputs",
+        "Controls",
+        "All of the above"
+      ]
+    },
+    {
+      "questionTitle": "48. A field in the database table that uniquely identifies a record in the table is known as",
+      "suggestions": [
+        "Secondary key",
+        "Foreign key",
+        "Primary key",
+        "Candidate key"
+      ]
+    },
+    {
+      "questionTitle": "49.A database table is in 2 nd Normal form if it is in 1 st normal form and",
+      "suggestions": [
+        "All non-key fields depend on a unique key",
+        "All non-key fields depend on all key fields",
+        "Most non-key fields depend on a unique key",
+        "Most non-key fields depend on all key fields"
+      ]
+    },
+    {
+      "questionTitle": "50. Given that a student must have a class. If class has as primary key ClasslD, what foreign key field(s) is (are) found in the entity student?",
+      "suggestions": [
+        "Class",
+        "ClasslD, Student1D",
+        "Class cycle.",
+        "ClassID"
+      ]
+    }
+  ]
+}

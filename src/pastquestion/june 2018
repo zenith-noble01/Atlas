@@ -1,0 +1,455 @@
+{
+  "questionYear": "June 2018",
+  "questions": [
+    {
+      "qustionTitle": "1. When CPU is executing a program that is part of the Operating System, it is said to be in:",
+      "suggestions": [
+        "Interrupt mode.",
+        "System mode.",
+        "Boot mode",
+        "set-up mode."
+      ]
+    },
+    {
+      "qustionTitle": "2. Inter-process communication:",
+      "suggestions": [
+        "is required for all processes.",
+        "is usually done through disk drive.",
+        "is not usually necessary",
+        "allows process to synchronize activity"
+      ]
+    },
+    {
+      "qustionTitle": "3. Logic gates with a set of input and output is an arrangement termed as:",
+      "suggestions": [
+        "Combinational circuit.",
+        "Logic circuit.",
+        "Design circuits..",
+        "Register."
+      ]
+    },
+    {
+      "qustionTitle": "4. The communication between the components in microcomputer takes place via the address and:",
+      "suggestions": [
+        "Input/output bus.",
+        "Data bus.",
+        "System bus.",
+        "Control lines."
+      ]
+    },
+    {
+      "qustionTitle": "5. What is the binary equivalent of the decimal number 368:",
+      "suggestions": [
+        "101110000.",
+        "110110000.",
+        "111010000.",
+        "111100000."
+      ]
+    },
+    {
+      "qustionTitle": "6. The hexadecimal number for (95.5) 10 is:",
+      "suggestions": [
+        "5F.8",
+        "9A.B",
+        "2E.F",
+        "5A.4"
+      ]
+    },
+    {
+      "qustionTitle": "7. What is the minimum number of bits required to address a 32K memory",
+      "suggestions": [
+        "10 bits.",
+        "12 bits.",
+        "14 bits.",
+        "16 bits."
+      ]
+    },
+    {
+      "qustionTitle": "8. At least how many two-input AND and OR gates respectively are required to realize Y=CD+EF+G",
+      "suggestions": [
+        "2,2·",
+        "2,3.",
+        "2,1.",
+        "2,0."
+      ]
+    },
+    {
+      "qustionTitle": "9. Decoded instruction is stored in:",
+      "suggestions": [
+        "MDR.",
+        "IR",
+        "PC.",
+        "MAR."
+      ]
+    },
+    {
+      "qustionTitle": "10. The fastest data access is provided using: ",
+      "suggestions": [
+        "DRAM'S.",
+        "SRAM'S.",
+        "Register.",
+        "Caches."
+      ]
+    },
+    {
+      "qustionTitle": "11.HTTP is a(n) _______ Protocol",
+      "suggestions": [
+        "Application Layer",
+        "Transport Layer.",
+        "Data Layer.",
+        "Network Layer."
+      ]
+    },
+    {
+      "qustionTitle": "12. Data shared in the application layer is a:",
+      "suggestions": [
+        "Message.",
+        "Datagram.",
+        "Packet.",
+        "Frame."
+      ]
+    },
+    {
+      "qustionTitle": "13. Fiber optics possess the following properties:",
+      "suggestions": [
+        "Immunity to electromagnetic interference.",
+        "Very reduced rate of signal attenuation.",
+        "Very hard to tap.",
+        "All of the above mentioned."
+      ]
+    },
+    {
+      "qustionTitle": "14. Tables in second normal form(2NF):",
+      "suggestions": [
+        "Eliminate all hidden dependencies",
+        "Eliminate the possibility of an insertion abnormalities",
+        "Have a composite key",
+        "Have all non-key fields depend on the whole primary key."
+      ]
+    },
+    {
+      "qustionTitle": "15. Which of the following is NOT a database administrator’s function?",
+      "suggestions": [
+        "Database design.",
+        "Backing up data of specific data users.",
+        "Performance monitoring of application.",
+        "None of the above"
+      ]
+    },
+    {
+      "qustionTitle": "16. A foreign key in a relational database table is a(n):",
+      "suggestions": [
+        "et of attribute values in a table.",
+        "Combination of attributes in a table.",
+        "Attribute in one table that is an attribute in another table.",
+        "Column of a table."
+      ]
+    },
+    {
+      "qustionTitle": "17. The attribute, name, could be structured as an attribute consisting of first name, middle initial, and last name. This type of attribute is called:",
+      "suggestions": [
+        "Simple attribute.",
+        "Composite attribute..",
+        "Distributed attribute.",
+        "Multivalued attribute.."
+      ]
+    },
+    {
+      "qustionTitle": "18. The attribute AGE is calculated from DATE-OF-BIRTH. The attribute AGE is?.",
+      "suggestions": [
+        "Single valued.",
+        "Multivalued.",
+        "Derived.",
+        "Composite."
+      ]
+    },
+    {
+      "qustionTitle": "19. The descriptive property possessed by each entity set is a(n):",
+      "suggestions": [
+        "Attribute.",
+        "Instance",
+        "Relation.",
+        "Model."
+      ]
+    },
+    {
+      "qustionTitle": "20. The ‘’turn-around’’ time of a user’s Job is the:",
+      "suggestions": [
+        "Time since its submission to the time its results become available.",
+        "Time duration for which the CPU is allotted to the job.",
+        "Total time taken to execute the job.",
+        "Time taken for the job to move from assembly phase to completion phase."
+      ]
+    },
+    {
+      "qustionTitle": "21. Which module give control of the CPU to the process selected by the short-term scheduler?",
+      "suggestions": [
+        "Dispatcher.",
+        "Interrupt.",
+        "Scheduler.",
+        "None of the above"
+      ]
+    },
+    {
+      "qustionTitle": "22. Before proceeding with its execution, each process must acquire all the resources it needs. This is described as:",
+      "suggestions": [
+        "Hold and wait.",
+        "Non pre-emption.",
+        "Circular wait.",
+        "Starvation."
+      ]
+    },
+    {
+      "qustionTitle": "23. A technique of temporarily removing in-active programs from the memory of acomputer system is:",
+      "suggestions": [
+        "Swapping.",
+        "Spooling.",
+        "Semaphore.",
+        "Scheduler."
+      ]
+    },
+    {
+      "qustionTitle": "24. A reusable resource is one that:",
+      "suggestions": [
+        "Can be use by one process at a time and is not depleted by that use.",
+        "Can be used by more than one process at a time.",
+        "Can be shared between various threads.",
+        "All of the above"
+      ]
+    },
+    {
+      "qustionTitle": "25. A problem encountered in multitasking when a process is perpetually cenied necessary resource is:",
+      "suggestions": [
+        "Deadlock.",
+        "Starvation.",
+        "Inversion.",
+        "Aging."
+      ]
+    },
+    {
+      "qustionTitle": "26. A pointer variable cannot be:",
+      "suggestions": [
+        "Passed to a function as argument.",
+        "Changed within the function.",
+        "Returned by a function.",
+        "Assigned as an integer value."
+      ]
+    },
+    {
+      "qustionTitle": "27. If the processor is executing a main program that calls subroutine, then after executing the main program up to the CAL instruction, the control will be transferred to the:",
+      "suggestions": [
+        "Address of main program.",
+        "Subroutine address.",
+        "Address of the CALL instruction.",
+        "Address of data."
+      ]
+    },
+    {
+      "qustionTitle": "28. Which of the following allows many users to use the computer simultaneously?",
+      "suggestions": [
+        "Time Sharing operating system.",
+        "Real Time operating system.",
+        "Interactive operation system.",
+        "Batch operating system."
+      ]
+    },
+    {
+      "qustionTitle": "29. One of the following is NOT a memory performance parameter:",
+      "suggestions": [
+        "Access time.",
+        "Cycle time..",
+        "Transfer rate.",
+        "Time location.."
+      ]
+    },
+    {
+      "qustionTitle": "30. WIf a node having two children is deleted froma binary search tree, it is replaced by its:",
+      "suggestions": [
+        "In order predecessor.",
+        "Post order successor.",
+        "Pre order predecessor.",
+        "Post order predecessor"
+      ]
+    },
+    {
+      "qustionTitle": "31. A mathematical model with a collection of operation defined over its values is called:",
+      "suggestions": [
+        "A Data Structure.",
+        "Abstract Data Type",
+        "Primitive Data Type.",
+        "Algorithm."
+      ]
+    },
+    {
+      "qustionTitle": "32. A complete binary tree with 2n+1 nodes contain:",
+      "suggestions": [
+        "N leaf nodes.",
+        "N non-leave nodes.",
+        "N-1 leaf nodes.",
+        "N-1 non-leaf nodes."
+      ]
+    },
+    {
+      "qustionTitle": "33. A sort which searches through a list to exchange the first element with any element less than it and then repeats with a new first element at subsequent positions is called.",
+      "suggestions": [
+        "Insertion sort.",
+        "Selection sort.",
+        "Bubble sort.",
+        "Quick sort."
+      ]
+    },
+    {
+      "qustionTitle": "34. The data structure required to evaluate a postfix expression is:",
+      "suggestions": [
+        "Stack.",
+        "Queue.",
+        "Tree.",
+        "Array."
+      ]
+    },
+    {
+      "qustionTitle": "35. The feature of the object oriented paradigm which explicitly helps code reuse is:",
+      "suggestions": [
+        "Object.",
+        "Class.",
+        "Inheritance.",
+        "Aggregation."
+      ]
+    },
+    {
+      "qustionTitle": "36.The main advantage of multiprogramming system is:",
+      "suggestions": [
+        "More than one job can be processed at a given time.",
+        "CPU utilization can be increased.",
+        "Jobs can be completed faster",
+        "All of the above"
+      ]
+    },
+    {
+      "qustionTitle": "37. An object encapsulates:",
+      "suggestions": [
+        "Data.",
+        "Behavior..",
+        "State.",
+        "State and behavior."
+      ]
+    },
+    {
+      "qustionTitle": "38. If a program in its functioning has not met user requirements in some way, then it is:",
+      "suggestions": [
+        "An error.",
+        "A failure",
+        "A fault",
+        "A defect"
+      ]
+    },
+    {
+      "qustionTitle": "39. A key concept of quality control is that all worked products:",
+      "suggestions": [
+        "Are delivered on time and within budget.",
+        "Have complete documentation.",
+        "Have measurable specifications for process outputs.",
+        "Are thoroughly tested before delivery to computer."
+      ]
+    },
+    {
+      "qustionTitle": "40. Which of the following is also known as pre-Order traversal of a binary tree where a given Node has children left and Right?",
+      "suggestions": [
+        "Binary tree.",
+        "Queue.",
+        "Stack.",
+        "Linked list."
+      ]
+    },
+    {
+      "qustionTitle": "41. The term module in the design phase refers to:",
+      "suggestions": [
+        "Functions.",
+        "Procedures.",
+        "Sub programs.",
+        "All of the above."
+      ]
+    },
+    {
+      "qustionTitle": "42. Which of the following is also known as pre-Order traversal of a binary tree where a given Node has children left and Right?",
+      "suggestions": [
+        "Left Node Right.",
+        "Node Right.",
+        "Node Right Left.",
+        "None of the above."
+      ]
+    },
+    {
+      "qustionTitle": "43. In software engineering projects, what is informally called “SOFTWARE” consist of:",
+      "suggestions": [
+        "Set of instruction + operating procedures.",
+        "Programs + documentation operating procedures.",
+        "Programs + hardware manuals.",
+        "Set of programs."
+      ]
+    },
+    {
+      "qustionTitle": "44. If the state of the database no longer reflects a real state of the world that the database is supposed to capture, then such a state is called",
+      "suggestions": [
+        "Consistent state.",
+        "Parallel state.",
+        "Durable state.",
+        "Inconsistent state."
+      ]
+    },
+    {
+      "qustionTitle": "45. rIf the objects focus on real world entities then we are concerned with.",
+      "suggestions": [
+        "Object Oriented Analysis.",
+        "Object Oriented Design.",
+        "Object Oriented Analysis.",
+        "None of the above."
+      ]
+    },
+    {
+      "qustionTitle": "46. A linear collection of data elements where the linear node is given by means of a pointer is called:",
+      "suggestions": [
+        "Node list.",
+        "Linked list.",
+        "Primitive list.",
+        "None of the above."
+      ]
+    },
+    {
+      "qustionTitle": "47. Software deteriorates rather than wears out because:",
+      "suggestions": [
+        "Software suffers from exposure to hostile environments.",
+        "Defects are more likely to arise after software has been used often.",
+        "Multiple change requests introduce errors in component interactions.",
+        "Software spare parts become harder to order."
+      ]
+    },
+    {
+      "qustionTitle": "48. A main technique to make a software package portable is to:",
+      "suggestions": [
+        "Isolate system dependent components.",
+        "Increase the overall performance.",
+        "Have an independent platform for the software.",
+        "Have a dependent platform."
+      ]
+    },
+    {
+      "qustionTitle": "49. In system design, we do the following:",
+      "suggestions": [
+        "Hardware design after software.",
+        "Software design after hardware.",
+        "Parallel hardware and software design.",
+        "No hardware design needed."
+      ]
+    },
+    {
+      "qustionTitle": "50.A factor in the selection of a source language is:",
+      "suggestions": [
+        "Programmer skill.",
+        "Language availability.",
+        "Program compatibility with other software.",
+        "All the above."
+      ]
+    }
+  ]
+}

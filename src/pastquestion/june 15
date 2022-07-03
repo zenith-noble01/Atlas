@@ -1,0 +1,455 @@
+{
+  "questionYear": "June 2015",
+  "questions": [
+    {
+      "questionTitle": "1. A de-multiplexer has:",
+      "suggestions": [
+        "One data input and several outputs.",
+        "One input and several outputs.",
+        "Several inputs and several outputs.",
+        "Several inputs and one output."
+      ]
+    },
+    {
+      "questionTitle": "2. Convert the fractional decimal number 6.75 to binary",
+      "suggestions": [
+        "0111.1100.",
+        "0110.1010.",
+        "0110.1100.",
+        "0110.0110."
+      ]
+    },
+    {
+      "questionTitle": "3. What is the equivalent in hexadecimal representation of the decimal number 973?",
+      "suggestions": [
+        "4BC.",
+        "CB4.",
+        "6D.",
+        "3CD."
+      ]
+    },
+    {
+      "questionTitle": "4. A personal computer program counter is also called",
+      "suggestions": [
+        "Instruction pointer.",
+        "Memory pointer.",
+        "Data counter.",
+        "File pointer."
+      ]
+    },
+    {
+      "questionTitle": "5.A three input NOR gate gives logic high output only when",
+      "suggestions": [
+        "One input is high.",
+        "One input is low.",
+        "All inputs are high.",
+        "All inputs are low."
+      ]
+    },
+    {
+      "questionTitle": "6. In which addressing mode is the operand given explicitly in the instruction",
+      "suggestions": [
+        "Absolute.",
+        "Immediate.",
+        "Indirect.",
+        "Direct."
+      ]
+    },
+    {
+      "questionTitle": "7. Pipelining strategy is also known as",
+      "suggestions": [
+        "Instruction execution",
+        "Instruction prefetch",
+        "Instruction decoding",
+        "Instruction manipulation"
+      ]
+    },
+    {
+      "questionTitle": "8. TIn a virtual memory system, the address used by the programmer belongs to",
+      "suggestions": [
+        "Memory space.",
+        "Physical address.",
+        "Address space.",
+        "Main memory address."
+      ]
+    },
+    {
+      "questionTitle": "9. Interrupt driven input/output leads to",
+      "suggestions": [
+        "Wastage of CPU time.",
+        "Optimum use of CPU time.",
+        "Z=xy’.",
+        "Non-execution of priority processes."
+      ]
+    },
+    {
+      "questionTitle": "10. On receiving an interrupt from an I/O device, the CPU",
+      "suggestions": [
+        "Halts for a predetermined time.",
+        "Branches off the interrupts service routine after completion of the current instruction.",
+        "Branches off to the interrupt service routine immediately.",
+        "Hands over control of address bus and data bus to the interrupt device."
+      ]
+    },
+    {
+      "questionTitle": "11. What is the function of the control unit in the CPU?",
+      "suggestions": [
+        "To transfer data to primary storage",
+        "To store program instruction",
+        "To perform logic operations",
+        "To decode program instruction"
+      ]
+    },
+    {
+      "questionTitle": "12. The time that elapses between the initiation of an operation and completion of that operation is called:",
+      "suggestions": [
+        "Throughput.",
+        "Memory response time.",
+        "I/O response time.",
+        "Execution time."
+      ]
+    },
+    {
+      "questionTitle": "13. A time sharing system implies",
+      "suggestions": [
+        "More than one processor in the system",
+        "More than one program in the memory",
+        "More than one memory in the system",
+        "More than one operating system in the computer"
+      ]
+    },
+    {
+      "questionTitle": "14. In terms of minimizing the average waiting time of a given set of processes, the optimal scheduling algorithm is:",
+      "suggestions": [
+        "First Come First Served",
+        "Shortest Job first",
+        "Round Robin",
+        "Priority Job First"
+      ]
+    },
+    {
+      "questionTitle": "15. A process in the blocked state is moved to the________ state when the event for which it has been waiting occurs.",
+      "suggestions": [
+        "to Exit Running",
+        "Ready",
+        "Suspended",
+        "Exit"
+      ]
+    },
+    {
+      "questionTitle": "16. TAn object code is usually produced by;",
+      "suggestions": [
+        "An interpreter",
+        "A linker",
+        "A compiler",
+        "A loader"
+      ]
+    },
+    {
+      "questionTitle": "17. Which of the following is NOT a fundamental process state?",
+      "suggestions": [
+        "Real time processing",
+        "Batch processing",
+        "Synchronous processing",
+        "Parallel processing"
+      ]
+    },
+    {
+      "questionTitle": "18. This is a networking device that passes data between networks having similar functions but dissimilar implementations",
+      "suggestions": [
+        "Hub.",
+        "Wait.",
+        "Executable.",
+        "Transferred."
+      ]
+    },
+    {
+      "questionTitle": "19. FTP stands for",
+      "suggestions": [
+        "File transfer protocol",
+        "File transmission protocol",
+        "Formula transfer protocol",
+        "Formula transmission protocol"
+      ]
+    },
+    {
+      "questionTitle": "20. An Ethernet system uses one of the following technologies:",
+      "suggestions": [
+        "Bus",
+        "Ring",
+        "Star",
+        "Tree"
+      ]
+    },
+    {
+      "questionTitle": "21. They are all in a peer to peer data link with at most two hops between devices. This must be:",
+      "suggestions": [
+        "Bus topology",
+        "Ring topology",
+        "Star topology",
+        "Tree topology"
+      ]
+    },
+    {
+      "questionTitle": "22. When communication is in two directions but transmission is in one direction only, during communication, we say that the transmission is;",
+      "suggestions": [
+        "Simplex.",
+        "Full duplex.",
+        "Half simplex.",
+        "Half duplex."
+      ]
+    },
+    {
+      "questionTitle": "23. A network uses a star topology if;",
+      "suggestions": [
+        "Computers are arranged in closed loop",
+        "All computers are attached to a long cable",
+        "Computers are attached to multiple hierarchical cables.",
+        "All computers are attached to a central point"
+      ]
+    },
+    {
+      "questionTitle": "24. Gaining access to some one's computer without authorization, just for the fun of it is known as;",
+      "suggestions": [
+        "Phishing",
+        "Cracking",
+        "Hacking",
+        "Spying"
+      ]
+    },
+    {
+      "questionTitle": "25. Which activity of an information system helps an organization to evaluate or correct the input stage?",
+      "suggestions": [
+        "Turnaround",
+        "Processing",
+        "Output",
+        "Feedback"
+      ]
+    },
+    {
+      "questionTitle": "26. The number of attributes in a relation is called its:",
+      "suggestions": [
+        "Cardinality",
+        "Degree",
+        "Tuples",
+        "Entity"
+      ]
+    },
+    {
+      "questionTitle": "27. The DBMS utility, -- allows for the reconstruction of the correct state of the database from the backup and history of transactions.",
+      "suggestions": [
+        "Backup Software",
+        "Recovery",
+        "Monitory",
+        "Data loading"
+      ]
+    },
+    {
+      "questionTitle": "28. In the _____ normal form, a composite attribute is converted to individual attributes",
+      "suggestions": [
+        "First",
+        "Second",
+        "Third",
+        "Fourth"
+      ]
+    },
+    {
+      "questionTitle": "29. IN RDBMS, Data is presented as a collection of",
+      "suggestions": [
+        "Tables",
+        "Attributes",
+        "Relations",
+        "Entities."
+      ]
+    },
+    {
+      "questionTitle": "30. A collection of data designed to be used by different people is called a/an:",
+      "suggestions": [
+        "Organization",
+        "Database",
+        "Relationship",
+        "Schema"
+      ]
+    },
+    {
+      "questionTitle": "31. Which of the following schemes do define a view of views of the database for particular users?",
+      "suggestions": [
+        "Internal schema",
+        "Conceptual schema",
+        "Physical schema",
+        "External schema"
+      ]
+    },
+    {
+      "questionTitle": "32. Which of the following terms refers to the correctness and completeness of the data database?",
+      "suggestions": [
+        "Data model",
+        "Data comprehension",
+        "Data independency",
+        "Data integrit."
+      ]
+    },
+    {
+      "questionTitle": "33. To accept 100 different values into an array we require a(n)",
+      "suggestions": [
+        "Loop",
+        "If condition",
+        "Input function",
+        "Structure"
+      ]
+    },
+    {
+      "questionTitle": "34. A pointer",
+      "suggestions": [
+        "Holds the value of variables",
+        "Holds the address of a variable",
+        "Holds the value and address of a variable",
+        "Is always null"
+      ]
+    },
+    {
+      "questionTitle": "35. A data structure whose elements form a sequence is known as;",
+      "suggestions": [
+        "Non-linear data structure",
+        "Linear data structure",
+        "Homogenous data structure",
+        "Heterogeneous data structure."
+      ]
+    },
+    {
+      "questionTitle": "36. The In-order transversal of a tree yield a sorted listing of elements of the tree in",
+      "suggestions": [
+        "Binary trees",
+        "Binary search trees",
+        "Heaps",
+        "Forest trees"
+      ]
+    },
+    {
+      "questionTitle": "37. The operation of processing each element in a list is known as",
+      "suggestions": [
+        "Sorting",
+        "Merging.",
+        "Inserting",
+        "Transversal"
+      ]
+    },
+    {
+      "questionTitle": "38. The statement that transfers control to the beginning of the loop is called",
+      "suggestions": [
+        "Break statement",
+        "Exit statement",
+        "Continue statement",
+        "Goto statement"
+      ]
+    },
+    {
+      "questionTitle": "39. Which one of the following is a physical data structure?",
+      "suggestions": [
+        "Array",
+        "Linked list",
+        "Stack",
+        "Table"
+      ]
+    },
+    {
+      "questionTitle": "40. The statement causes immediate exit from the loop overriding on the condition test",
+      "suggestions": [
+        "Exit",
+        "Break",
+        "Goto",
+        "Continue"
+      ]
+    },
+    {
+      "questionTitle": "41. The coordinated effort to communicate the information of a system in written form is called:",
+      "suggestions": [
+        "System documentation",
+        "System design documentation",
+        "Information system documentation",
+        "System sharing documentation"
+      ]
+    },
+    {
+      "questionTitle": "42. IWaterfall model is a",
+      "suggestions": [
+        "Linear model",
+        "Iterative model",
+        "Rapid model",
+        "Interactive model"
+      ]
+    },
+    {
+      "questionTitle": "43. Prototyping is used to",
+      "suggestions": [
+        "Test software as an end product",
+        "Expand design details",
+        "Refine and establish requirements gathering",
+        "System storage"
+      ]
+    },
+    {
+      "questionTitle": "44. The reliability of software is define with respect to",
+      "suggestions": [
+        "Time",
+        "Speed",
+        "Quality",
+        "Efficiency."
+      ]
+    },
+    {
+      "questionTitle": "45.Acceptance testing is done by",
+      "suggestions": [
+        "A developer",
+        "Customers",
+        "Designer",
+        "An analyst"
+      ]
+    },
+    {
+      "questionTitle": "46. Some of the activities of a system analysis are;",
+      "suggestions": [
+        "Review of documentation and observation of situations",
+        "Conducting interview and questionnaire administration",
+        "Both A and B",
+        "Review of procedure and conducting interviews"
+      ]
+    },
+    {
+      "questionTitle": "47. Top down approach is used for",
+      "suggestions": [
+        "System development",
+        "Identification of faults",
+        "System validation",
+        "Functional testing"
+      ]
+    },
+    {
+      "questionTitle": "48. Reliability of software is usually estimated at the:",
+      "suggestions": [
+        "Analysis phase",
+        "Design phase",
+        "Phase specification",
+        "Testing phase"
+      ]
+    },
+    {
+      "questionTitle": "49.Software engineering primarily aims at",
+      "suggestions": [
+        "Reliable software",
+        "Cost effective feasibility",
+        "Reliable and cost effective software",
+        "Maintainable software"
+      ]
+    },
+    {
+      "questionTitle": "50. A feasibility study should focus on",
+      "suggestions": [
+        "Technical feasibility",
+        "Economic feasibility",
+        "Operational feasibility",
+        "All of the above"
+      ]
+    }
+  ]
+}
