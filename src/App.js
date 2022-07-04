@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import { Routes, Route, useLocation } from "react-router-dom";
-import { Navbar, Lander } from "./Components";
+import { Navbar, Lander, Spinner } from "./Components";
 import { ToastContainer } from "react-toastify";
 import { Login, Register, TakeQuestionTest } from "./Pages/";
 // const
@@ -23,6 +23,7 @@ const App = () => {
         <Route element={<Login />} path="/Login" />
         <Route element={<Register />} path="/register" />
         <Route element={<TakeQuestionTest />} path="/questionTest" />
+        <Route element={<Spinner />} path="/spinner" />
       </Routes>
       <ToastContainer />
     </div>

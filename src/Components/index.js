@@ -7,6 +7,7 @@ import Question from "./Question";
 import End from "./End";
 import Start from "./Start";
 import Modal from "./Modal";
+import Spinner from "./Spinner/Spinner";
 import { FormatTime } from "./Format";
 
 export {
@@ -20,4 +21,5 @@ export {
   FormatTime,
   Modal,
   Start,
+  Spinner,
 };

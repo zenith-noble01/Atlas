@@ -55,7 +55,7 @@ export const authSlice = createSlice({
       .addCase(registerStudent.rejected, (state, action) => {
         state.isLoading = false;
         state.isError = true;
-        state.message = action.payload;
+        state.message = action.payload.msg;
         state.student = null;
       });
   },

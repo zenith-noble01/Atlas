@@ -6,6 +6,7 @@ import { toast } from "react-toastify";
 import { Link } from "react-router-dom";
 import { FaFacebook, FaGoogle, FaTwitter } from "react-icons/fa";
 import { registerStudent, reset } from "../../redux/reducers/authSlice";
+import { Spinner } from "../../Components";
 
 const Login = () => {
   const [formData, setFormData] = useState({
@@ -48,19 +49,23 @@ const Login = () => {
   };
 
   useEffect(() => {
-    if (!isError) {
+    if (isError) {
       toast.error(message);
     }
-    if (isSuccess || student) {
+    if (isSuccess) {
       toast.success("Registration Successful");
       navigate("/login");
+    }
+
+    if (student) {
+      toast.success("Registration Successful");
     }
 
     dispatch(reset());
   }, [isError, isSuccess, message, student, navigate, dispatch]);
 
   if (isLoading) {
-    return <div>Loading...</div>;
+    return <Spinner />;
   }
 
   return (
