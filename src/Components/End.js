@@ -9,7 +9,7 @@ const End = ({ results, data, onReset, onAnswersCheck, time }) => {
 
   useEffect(() => {
     let correct = 0;
-    results.map((result, index) => {
+    results?.map((result, index) => {
       if (result.a === data[index].correct) {
         correct++;
       }

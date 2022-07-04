@@ -6,6 +6,7 @@ import DynamicFeedRoundedIcon from "@mui/icons-material/DynamicFeedRounded";
 import { CancelTwoTone } from "@mui/icons-material";
 import user from "./open.png";
 import logo from "./logo.png";
+import girl from "./img1.png";
 
 export {
   DashboardRoundedIcon,
@@ -16,4 +17,5 @@ export {
   user,
   logo,
   CancelTwoTone,
+  girl,
 };

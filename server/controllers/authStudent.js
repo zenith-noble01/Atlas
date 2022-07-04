@@ -43,7 +43,7 @@ module.exports.createStudent = async (req, res) => {
       <a href="http://${req.headers.host}/api/auth/verify/${user.emailToken}">Verify Email</a>`,
     });
     res.status(200).json({
-      msg: "User created successfully please check your email to verify your account",
+      user,
     });
   });
 };
@@ -63,7 +63,7 @@ module.exports.verifyStudent = async (req, res) => {
   // res.status(200).json({
   //   message: "Student verified successfully",
   // });
-  res.redirect("https://ticsummit.org");
+  res.redirect("http://localhost:3000/login");
 };
 
 //login user

@@ -44,8 +44,11 @@ const Navbar = ({ popup }) => {
           </li>
         </ul>
         <ul className="ctaLayer">
+          <li className="btnLogin">
+            <Link to="/login">Sign In</Link>
+          </li>
           <li className="btnSign">
-            <Link className="link" to="/auth">
+            <Link className="link" to="/register">
               sign Up
             </Link>
           </li>
