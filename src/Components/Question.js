@@ -77,11 +77,15 @@ const Question = ({
                   value={choice}
                   onChange={changeHandler}
                 />
-                {choice}
+                <span>{choice}</span>
               </label>
             ))}
           </div>
-          {error && <div className="has-text-danger">{error}</div>}
+          {error && (
+            <div className="has-text-danger" style={{ color: "red" }}>
+              {error}
+            </div>
+          )}
           <button
             className="button is-link is-medium is-fullwidth mt-4"
             onClick={nextClickHandler}
