@@ -121,11 +121,10 @@ const Login = () => {
             </div>
             <div className="input__container">
               <input
-                type="Confirm Password"
-                value={confirmPass}
+                type="password"
                 name="confirmPass"
-                // value={confirmPass}
-                placeholder="Password"
+                value={confirmPass}
+                placeholder="Confirm password"
                 onChange={handleOnChange}
               />
             </div>

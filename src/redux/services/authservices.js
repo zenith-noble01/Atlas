@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const AUTH__URL = "/auth/register";
+const AUTH__URL = "https://ticorg.herokuapp.com/api/auth/register";
 
 const registerStudent = async (studentData) => {
   const response = await axios.post(AUTH__URL, studentData);
@@ -12,8 +12,13 @@ const registerStudent = async (studentData) => {
   return response.data;
 };
 
+const logoutStudent = async () => {
+  localStorage.removeItem("student");
+};
+
 const authServices = {
   registerStudent,
+  logoutStudent,
 };
 
 export default authServices;

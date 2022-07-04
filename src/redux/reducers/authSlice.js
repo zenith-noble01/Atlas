@@ -28,6 +28,9 @@ export const registerStudent = createAsyncThunk(
   }
 );
 
+export const logoutStudent = createAsyncThunk("auth/logout", async () => {
+  await authServices.logoutStudent();
+});
 export const authSlice = createSlice({
   name: "auth",
   initialState,
