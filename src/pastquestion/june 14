@@ -30,7 +30,7 @@
         "4 others",
         "3 others"
       ],
-      "correct": "5 others"
+      "correct": "4 others"
     },
     {
       "questionTitle": "4. The main function of a browser is to",
@@ -50,7 +50,7 @@
         "Folder, disk, file",
         "Folder, file, disk"
       ],
-      "correct": "Disk, file, folder"
+      "correct": "Disk, folder, file"
     },
     {
       "questionTitle": "6. The following are-security measures for protecting data EXCEPT",
@@ -60,7 +60,7 @@
         "Voice recognition",
         "Change of filename"
       ],
-      "correct": "Firewall"
+      "correct": "Change of filename"
     },
     {
       "questionTitle": "7. Which of the following examples use an embedded system, select the best answer",
@@ -70,7 +70,7 @@
         "Television set",
         "Network router"
       ],
-      "correct": "Desktop compute"
+      "correct": "Television set"
     },
     {
       "questionTitle": "8. Arrange in increasing order of storage capacity",
@@ -90,7 +90,7 @@
         "Virtual memory",
         "SRAM"
       ],
-      "correct": "SRAM"
+      "correct": "Virtual memory"
     },
     {
       "questionTitle": "10. How many bits are in the extended ASCII code of a character?",
@@ -110,7 +110,7 @@
         "Data register",
         "Accumulator"
       ],
-      "correct": "Accumulator"
+      "correct": "Program counter"
     },
     {
       "questionTitle": "12. Programs which are treated as hardware and stored in the ROM are known as",
@@ -120,7 +120,7 @@
         "Firmware",
         "ROMware"
       ],
-      "correct": "ROMware"
+      "correct": "Software"
     },
     {
       "questionTitle": "13. The examining and possibly changing of sets of single bits within a machine word is called",
@@ -130,7 +130,7 @@
         "Bit manipulation",
         "Bit slice manipulation"
       ],
-      "correct": "Bit slice manipulation"
+      "correct": "Bit manipulation"
     },
     {
       "questionTitle": "14. A technique used to convert an analogue signal into a digital signal is known as;",
@@ -162,7 +162,7 @@
         "Only Author and Publisher are related",
         "The Publisher is related to the Author of a book"
       ],
-      "correct": "The Publisher is related to the Author of a book"
+      "correct": "Author, Book and Publisher must be in a single database"
     },
     {
       "questionTitle": "17. If data is processed as it arrives, this type of processing is called:",
@@ -172,7 +172,7 @@
         "Distributed processing",
         "Off-line processing"
       ],
-      "correct": "Off-line processing"
+      "correct": "Real time processing"
     },
     {
       "questionTitle": "18. As an operating system concept, a process is:",
@@ -182,7 +182,7 @@
         "A program in execution",
         "A program in its critical section."
       ],
-      "correct": "An executable program."
+      "correct": "A program in execution"
     },
     {
       "questionTitle": "19. Which of the following process scheduling algorithms is mostly suited to batch processing system?",
@@ -192,17 +192,17 @@
         "Priority Scheduling",
         "Lottery Scheduling"
       ],
-      "correct": "Round-Robin"
+      "correct": "Shortest Job First"
     },
     {
       "questionTitle": "20. One of the following scheduling algorithms may lead to some processes having unduly limited or no processor time:",
       "suggestions": [
         "First-come, First-served",
         "Shortest Job First",
-        "round-Robin",
+        "Round-Robin",
         "Shortest remaining time next"
       ],
-      "correct": "Shortest Job First"
+      "correct": "Round-Robin"
     },
     {
       "questionTitle": "21. A signal sent to the CPU from a device, causing the CPU to stop what it is doing and start doing something else is known as:",
@@ -212,7 +212,7 @@
         "Process interrupt",
         "An I/O interrupt"
       ],
-      "correct": "An I/O interrupt"
+      "correct": "An interrupt"
     },
     {
       "questionTitle": "22. The strategy for suspending or delaying processes that are running or can run is called:",
@@ -222,7 +222,7 @@
         "Interrupts",
         "Spooling"
       ],
-      "correct": "Spooling"
+      "correct": "Pre-emptive scheduling"
     },
     {
       "questionTitle": "23. In memory management strategies, the LRU algorithm",
@@ -232,7 +232,7 @@
         "Swaps out pages that have not been used often lately",
         "Swaps out pages that have been used often lately"
       ],
-      "correct": "Swaps out pages that have been used recently"
+      "correct": "Swaps out pages that have not been used recently"
     },
     {
       "questionTitle": "24. Which of the following is not logically a database structure?",
@@ -242,7 +242,7 @@
         "Chain",
         "Network"
       ],
-      "correct": "Flat file"
+      "correct": "Chain"
     },
     {
       "questionTitle": "25. The search algorithm that will most usefully benefit from the fact that the elements of an array are already sorted is:",
@@ -252,7 +252,7 @@
         "Quick search",
         "Random search"
       ],
-      "correct": "linear search"
+      "correct": "Binary search"
     },
     {
       "questionTitle": "26. Each pass through a loop is a(n):",
@@ -292,7 +292,7 @@
         "Programs are not easy to understand",
         "Machine understands directly"
       ],
-      "correct": "Programs do not run fast enough"
+      "correct": "Programs are not easy to understand"
     },
     {
       "questionTitle": "30. What is the role of an index in searching or sorting an array?",
@@ -302,7 +302,7 @@
         "It indicates the element currently being considered in the table",
         "In indicates the total number of elements that can be in the table"
       ],
-      "correct": "it indicates the number of elements that can be added to the table"
+      "correct": "It indicates the element currently being considered in the table"
     },
     {
       "questionTitle": "31. The following is generally true for the time t 1 had taken to search a binary search tree and the time t 2 to search a linked list;",
@@ -312,7 +312,7 @@
         "t 1 <t 2",
         "t 1 ≤t 2"
       ],
-      "correct": "t 1 ≥t 2"
+      "correct": "t 1 <t 2"
     },
     {
       "questionTitle": "32. The time complexity of an algorithm refers to:",
@@ -332,7 +332,7 @@
         "Data access today uses cache memory which is faster",
         "Today's computing facilities are more advanced"
       ],
-      "correct": "Data access today uses cache memory which is faster"
+      "correct": "Faster processors and large memories are used"
     },
     {
       "questionTitle": "34. Select the best answer. For a function in a program 10 be easily reused in another program it must;",
@@ -342,7 +342,7 @@
         "Not change global variables",
         "Make use of global variables"
       ],
-      "correct": "Not change global variables"
+      "correct": "Return a value"
     },
     {
       "questionTitle": "35. The function U is define as U(n) = 3 + U(n − 1), with U(0) = 0",
@@ -352,7 +352,7 @@
         "U(n) cannot be determined for n>0",
         "U(n) is not computable"
       ],
-      "correct": "U(n) cannot be determined for n>0"
+      "correct": "U is define recursively"
     },
     {
       "questionTitle": "36. Which of the following algorithmic structures is NOT based on a condition?",
@@ -362,7 +362,7 @@
         "Recursionr",
         "Instruction"
       ],
-      "correct": "Recursionr"
+      "correct": "Sequence"
     },
     {
       "questionTitle": "37. A system program that combines the separately compiled modules of a program into a suitable form for execution is a(n);",
@@ -372,17 +372,17 @@
         "Cross compiler",
         "Translator"
       ],
-      "correct": "Translator"
+      "correct": "Linker"
     },
     {
       "questionTitle": "38. When a function finishes its execution:",
       "suggestions": [
         "Control returns from the function call",
-        "ontrol returns to the function call",
+        "Control returns to the function call",
         "Control returns to the statement immediately following the function call",
         "Control returns to a statement following the function call"
       ],
-      "correct": "Control returns to a statement following the function call"
+      "correct": "Control returns to the statement immediately following the function call"
     },
     {
       "questionTitle": "39. Analysis is the ________ step in developing a program",
@@ -392,7 +392,7 @@
         "Post-design",
         "First"
       ],
-      "correct": "Post-design"
+      "correct": "First"
     },
     {
       "questionTitle": "40. The approach used in top-down analysis and design is:",
@@ -402,7 +402,7 @@
         "To identify a top-level function and then create from a hierarchy of lower level components",
         "All of the above"
       ],
-      "correct": "To identify a top-level function and then create from a hierarchy of lower level components"
+      "correct": "All of the above"
     },
     {
       "questionTitle": "41. Which of the following is Not a factor in the failure of a system development project?",
@@ -412,7 +412,7 @@
         "Failure of system integration",
         "Continuation of a project that should have been cancelled"
       ],
-      "correct": "Failure of system integration"
+      "correct": "Inadequate user involvement"
     },
     {
       "questionTitle": "42. With respect to software life cycle, documentation is prepared:",
@@ -422,7 +422,7 @@
         "At system analysis phase of SDLC",
         "Al system development phase of SDLC"
       ],
-      "correct": "At system analysis phase of SDLC"
+      "correct": "At every stage of SDLC"
     },
     {
       "questionTitle": "43. In the initial phase (phase I of the SDLC which of the following aspects are usually analyzed?",
@@ -432,7 +432,7 @@
         "Controls",
         "All of the above"
       ],
-      "correct": "All of the above"
+      "correct": "Requirements"
     },
     {
       "questionTitle": "44. Recursive functions are implemented with the aid of the data structure called:",
@@ -442,7 +442,7 @@
         "A linked list",
         "A tree"
       ],
-      "correct": "A tree"
+      "correct": "A queue"
     },
     {
       "questionTitle": "45. An address bus from a storage unit has 32 bust lines. What is the capacity of the storage unit? (Assume 1GB = 1024MB and 1MB=1024KB)",
@@ -452,7 +452,7 @@
         "512GB",
         "4MB"
       ],
-      "correct": "4GB"
+      "correct": "512MB"
     },
     {
       "questionTitle": "46. Given a 7-segment decoder that prints digits in the form below: 8 ≡8 2≡2 etc. for digits 0 to 9, how many bits should the decoder have for its inputs?",
@@ -462,7 +462,7 @@
         "4 bits",
         "8 bits"
       ],
-      "correct": "8 bits"
+      "correct": "10 bits"
     },
     {
       "questionTitle": "47. The expression ̅̅̅̅̅̅̅̅̅̅̅̅̅ AB + AB algebra in equivalent to;",

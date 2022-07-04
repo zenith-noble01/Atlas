@@ -8,7 +8,8 @@
         "System mode.",
         "Boot mode",
         "set-up mode."
-      ]
+      ],
+      "correct": "System mode."
     },
     {
       "qustionTitle": "2. Inter-process communication:",
@@ -17,7 +18,8 @@
         "is usually done through disk drive.",
         "is not usually necessary",
         "allows process to synchronize activity"
-      ]
+      ],
+      "correct": "allows process to synchronize activity"
     },
     {
       "qustionTitle": "3. Logic gates with a set of input and output is an arrangement termed as:",
@@ -26,7 +28,8 @@
         "Logic circuit.",
         "Design circuits..",
         "Register."
-      ]
+      ],
+      "correct": "Logic circuit."
     },
     {
       "qustionTitle": "4. The communication between the components in microcomputer takes place via the address and:",
@@ -35,7 +38,8 @@
         "Data bus.",
         "System bus.",
         "Control lines."
-      ]
+      ],
+      "correct": "Data bus."
     },
     {
       "qustionTitle": "5. What is the binary equivalent of the decimal number 368:",
@@ -44,7 +48,8 @@
         "110110000.",
         "111010000.",
         "111100000."
-      ]
+      ],
+      "correct": "101110000."
     },
     {
       "qustionTitle": "6. The hexadecimal number for (95.5) 10 is:",
@@ -53,7 +58,8 @@
         "9A.B",
         "2E.F",
         "5A.4"
-      ]
+      ],
+      "correct": "2E.F"
     },
     {
       "qustionTitle": "7. What is the minimum number of bits required to address a 32K memory",
@@ -62,7 +68,8 @@
         "12 bits.",
         "14 bits.",
         "16 bits."
-      ]
+      ],
+      "correct": "16 bits."
     },
     {
       "qustionTitle": "8. At least how many two-input AND and OR gates respectively are required to realize Y=CD+EF+G",
@@ -71,7 +78,8 @@
         "2,3.",
         "2,1.",
         "2,0."
-      ]
+      ],
+      "correct": "2,2·"
     },
     {
       "qustionTitle": "9. Decoded instruction is stored in:",
@@ -80,7 +88,8 @@
         "IR",
         "PC.",
         "MAR."
-      ]
+      ],
+      "correct": "MAR."
     },
     {
       "qustionTitle": "10. The fastest data access is provided using: ",
@@ -89,7 +98,8 @@
         "SRAM'S.",
         "Register.",
         "Caches."
-      ]
+      ],
+      "correct": "Register."
     },
     {
       "qustionTitle": "11.HTTP is a(n) _______ Protocol",
@@ -98,7 +108,8 @@
         "Transport Layer.",
         "Data Layer.",
         "Network Layer."
-      ]
+      ],
+      "correct": "Network Layer."
     },
     {
       "qustionTitle": "12. Data shared in the application layer is a:",
@@ -107,7 +118,8 @@
         "Datagram.",
         "Packet.",
         "Frame."
-      ]
+      ],
+      "correct": "Message."
     },
     {
       "qustionTitle": "13. Fiber optics possess the following properties:",
@@ -116,7 +128,8 @@
         "Very reduced rate of signal attenuation.",
         "Very hard to tap.",
         "All of the above mentioned."
-      ]
+      ],
+      "correct": "All of the above mentioned."
     },
     {
       "qustionTitle": "14. Tables in second normal form(2NF):",
@@ -125,7 +138,8 @@
         "Eliminate the possibility of an insertion abnormalities",
         "Have a composite key",
         "Have all non-key fields depend on the whole primary key."
-      ]
+      ],
+      "correct": "Have a composite key"
     },
     {
       "qustionTitle": "15. Which of the following is NOT a database administrator’s function?",
@@ -134,7 +148,8 @@
         "Backing up data of specific data users.",
         "Performance monitoring of application.",
         "None of the above"
-      ]
+      ],
+      "correct": "None of the above"
     },
     {
       "qustionTitle": "16. A foreign key in a relational database table is a(n):",
@@ -143,16 +158,18 @@
         "Combination of attributes in a table.",
         "Attribute in one table that is an attribute in another table.",
         "Column of a table."
-      ]
+      ],
+      "correct": "Attribute in one table that is an attribute in another table."
     },
     {
       "qustionTitle": "17. The attribute, name, could be structured as an attribute consisting of first name, middle initial, and last name. This type of attribute is called:",
       "suggestions": [
         "Simple attribute.",
-        "Composite attribute..",
+        "Composite attribute.",
         "Distributed attribute.",
-        "Multivalued attribute.."
-      ]
+        "Multivalued attribute."
+      ],
+      "correct": "Composite attribute."
     },
     {
       "qustionTitle": "18. The attribute AGE is calculated from DATE-OF-BIRTH. The attribute AGE is?.",
@@ -161,7 +178,8 @@
         "Multivalued.",
         "Derived.",
         "Composite."
-      ]
+      ],
+      "correct": "Derived."
     },
     {
       "qustionTitle": "19. The descriptive property possessed by each entity set is a(n):",
@@ -170,7 +188,8 @@
         "Instance",
         "Relation.",
         "Model."
-      ]
+      ],
+      "correct": "Attribute."
     },
     {
       "qustionTitle": "20. The ‘’turn-around’’ time of a user’s Job is the:",
@@ -179,7 +198,8 @@
         "Time duration for which the CPU is allotted to the job.",
         "Total time taken to execute the job.",
         "Time taken for the job to move from assembly phase to completion phase."
-      ]
+      ],
+      "correct": "Time taken for the job to move from assembly phase to completion phase."
     },
     {
       "qustionTitle": "21. Which module give control of the CPU to the process selected by the short-term scheduler?",
@@ -188,7 +208,8 @@
         "Interrupt.",
         "Scheduler.",
         "None of the above"
-      ]
+      ],
+      "correct": "Interrupt."
     },
     {
       "qustionTitle": "22. Before proceeding with its execution, each process must acquire all the resources it needs. This is described as:",
@@ -197,7 +218,8 @@
         "Non pre-emption.",
         "Circular wait.",
         "Starvation."
-      ]
+      ],
+      "correct": "Hold and wait."
     },
     {
       "qustionTitle": "23. A technique of temporarily removing in-active programs from the memory of acomputer system is:",
@@ -206,7 +228,8 @@
         "Spooling.",
         "Semaphore.",
         "Scheduler."
-      ]
+      ],
+      "correct": "Swapping."
     },
     {
       "qustionTitle": "24. A reusable resource is one that:",
@@ -215,7 +238,8 @@
         "Can be used by more than one process at a time.",
         "Can be shared between various threads.",
         "All of the above"
-      ]
+      ],
+      "correct": "All of the above"
     },
     {
       "qustionTitle": "25. A problem encountered in multitasking when a process is perpetually cenied necessary resource is:",
@@ -224,7 +248,8 @@
         "Starvation.",
         "Inversion.",
         "Aging."
-      ]
+      ],
+      "correct": "Starvation."
     },
     {
       "qustionTitle": "26. A pointer variable cannot be:",
@@ -233,7 +258,8 @@
         "Changed within the function.",
         "Returned by a function.",
         "Assigned as an integer value."
-      ]
+      ],
+      "correct": "Returned by a function."
     },
     {
       "qustionTitle": "27. If the processor is executing a main program that calls subroutine, then after executing the main program up to the CAL instruction, the control will be transferred to the:",
@@ -242,7 +268,8 @@
         "Subroutine address.",
         "Address of the CALL instruction.",
         "Address of data."
-      ]
+      ],
+      "correct": "Subroutine address."
     },
     {
       "qustionTitle": "28. Which of the following allows many users to use the computer simultaneously?",
@@ -251,7 +278,8 @@
         "Real Time operating system.",
         "Interactive operation system.",
         "Batch operating system."
-      ]
+      ],
+      "correct": "Time Sharing operating system."
     },
     {
       "qustionTitle": "29. One of the following is NOT a memory performance parameter:",
@@ -260,7 +288,8 @@
         "Cycle time..",
         "Transfer rate.",
         "Time location.."
-      ]
+      ],
+      "correct": "Transfer rate."
     },
     {
       "qustionTitle": "30. WIf a node having two children is deleted froma binary search tree, it is replaced by its:",
@@ -269,7 +298,8 @@
         "Post order successor.",
         "Pre order predecessor.",
         "Post order predecessor"
-      ]
+      ],
+      "correct": "Post order successor."
     },
     {
       "qustionTitle": "31. A mathematical model with a collection of operation defined over its values is called:",
@@ -278,7 +308,8 @@
         "Abstract Data Type",
         "Primitive Data Type.",
         "Algorithm."
-      ]
+      ],
+      "correct": "A Data Structure."
     },
     {
       "qustionTitle": "32. A complete binary tree with 2n+1 nodes contain:",
@@ -287,7 +318,8 @@
         "N non-leave nodes.",
         "N-1 leaf nodes.",
         "N-1 non-leaf nodes."
-      ]
+      ],
+      "correct": "N non-leave nodes."
     },
     {
       "qustionTitle": "33. A sort which searches through a list to exchange the first element with any element less than it and then repeats with a new first element at subsequent positions is called.",
@@ -296,7 +328,8 @@
         "Selection sort.",
         "Bubble sort.",
         "Quick sort."
-      ]
+      ],
+      "correct": "Insertion sort."
     },
     {
       "qustionTitle": "34. The data structure required to evaluate a postfix expression is:",
@@ -305,7 +338,8 @@
         "Queue.",
         "Tree.",
         "Array."
-      ]
+      ],
+      "correct": "Stack."
     },
     {
       "qustionTitle": "35. The feature of the object oriented paradigm which explicitly helps code reuse is:",
@@ -314,7 +348,8 @@
         "Class.",
         "Inheritance.",
         "Aggregation."
-      ]
+      ],
+      "correct": "Inheritance."
     },
     {
       "qustionTitle": "36.The main advantage of multiprogramming system is:",
@@ -323,7 +358,8 @@
         "CPU utilization can be increased.",
         "Jobs can be completed faster",
         "All of the above"
-      ]
+      ],
+      "correct": "All of the above"
     },
     {
       "qustionTitle": "37. An object encapsulates:",
@@ -332,7 +368,8 @@
         "Behavior..",
         "State.",
         "State and behavior."
-      ]
+      ],
+      "correct": "State and behavior."
     },
     {
       "qustionTitle": "38. If a program in its functioning has not met user requirements in some way, then it is:",
@@ -341,7 +378,8 @@
         "A failure",
         "A fault",
         "A defect"
-      ]
+      ],
+      "correct": "A fault"
     },
     {
       "qustionTitle": "39. A key concept of quality control is that all worked products:",
@@ -350,7 +388,8 @@
         "Have complete documentation.",
         "Have measurable specifications for process outputs.",
         "Are thoroughly tested before delivery to computer."
-      ]
+      ],
+      "correct": "Are thoroughly tested before delivery to computer."
     },
     {
       "qustionTitle": "40. Which of the following is also known as pre-Order traversal of a binary tree where a given Node has children left and Right?",
@@ -359,7 +398,8 @@
         "Queue.",
         "Stack.",
         "Linked list."
-      ]
+      ],
+      "correct": "Queue."
     },
     {
       "qustionTitle": "41. The term module in the design phase refers to:",
@@ -368,7 +408,8 @@
         "Procedures.",
         "Sub programs.",
         "All of the above."
-      ]
+      ],
+      "correct": "All of the above."
     },
     {
       "qustionTitle": "42. Which of the following is also known as pre-Order traversal of a binary tree where a given Node has children left and Right?",
@@ -377,7 +418,8 @@
         "Node Right.",
         "Node Right Left.",
         "None of the above."
-      ]
+      ],
+      "correct": "Left Node Right."
     },
     {
       "qustionTitle": "43. In software engineering projects, what is informally called “SOFTWARE” consist of:",
@@ -386,7 +428,8 @@
         "Programs + documentation operating procedures.",
         "Programs + hardware manuals.",
         "Set of programs."
-      ]
+      ],
+      "correct": "Programs + documentation operating procedures."
     },
     {
       "qustionTitle": "44. If the state of the database no longer reflects a real state of the world that the database is supposed to capture, then such a state is called",
@@ -395,7 +438,8 @@
         "Parallel state.",
         "Durable state.",
         "Inconsistent state."
-      ]
+      ],
+      "correct": "Durable state"
     },
     {
       "qustionTitle": "45. rIf the objects focus on real world entities then we are concerned with.",
@@ -404,7 +448,8 @@
         "Object Oriented Design.",
         "Object Oriented Analysis.",
         "None of the above."
-      ]
+      ],
+      "correct": "Object Oriented Analysis."
     },
     {
       "qustionTitle": "46. A linear collection of data elements where the linear node is given by means of a pointer is called:",
@@ -413,7 +458,8 @@
         "Linked list.",
         "Primitive list.",
         "None of the above."
-      ]
+      ],
+      "correct": "Primitive list."
     },
     {
       "qustionTitle": "47. Software deteriorates rather than wears out because:",
@@ -422,7 +468,8 @@
         "Defects are more likely to arise after software has been used often.",
         "Multiple change requests introduce errors in component interactions.",
         "Software spare parts become harder to order."
-      ]
+      ],
+      "correct": "Defects are more likely to arise after software has been used often."
     },
     {
       "qustionTitle": "48. A main technique to make a software package portable is to:",
@@ -431,7 +478,8 @@
         "Increase the overall performance.",
         "Have an independent platform for the software.",
         "Have a dependent platform."
-      ]
+      ],
+      "correct": "Have an independent platform for the software."
     },
     {
       "qustionTitle": "49. In system design, we do the following:",
@@ -440,7 +488,8 @@
         "Software design after hardware.",
         "Parallel hardware and software design.",
         "No hardware design needed."
-      ]
+      ],
+      "correct": "Hardware design after software."
     },
     {
       "qustionTitle": "50.A factor in the selection of a source language is:",
@@ -449,7 +498,8 @@
         "Language availability.",
         "Program compatibility with other software.",
         "All the above."
-      ]
+      ],
+      "correct": "All the above."
     }
   ]
 }

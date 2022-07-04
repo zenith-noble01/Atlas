@@ -1,4 +1,5 @@
 {
+  "questionName": "computer science",
   "questionYear": "June 2016",
   "questions": [
     {
@@ -8,7 +9,8 @@
         "SIMD.",
         "CISC.",
         "MIMD."
-      ]
+      ],
+      "correct": "SIMD."
     },
     {
       "questionTitle": "2. Virtual memory can be implemented with",
@@ -17,7 +19,8 @@
         "Paging.",
         "Segmentation with paging.",
         "All of the above."
-      ]
+      ],
+      "correct": "Paging."
     },
     {
       "questionTitle": "3. The Cache memory is between",
@@ -26,7 +29,8 @@
         "RAM and REGISTERS.",
         "SCPU and ACCUMULATORS.",
         "RAM and HARD DISK."
-      ]
+      ],
+      "correct": "CPU and RAM."
     },
     {
       "questionTitle": "4. The cost of accessing information in computations is minimum when using a",
@@ -35,7 +39,8 @@
         "Register.",
         "Secondary memory.",
         "Magnetic tape."
-      ]
+      ],
+      "correct": "Cache."
     },
     {
       "questionTitle": "5. Floating point representation is used to store",
@@ -44,7 +49,8 @@
         "Natural numbers.",
         "Fractional numbers.",
         "Complex numbers."
-      ]
+      ],
+      "correct": "Fractional numbers."
     },
     {
       "questionTitle": "6. Logic XOR operation (11101010) 2 & (10101010) 2 has as result",
@@ -53,16 +59,18 @@
         "01100000.",
         "01000000.",
         "10100000."
-      ]
+      ],
+      "correct": "01000000."
     },
     {
       "questionTitle": "7. A storage device is classified as RAM if",
       "suggestions": [
-        "The memory locations are accessed rapidly..",
-        "The time taken to access any of its memory locations is the same..",
+        "The memory locations are accessed rapidly.",
+        "The time taken to access any of its memory locations is the same.",
         "Data cannot be retrieved randomly.",
         "The access mechanism is stored in a random location."
-      ]
+      ],
+      "correct": "The memory locations are accessed rapidly."
     },
     {
       "questionTitle": "8. The Simplified form of the Boolean expression (X+Y+XY) (X+Z)",
@@ -71,7 +79,8 @@
         "XY+YZ.",
         "X+YZ.",
         "XZ+Y."
-      ]
+      ],
+      "correct": "X+YZ."
     },
     {
       "questionTitle": "9. Interrupt driven input/output leads to",
@@ -80,7 +89,8 @@
         "Optimum use of CPU time.",
         "Z=xy’.",
         "Non-execution of priority processes."
-      ]
+      ],
+      "correct": "Wastage of CPU time."
     },
     {
       "questionTitle": "10. What will be the 6-bit word of the 2's compliment of the number 1010?",
@@ -89,7 +99,8 @@
         "110110.",
         "1101 11.",
         "101100."
-      ]
+      ],
+      "correct": "110110."
     },
     {
       "questionTitle": "11. Program pre-emption is",
@@ -98,7 +109,8 @@
         "Release of CPU by a program due to an interrupt.",
         "Forceful allocation of CPU by a program to itself.",
         "Program termination due to detection of an interrupt."
-      ]
+      ],
+      "correct": "orced withdrawal of CPU from a program which is executing."
     },
     {
       "questionTitle": "12. Which scheduling strategy is most suitable for a time sharing operating system?",
@@ -107,7 +119,8 @@
         "First come first served.",
         "Round Robin.",
         "Longest job first."
-      ]
+      ],
+      "correct": "Round Robin."
     },
     {
       "questionTitle": "13.An operating system contains 3 user processes, each process requiring 2 units of the resource R. The minimum number of units of R required such that there is no possibility of deadlock on R is",
@@ -116,7 +129,8 @@
         "3",
         "5.",
         "4"
-      ]
+      ],
+      "correct": "4"
     },
     {
       "questionTitle": "14. To avoid a race condition, the maximum number of processes that may be in their critical section simultaneously is",
@@ -125,7 +139,8 @@
         "One",
         "Two",
         "Two or less"
-      ]
+      ],
+      "correct": "Two"
     },
     {
       "questionTitle": "15. A program in execution is called",
@@ -134,7 +149,8 @@
         "An instruction",
         "A procedure",
         "A function"
-      ]
+      ],
+      "correct": "A process"
     },
     {
       "questionTitle": "16. The program counter (PC) is",
@@ -143,7 +159,8 @@
         "A CPU register that indicates the address of the next instruction in a program.",
         "A CPU register which stores the state of a process",
         "A CPU register that signals a change of context"
-      ]
+      ],
+      "correct": "A CPU register that indicates the address of the next instruction in a program."
     },
     {
       "questionTitle": "17. If data is processed as it arrives, this type of data processing is called.",
@@ -152,7 +169,8 @@
         "Batch processing",
         "Synchronous processing",
         "Parallel processing"
-      ]
+      ],
+      "correct": "Real time processing"
     },
     {
       "questionTitle": "18. A page fault means that we referenced a page",
@@ -161,7 +179,8 @@
         "With an incorrect I/O request.",
         "That was not in secondary storage.",
         "That was not in main memory."
-      ]
+      ],
+      "correct": "That was not in main memory."
     },
     {
       "questionTitle": "19. Several processes access and manipulate the same data concurrently and the outcome of the execution depends on the particular order in which the access takes place; this is called a/an",
@@ -170,7 +189,8 @@
         "Race condition",
         "Multi- processing",
         "Process synchronization."
-      ]
+      ],
+      "correct": "Process synchronization."
     },
     {
       "questionTitle": "20. The search for an element on a binary search tree has an average complexity which is",
@@ -179,7 +199,8 @@
         "Logarithmic",
         "Polynomial",
         "Exponential"
-      ]
+      ],
+      "correct": "Logarithmic"
     },
     {
       "questionTitle": "21. Given the function for f(n) = n!, n a natural number and defined EITHER as in f 1 (n) = n(n − 1)! with 0! = 1 OR f 2 (n) = 1 ∗ 2 ∗ 3 ∗ ... .∗ n",
@@ -188,7 +209,8 @@
         "f 1 executes with no internal stack while f 2 does",
         "f 2 and f 1 will have the same runtime efficiency",
         "f 2 his more efficient than f 1"
-      ]
+      ],
+      "correct": "f 2 his more efficient than f 1"
     },
     {
       "questionTitle": "22. A programming paradigm that packages data and functions and manipulates the data into one structure, is known as",
@@ -197,7 +219,8 @@
         "Modular programming.",
         "Object oriented programming.",
         "Functional programming."
-      ]
+      ],
+      "correct": "Functional programming."
     },
     {
       "questionTitle": "23. A piece of software, possibly incomplete, that is meant to facilitate agreement on system specifications between software producer and customer is",
@@ -206,7 +229,8 @@
         "System prototype.",
         "Pseudocode.",
         "System model."
-      ]
+      ],
+      "correct": "System prototype."
     },
     {
       "questionTitle": "24. In debugging a program,",
@@ -215,7 +239,8 @@
         "We want to see whether a program executes with errors",
         "We want to prove that the program is working without errors",
         "We are correcting errors."
-      ]
+      ],
+      "correct": "We are correcting errors."
     },
     {
       "questionTitle": "25.The postfix form of the expression; A*B+C/D is:",
@@ -224,7 +249,8 @@
         "A*BC+/D",
         "AB*CD/+",
         "ABCD+/*"
-      ]
+      ],
+      "correct": "AB*CD/+"
     },
     {
       "questionTitle": "26. A binary search algorithm on an array of N elements has an average complexity in the order of",
@@ -233,7 +259,8 @@
         "log 2 N",
         "N-1",
         "2 N"
-      ]
+      ],
+      "correct": "log 2 N"
     },
     {
       "questionTitle": "27. The operation of processing each element in a list is known as",
@@ -242,7 +269,8 @@
         "Searching",
         "Indexing",
         "Traversal."
-      ]
+      ],
+      "correct": "Traversal."
     },
     {
       "questionTitle": "28. Generally, a variable defined within a block is visible",
@@ -251,7 +279,8 @@
         "From the point of definition onward in the function",
         "From the point of definition onward in the block",
         "Throughout the function"
-      ]
+      ],
+      "correct": "From the point of definition onward in the block"
     },
     {
       "questionTitle": "29. A linear collection of data elements where its elements are accessed by means of a pointer is called a (an)",
@@ -260,7 +289,8 @@
         "I-D Array",
         "Record",
         "Sorted list."
-      ]
+      ],
+      "correct": "Linked list"
     },
     {
       "questionTitle": "30.Locking was introduced into databases so that",
@@ -269,7 +299,8 @@
         "All simultaneous transactions are prevented",
         "Passwords can be provided to maintain security",
         "Consistency can be enforced"
-      ]
+      ],
+      "correct": "Keys can be provided to maintain security"
     },
     {
       "questionTitle": "31. A data model is a collection of conceptual tools for describing",
@@ -278,7 +309,8 @@
         "Data semantics and consistency constraints",
         "Data, data relationship, data semantics and consistency constraints",
         "Encryption and decryption."
-      ]
+      ],
+      "correct": "Data, data relationship, data semantics and consistency constraints"
     },
     {
       "questionTitle": "32. Modifying software to respond to changes in its environment is called",
@@ -287,7 +319,8 @@
         "Corrective maintenance.",
         "Pre-emptive maintenance.",
         "Preventive maintenance."
-      ]
+      ],
+      "correct": "Adaptive maintenance."
     },
     {
       "questionTitle": "33. The mechanism of deriving a class from another derived class is known as",
@@ -296,7 +329,8 @@
         "Single Inheritance",
         "Multilevel Inheritance",
         "Message Passing"
-      ]
+      ],
+      "correct": "Multilevel Inheritance"
     },
     {
       "questionTitle": "34. An ASCII character is said to be codded in one byte, how many bits are needed to code the word CODING.",
@@ -305,7 +339,8 @@
         "6",
         "48",
         "64"
-      ]
+      ],
+      "correct": "48"
     },
     {
       "questionTitle": "35. For deadlock to occur,",
@@ -314,7 +349,8 @@
         "There must be hold and wait of resources by processes",
         "There must be circular waiting",
         "All of the above."
-      ]
+      ],
+      "correct": "All of the above."
     },
     {
       "questionTitle": "36. PA program that makes one kind of computer act as if it was another kind is called a(n)",
@@ -323,7 +359,8 @@
         "Object code",
         "Virtual machine",
         "Source code"
-      ]
+      ],
+      "correct": "Virus"
     },
     {
       "questionTitle": "37. The protocol CSMA/CD is used in a",
@@ -332,7 +369,8 @@
         "Dedicated media.",
         "iga Ethernet (optical fibers)",
         "Radio waves"
-      ]
+      ],
+      "correct": "iga Ethernet (optical fibers)"
     },
     {
       "questionTitle": "38. The following transmission media are ranked in increasing order of their transmission rates and effectiveness.",
@@ -341,7 +379,8 @@
         "Rise in unemployment worldwide",
         "Further impoverishment of the poor",
         "Hunger."
-      ]
+      ],
+      "correct": "Rise in unemployment worldwide"
     },
     {
       "questionTitle": "39. The following transmission media are ranked in increasing order of their transmission rates and effectiveness.",
@@ -350,7 +389,8 @@
         "Optical fibers, Micro-Waves, UTP Cables",
         "Micro-Waves, Optical fibers, UTP Cables",
         "Micro-Waves, UTP Cables, Optical fibers."
-      ]
+      ],
+      "correct": "Micro-Waves, UTP Cables, Optical fibers."
     },
     {
       "questionTitle": "40. The rules that govern how entities communicate or interact in a network are",
@@ -359,7 +399,8 @@
         "OSI model",
         "Protocols",
         "Standards and Protocols"
-      ]
+      ],
+      "correct": "Protocols"
     },
     {
       "questionTitle": "41. A network interface card (NIC) is found",
@@ -368,7 +409,8 @@
         "In the server only.",
         "In the Application layer of OSI model.",
         "At the terminal of every transmission media."
-      ]
+      ],
+      "correct": "In every network data terminal equipment (host)."
     },
     {
       "questionTitle": "42. In Round Robin CPU scheduling, as the time quantum increases, the average turnaround time",
@@ -377,7 +419,8 @@
         "Decreases",
         "Remains constant",
         "Varies unpredictably"
-      ]
+      ],
+      "correct": "Increases"
     },
     {
       "questionTitle": "43. If a computer in a network that shares resources for others to use, is called",
@@ -386,7 +429,8 @@
         "A Router",
         "A Switch",
         "Hub"
-      ]
+      ],
+      "correct": "A server"
     },
     {
       "questionTitle": "44. Given the database relation CUSTOMER (Customer ID, Name, Address, Customer- Status, Customer type). A suitable primary key for CUSTOMER is:",
@@ -395,7 +439,8 @@
         "CustomerlD",
         "Customer status",
         "Customer-type."
-      ]
+      ],
+      "correct": "CustomerlD"
     },
     {
       "questionTitle": "45. A data structure may be considered as:",
@@ -404,7 +449,8 @@
         "A format for organizing and sorting data for algorithmic efficiency.",
         "A representation of data in the computer",
         "A way of classifying data for better accessibility."
-      ]
+      ],
+      "correct": "A format for organizing and sorting data for algorithmic efficiency."
     },
     {
       "questionTitle": "46. An interpreted programming language that works within another application to perform tasks and used by web designers to build interactive features in a web page is known as:",
@@ -413,7 +459,8 @@
         "Compiled language",
         "Machine language",
         "Mark-up language."
-      ]
+      ],
+      "correct": "Mark-up language."
     },
     {
       "questionTitle": "47. In the initial phase (phase l) of the SDLC, which of the following aspects are usually analyzed?",
@@ -422,7 +469,8 @@
         "Inputs",
         "Controls",
         "All of the above"
-      ]
+      ],
+      "correct": "Requirements"
     },
     {
       "questionTitle": "48. A field in the database table that uniquely identifies a record in the table is known as",
@@ -431,7 +479,8 @@
         "Foreign key",
         "Primary key",
         "Candidate key"
-      ]
+      ],
+      "correct": "Primary key"
     },
     {
       "questionTitle": "49.A database table is in 2 nd Normal form if it is in 1 st normal form and",
@@ -440,7 +489,8 @@
         "All non-key fields depend on all key fields",
         "Most non-key fields depend on a unique key",
         "Most non-key fields depend on all key fields"
-      ]
+      ],
+      "correct": "All non-key fields depend on a unique key"
     },
     {
       "questionTitle": "50. Given that a student must have a class. If class has as primary key ClasslD, what foreign key field(s) is (are) found in the entity student?",
@@ -449,7 +499,8 @@
         "ClasslD, Student1D",
         "Class cycle.",
         "ClassID"
-      ]
+      ],
+      "correct": "ClasslD, Student1D"
     }
   ]
 }

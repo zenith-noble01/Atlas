@@ -63,23 +63,19 @@ export const examYears = [
     year: "June 2020",
   },
   {
-    id: "62b0754cddd40446587c13fd",
-    year: "June 2018",
-  },
-  {
-    id: "62b52519dc71402c8d1c1529",
+    id: "62c376aa5f041ef6d3aa308f",
     year: "June 2017",
   },
   {
-    id: "62b52488fde611987d6a2c4c",
+    id: "62c375d45f041ef6d3aa2ff2",
     year: "June 2016",
   },
   {
-    id: "62b5242adf9bd442597aa46d",
+    id: "62c375a95f041ef6d3aa2f89",
     year: "June 2015",
   },
   {
-    id: "62b5224386d0beca9a567d82",
+    id: "62c375005f041ef6d3aa2eec",
     year: "June 2014",
   },
 ];

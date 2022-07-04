@@ -1,455 +1,506 @@
 {
+  "questionName": "computer science",
   "questionYear": "June 2017",
   "questions": [
     {
-      "qustionTitle": "1. A three input NOR gate gives a logic high output only when.",
+      "questionTitle": "1. A three input NOR gate gives a logic high output only when.",
       "suggestions": [
         "One input is high.",
         "One input is low.",
         "Two input are low.",
         "All input are low."
-      ]
+      ],
+      "correct": "All input are low."
     },
     {
-      "qustionTitle": "2. The binary form of 77.25 10 is",
+      "questionTitle": "2. The binary form of 77.25 10 is",
       "suggestions": [
         "1001101.01",
         "1001101.001",
         "i10110010.10",
         "10110010.11"
-      ]
+      ],
+      "correct": "1001101.01"
     },
     {
-      "qustionTitle": "3. In memory hierarchy, the larger the memory the",
+      "questionTitle": "3. In memory hierarchy, the larger the memory the",
       "suggestions": [
         "Higher the access time and the higher the speed of the transfer of data to the CPU",
         "Higher the access time and the lower the speed of transfer to the CPU.",
         "Shorter the access time and the higher the speed of transfer of data to CPU.",
         "Shorter the access time and the lower the speed of transfer to data to CPU."
-      ]
+      ],
+      "correct": "Higher the access time and the lower the speed of transfer to the CPU."
     },
     {
-      "qustionTitle": "4. Dynamic RAM, as opposed to Static RAM, is generally used as main memory in a computer system is because",
+      "questionTitle": "4. Dynamic RAM, as opposed to Static RAM, is generally used as main memory in a computer system is because",
       "suggestions": [
         "Consumes acceptable power.",
         "Has high speed.",
         "Has lower cell density.",
-        "Needs refreshing in circuitry"
-      ]
+        "Needs refreshing in circuitry."
+      ],
+      "correct": "Needs refreshing in circuitry"
     },
     {
-      "qustionTitle": "5. -27 10 can be represented in a signed magnitude format and in a 1’s complement format as",
+      "questionTitle": "5. -27 10 can be represented in a signed magnitude format and in a 1’s complement format as",
       "suggestions": [
         "111011 & 100100.",
         "100100 & 111011.",
         "011011 & 100100.",
         "100100 &011011."
-      ]
+      ],
+      "correct": "011011 & 100100."
     },
     {
-      "qustionTitle": "6. In the Von Neumann machine architecture,",
+      "questionTitle": "6. In the Von Neumann machine architecture,",
       "suggestions": [
         "Programs are stored in a separate memory from data",
         "Both programs and data are stored on a cisk",
         "Programs and data are stored in the same kind of memory",
         "Programs are store in ROM and in disks."
-      ]
+      ],
+      "correct": "Programs are stored in a separate memory from data"
     },
     {
-      "qustionTitle": "7. The 2’s complement of the binary number 1010 in 6 bits is",
+      "questionTitle": "7. The 2’s complement of the binary number 1010 in 6 bits is",
       "suggestions": [
         "111100.",
         "110110.",
         "110111.",
         "101100."
-      ]
+      ],
+      "correct": "110110."
     },
     {
-      "qustionTitle": "8. The memory unit that communicates directly with the CPU is called the:",
+      "questionTitle": "8. The memory unit that communicates directly with the CPU is called the:",
       "suggestions": [
         "Main memory·",
         "Main memory.",
         "Shared memory.",
         "Auxiliary memory."
-      ]
+      ],
+      "correct": "Main memory·"
     },
     {
-      "qustionTitle": "9. The equivalence of the Boolean expression: z = x(x ′ + y ′ ) is",
+      "questionTitle": "9. The equivalence of the Boolean expression: z = x(x ′ + y ′ ) is",
       "suggestions": [
         "Z=x(xy).",
         "Z=x’y",
         "Z=xy’.",
         "Z=x(xy)’."
-      ]
+      ],
+      "correct": "Z=xy’."
     },
     {
-      "qustionTitle": "10. The circuit use to memorize one bit of data is known as a(n)",
+      "questionTitle": "10. The circuit use to memorize one bit of data is known as a(n)",
       "suggestions": [
         "Register.",
         "Encoder.",
         "Cell.",
         "Flip-Flop."
-      ]
+      ],
+      "correct": "Flip-Flop."
     },
     {
-      "qustionTitle": "11. What is the characteristic of the RAM that makes it suitable to manage processes in memory?",
+      "questionTitle": "11. What is the characteristic of the RAM that makes it suitable to manage processes in memory?",
       "suggestions": [
         "it is volatile",
         "it is small in size.",
         "its access is direct",
         "its information can be overwritten"
-      ]
+      ],
+      "correct": "its access is direct"
     },
     {
-      "qustionTitle": "12. Memory management is necessary because?",
+      "questionTitle": "12. Memory management is necessary because?",
       "suggestions": [
         "The memory is finite.",
         "Many programs have to run simultaneously.",
         "Free memory space has to be reallocated.",
         "All of the above."
-      ]
+      ],
+      "correct": "All of the above."
     },
     {
-      "qustionTitle": "13. The shortest Job is a prcess scheduling strategy which is:",
+      "questionTitle": "13. The shortest Job is a prcess scheduling strategy which is:",
       "suggestions": [
         "Pre-emptive",
         "Non pre-emptive.",
         "Free memory space has been reallocated.",
         "Suitable in batch processing."
-      ]
+      ],
+      "correct": "Non pre-emptive."
     },
     {
-      "qustionTitle": "14. Analysis which determines the meaning of a statement once is grammatical structure is correct is known as",
+      "questionTitle": "14. Analysis which determines the meaning of a statement once is grammatical structure is correct is known as",
       "suggestions": [
         "Syntatic analysis",
         "Sematic analysis",
         "Grammatical analysis",
         "Lexical analysis."
-      ]
+      ],
+      "correct": "Sematic analysis"
     },
     {
-      "qustionTitle": "15. A technique that allows for the execution of a program that is not entirely in the memory",
+      "questionTitle": "15. A technique that allows for the execution of a program that is not entirely in the memory",
       "suggestions": [
         "Demand paging.",
         "Fixed partitioning.",
         "Swapping.",
         "Lexical analysis."
-      ]
+      ],
+      "correct": "Swapping."
     },
     {
-      "qustionTitle": "16. The scheduling algorithm in which the CPU is allocated to the processor with the least CPU-burst time is called",
+      "questionTitle": "16. The scheduling algorithm in which the CPU is allocated to the processor with the least CPU-burst time is called",
       "suggestions": [
         "Priority scheduling.",
         "Round Robin",
         "Shortest Job First",
         "First-Come-First-Served."
-      ]
+      ],
+      "correct": "Shortest Job First"
     },
     {
-      "qustionTitle": "17. It is not a direct or an indirect advantage of distributed systems.",
+      "questionTitle": "17. It is not a direct or an indirect advantage of distributed systems.",
       "suggestions": [
         "Resource sharing.",
         "Reliability.",
         "Incremental growth",
         "None of the above."
-      ]
+      ],
+      "correct": "Resource sharing."
     },
     {
-      "qustionTitle": "18. Nested sub-program call-returns are invoked using a",
+      "questionTitle": "18. Nested sub-program call-returns are invoked using a",
       "suggestions": [
         "First-In-First-Out approach.",
         "Round Robin approach.",
         "Last in first out approach.",
         "Last in last out approach.."
-      ]
+      ],
+      "correct": "Last in first out approach."
     },
     {
-      "qustionTitle": "19. TWhich of the following is NOT characteristic of a relational database model?",
+      "questionTitle": "19. TWhich of the following is NOT characteristic of a relational database model?",
       "suggestions": [
         "Tables.",
         "Tree like structure",
         "Complex logical relationships.",
         "None of the above."
-      ]
+      ],
+      "correct": "Tables."
     },
     {
-      "qustionTitle": "20. A program parameter that can be modified by all subprograms that make reference to it is known as a/an:",
+      "questionTitle": "20. A program parameter that can be modified by all subprograms that make reference to it is known as a/an:",
       "suggestions": [
         "Local variable",
         "Global variable",
         "Formal parameter",
         "Actual parameter."
-      ]
+      ],
+      "correct": "Global variable"
     },
     {
-      "qustionTitle": "21. Given the algorithm statement below if (A>N) or (B<0), then A⃪A+1 B⃪B-1 Else A⃪B+N End if The statement A⃪B+N is only executed",
+      "questionTitle": "21. Given the algorithm statement below if (A>N) or (B<0), then A⃪A+1 B⃪B-1 Else A⃪B+N End if The statement A⃪B+N is only executed",
       "suggestions": [
         "When A≥N or B≤0.",
         "When A≥N or B<0.",
         "When A≥N and B≤0.",
         "When A≥N A and B<0."
-      ]
+      ],
+      "correct": "When A≥N and B≤0."
     },
     {
-      "qustionTitle": "22. If a software piece can be use either alone or together with other software pieces to produce a more sophisticated software, the software piece is said to be",
+      "questionTitle": "22. If a software piece can be use either alone or together with other software pieces to produce a more sophisticated software, the software piece is said to be",
       "suggestions": [
         "Adaptable.",
         "Manageable.",
         "Reusable.",
         "Predictable.."
-      ]
+      ],
+      "correct": "Manageable."
     },
     {
-      "qustionTitle": "23. The popular expression “Divide-And-Conquer” refers to a kind of",
+      "questionTitle": "23. The popular expression “Divide-And-Conquer” refers to a kind of",
       "suggestions": [
         "Top-down design.",
         "Object oriented design.",
         "Algorithmic design.",
         "Modular design."
-      ]
+      ],
+      "correct": "Algorithmic design."
     },
     {
-      "qustionTitle": "24. A software is said to be portable if",
+      "questionTitle": "24. A software is said to be portable if",
       "suggestions": [
         "It can be put on a CD_ROM",
         "It can be installed in any computer",
         "It is installed on more than one computer",
         "It is platform independent."
-      ]
+      ],
+      "correct": "It is platform independent."
     },
     {
-      "qustionTitle": "25. What data structure will you most likely see in a non-recursive implementation of a recursive algorithm?",
+      "questionTitle": "25. What data structure will you most likely see in a non-recursive implementation of a recursive algorithm?",
       "suggestions": [
         "A stack.",
         "An array.",
         "A record.",
         "Queue."
-      ]
+      ],
+      "correct": "A stack."
     },
     {
-      "qustionTitle": "26. A search technique for direct item access is",
+      "questionTitle": "26. A search technique for direct item access is",
       "suggestions": [
         "Binary search",
         "Linear search.",
         "Binary tree search.",
         "Queue."
-      ]
+      ],
+      "correct": "Queue."
     },
     {
-      "qustionTitle": "27. The smallest element of an array's index is called its.",
+      "questionTitle": "27. The smallest element of an array's index is called its.",
       "suggestions": [
         "Address of main program.",
         "Subroutine address.",
         "Address of the CALL instruction.",
         "Address of data."
-      ]
+      ],
+      "correct": "Address of main program."
     },
     {
-      "qustionTitle": "28. The Worst case Occurs in linear search algorithms when an item is:",
+      "questionTitle": "28. The Worst case Occurs in linear search algorithms when an item is:",
       "suggestions": [
         "Somewhere in the middle Of the array",
         "Not in the array at ALL",
         "The last element in the array",
         "The last element in the array or is absent."
-      ]
+      ],
+      "correct": "The last element in the array or is absent."
     },
     {
-      "qustionTitle": "29. One of the following is a recursive definition of the Fibonacci series.",
+      "questionTitle": "29. One of the following is a recursive definition of the Fibonacci series.",
       "suggestions": [
         "pending...",
         "pending...",
         "pending...",
         "None of the above."
-      ]
+      ],
+      "correct": "pending..."
     },
     {
-      "qustionTitle": "30. Which of these sort algorithms divides, at each iteration, the list into two sub. Lists so that one is sorted and the other unsorted?",
+      "questionTitle": "30. Which of these sort algorithms divides, at each iteration, the list into two sub. Lists so that one is sorted and the other unsorted?",
       "suggestions": [
         "Quick sort.",
         "Insertion sort.",
         "Bubble sort.",
         "Merge sort."
-      ]
+      ],
+      "correct": "Insertion sort."
     },
     {
-      "qustionTitle": "31. AWhen a subroutine is called, the address of the instruction following the CALL Instruction is stored in/on the:",
+      "questionTitle": "31. AWhen a subroutine is called, the address of the instruction following the CALL Instruction is stored in/on the:",
       "suggestions": [
         "Stack pointer.",
         "Accumulator.",
         "Program counter.",
         "Stack."
-      ]
+      ],
+      "correct": "Program counter."
     },
     {
-      "qustionTitle": "32. In object-oriented programming, an object is.",
+      "questionTitle": "32. In object-oriented programming, an object is.",
       "suggestions": [
         "One instance Of a class.",
         "Another word for a class.",
         "A class with static method.",
         "A method that accesses a class."
-      ]
+      ],
+      "correct": "One instance Of a class."
     },
     {
-      "qustionTitle": "33. In general a low level language program",
+      "questionTitle": "33. In general a low level language program",
       "suggestions": [
         "Makes more system calls than a high level language program.",
         "Makes use of stacks quite Often.",
         "Has more lines of code for same program than a high level language.",
         "Give more accurate results than high language."
-      ]
+      ],
+      "correct": "Has more lines of code for same program than a high level language."
     },
     {
-      "qustionTitle": "34. In computability theory, a problem is said to be computable if:",
+      "questionTitle": "34. In computability theory, a problem is said to be computable if:",
       "suggestions": [
         "Any kind of solution can be found.",
         "The problem is a mathematical problem.",
         "The problem has a feasible solution.",
         "The problem is a classical computing problem."
-      ]
+      ],
+      "correct": "The problem has a feasible solution."
     },
     {
-      "qustionTitle": "35. When implementing recursive programs we use",
+      "questionTitle": "35. When implementing recursive programs we use",
       "suggestions": [
         "An implicit program stack.",
         "A programmer-managed stack.",
         "No program stack.",
         "Queues."
-      ]
+      ],
+      "correct": "An implicit program stack."
     },
     {
-      "qustionTitle": "36.Prototype refinement is",
+      "questionTitle": "36.Prototype refinement is",
       "suggestions": [
         "Giving a prototype enough functionality such that it becomes the final product",
         "Improving a prototype's functionality so that they are closer to the final product",
         "Eliminating errors from a conceptual model",
         "Developing a logical model from a conceptual one."
-      ]
+      ],
+      "correct": "Giving a prototype enough functionality such that it becomes the final product"
     },
     {
-      "qustionTitle": "37. In a mesh network topology",
+      "questionTitle": "37. In a mesh network topology",
       "suggestions": [
         "A computer is connected to all other computers via the internet.",
         "A computer is connected to all other computers with the help Of switches.",
         "A computer is connected to all Other computers directly.",
         "A computer is connected to all other computers via other computers."
-      ]
+      ],
+      "correct": "A computer is connected to all Other computers directly."
     },
     {
-      "qustionTitle": "38. Any system generally used for real time applications is known as:",
+      "questionTitle": "38. Any system generally used for real time applications is known as:",
       "suggestions": [
         "An online information system.",
         "An information system",
         "An information retrieval system.",
         "An embedded system."
-      ]
+      ],
+      "correct": "An embedded system."
     },
     {
-      "qustionTitle": "39. It is NOT a measure for data security",
+      "questionTitle": "39. It is NOT a measure for data security",
       "suggestions": [
         "Locking up work premises after work",
         "HIntroducing logins and passwords",
         "Storing data in many places and copies",
         "Updating a database regularly."
-      ]
+      ],
+      "correct": "Storing data in many places and copies"
     },
     {
-      "qustionTitle": "40. It is a computer crime to",
+      "questionTitle": "40. It is a computer crime to",
       "suggestions": [
         "Publish someone else's picture on the internet.",
         "Copy someone else's publication.",
         "Open a pornographic website.",
         "Copy copyrighted material."
-      ]
+      ],
+      "correct": "Copy copyrighted material."
     },
     {
-      "qustionTitle": "41. Viruses are an issue of network",
+      "questionTitle": "41. Viruses are an issue of network",
       "suggestions": [
         "Reliability.",
         "Feasibility.",
         "Security.",
         "Performance."
-      ]
+      ],
+      "correct": "Security."
     },
     {
-      "qustionTitle": "42. The number of connection in a full mesh topology that has n devices is given by",
+      "questionTitle": "42. The number of connection in a full mesh topology that has n devices is given by",
       "suggestions": [
         "coming...",
         "coming...",
         "coming...",
         "coming..."
-      ]
+      ],
+      "correct": "coming..."
     },
     {
-      "qustionTitle": "43.The main function of a browser is to",
+      "questionTitle": "43.The main function of a browser is to",
       "suggestions": [
         "Compile HTML",
         "Interpret HTML",
         "Decompile HTML",
         "Transfer HTML."
-      ]
+      ],
+      "correct": "Interpret HTML"
     },
     {
-      "qustionTitle": "44. The concept by Which we apply existing operations to new data types is",
+      "questionTitle": "44. The concept by Which we apply existing operations to new data types is",
       "suggestions": [
         "Inheritance",
         "Polymorphism",
         "Encapsulation",
         "Prototyping."
-      ]
+      ],
+      "correct": "Inheritance"
     },
     {
-      "qustionTitle": "45. If the state of a database no longer reflects a real state the database is supposed to capture, then such a database state is said to be",
+      "questionTitle": "45. If the state of a database no longer reflects a real state the database is supposed to capture, then such a database state is said to be",
       "suggestions": [
         "Consistent",
         "Durable.",
         "Parallel",
         "Inconsistent."
-      ]
+      ],
+      "correct": "Inconsistent."
     },
     {
-      "qustionTitle": "46. Recursive algorithms use a",
+      "questionTitle": "46. Recursive algorithms use a",
       "suggestions": [
         "Divide-and-conquer approach",
         "Modular approach",
         "Structural approach",
         "Hierarchical approach."
-      ]
+      ],
+      "correct": "Divide-and-conquer approach"
     },
     {
-      "qustionTitle": "47. The benefit of prototyping is:",
+      "questionTitle": "47. The benefit of prototyping is:",
       "suggestions": [
         "SMissing functions of the user can be identified",
         "Misunderstanding between software developer and user can be identify",
         "Incomplete or inconsistent user requirements may be detected.",
         "All of the above."
-      ]
+      ],
+      "correct": "All of the above."
     },
     {
-      "qustionTitle": "48. A database table is 3 normal form if",
+      "questionTitle": "48. A database table is 3 normal form if",
       "suggestions": [
         "It is in 2 nd normal and form (2NF) and 1 st normal form(1NF)",
         "It is in 2NF and all non-key fields depend on all key fields",
         "Incomplete or inconsistent user requirements may be detected.",
         "All of the above."
-      ]
+      ],
+      "correct": "Incomplete or inconsistent user requirements may be detected."
     },
     {
-      "qustionTitle": "49. Given the relations CLASS(ClassID, Cycle, Teachinghours) and STUDENT(StudentID, ClassID, StudName). What is the possible relation between STUDENT and CLASS?",
+      "questionTitle": "49. Given the relations CLASS(ClassID, Cycle, Teachinghours) and STUDENT(StudentID, ClassID, StudName). What is the possible relation between STUDENT and CLASS?",
       "suggestions": [
         "A class must have at least a student.",
         "A student must have a class",
         "A student may have no class",
         "A class may have no students."
-      ]
+      ],
+      "correct": "A student must have a class"
     },
     {
-      "qustionTitle": "50. When requirements analysis goes wrong, what could happen?",
+      "questionTitle": "50. When requirements analysis goes wrong, what could happen?",
       "suggestions": [
         "The system may coast more than projected.",
         "The system will become unreliable",
         "The system may not meet user requirements.",
         "All the above."
-      ]
+      ],
+      "correct": "All the above."
     }
   ]
 }
