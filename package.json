@@ -1,7 +1,7 @@
 {
   "name": "tic__summit",
   "version": "2.0.0",
-  "proxy": "http://localhost:5000/api",
+  "proxy": "https://ticorg.herokuapp.com/api",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.8.2",
