@@ -78,6 +78,7 @@
       height: 90%;
       overflow-y: auto;
       padding: 1rem;
+      overflow-y: auto;
       ul {
         list-style: none;
       }
@@ -152,6 +153,7 @@
       flex-direction: column;
       width: 100%;
       height: 100%;
+      padding: 1rem;
 
       .start__card {
         width: 100%;
