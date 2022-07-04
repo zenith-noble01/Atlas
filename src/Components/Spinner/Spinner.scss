@@ -1,5 +1,5 @@
 .loading__spinner {
-  width: 100vw;
+  width: calc(100vh - 70px);
   background: red;
   min-height: 100vh;
   display: flex;
