@@ -17,7 +17,7 @@ const Navbar = ({ popup }) => {
   }
   window.addEventListener("scroll", changeNavBgColor);
 
-  const student = useSelector((state) => state.auth?.student?.user);
+  const student = useSelector((state) => state.auth?.student);
   console.log(student);
 
   return (

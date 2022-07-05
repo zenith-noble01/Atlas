@@ -56,7 +56,7 @@ const App = () => {
       navigate("/register");
     }
   }, [navigate]);
-  console.log(questions);
+
   const quizStartHandler = () => {
     setStep(2);
     interval = setInterval(() => {

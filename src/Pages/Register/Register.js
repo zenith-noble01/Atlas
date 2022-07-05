@@ -59,6 +59,8 @@ const Login = () => {
     dispatch(reset());
   }, [isError, isSuccess, message, student, navigate, dispatch]);
 
+  console.log(isError);
+
   useEffect(() => {
     //getStudent localStorage
     const student = localStorage.getItem("student");
