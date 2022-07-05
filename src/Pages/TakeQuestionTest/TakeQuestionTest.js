@@ -53,7 +53,7 @@ const App = () => {
     //getStudent localStorage
     const student = localStorage.getItem("student");
     if (!student) {
-      navigate("/questionTest");
+      navigate("/register");
     }
   }, [navigate]);
   console.log(questions);
