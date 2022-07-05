@@ -63,7 +63,7 @@ module.exports.verifyStudent = async (req, res) => {
   // res.status(200).json({
   //   message: "Student verified successfully",
   // });
-  res.redirect("http://localhost:3000/login");
+  res.redirect("https://atlas-v2.vercel.app/login");
 };
 
 //login user

@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { logo, girl } from "../../Images";
 import "./Login.scss";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FaFacebook, FaGoogle, FaTwitter } from "react-icons/fa";
-
+import { useDispatch, useSelector } from "react-redux";
+import { toast } from "react-toastify";
+import { loginStudent, reset } from "../../redux/reducers/authSlice";
+import { Spinner } from "../../Components";
 const Login = () => {
   const [formData, setFormData] = useState({
     email: "",
@@ -12,9 +15,24 @@ const Login = () => {
 
   const { email, password } = formData;
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+
+  const { user, isLoading, isError, isSuccess, message } = useSelector(
+    (state) => state.auth
+  );
+
+  useEffect(() => {
+    if (isError) {
+      toast.error(message);
+    }
+
+    if (isSuccess || user) {
+      navigate("/");
+    }
+
+    dispatch(reset());
+  }, [user, isError, isSuccess, message, navigate, dispatch]);
 
   const handleOnChange = (e) => {
     setFormData((prevState) => ({
@@ -22,6 +40,29 @@ const Login = () => {
       [e.target.name]: e.target.value,
     }));
   };
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+
+    const userData = {
+      email,
+      password,
+    };
+
+    dispatch(loginStudent(userData));
+  };
+
+  useEffect(() => {
+    //getStudent localStorage
+    const student = localStorage.getItem("student");
+    if (student) {
+      navigate("/questionTest");
+    }
+  }, [navigate]);
+
+  if (isLoading) {
+    return <Spinner />;
+  }
 
   return (
     <div className="app__login">
@@ -56,7 +97,7 @@ const Login = () => {
               sed ducimus expedita."
             </p>
           </div>
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={onSubmit}>
             <div className="input__container">
               <input
                 type="email"

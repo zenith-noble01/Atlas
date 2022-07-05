@@ -115,6 +115,10 @@
       p {
         font-size: 2rem;
         margin-bottom: 2rem;
+
+        @media screen and (max-width: 800px) {
+          font-size: 1.2rem;
+        }
       }
 
       .years {
@@ -142,6 +146,10 @@
           &:hover {
             background: var(--grey);
             color: var(--blue);
+          }
+
+          @media screen and (max-width: 800px) {
+            width: 100%;
           }
         }
       }

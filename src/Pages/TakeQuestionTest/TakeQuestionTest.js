@@ -7,6 +7,7 @@ import { CancelTwoTone } from "../../Images";
 import { questionRoute } from "../../api/endpoints";
 import { subject, examYears } from "../../data/dummy";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 let interval;
 
@@ -21,6 +22,7 @@ const App = () => {
   const [questions, setQuestions] = useState([]);
   const [id, setId] = useState("");
   // const [totalTime, setTotalTime] = useState(5400);
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (step === 3) {
@@ -47,6 +49,13 @@ const App = () => {
     getQuestions();
   }, [id]);
 
+  useEffect(() => {
+    //getStudent localStorage
+    const student = localStorage.getItem("student");
+    if (!student) {
+      navigate("/questionTest");
+    }
+  }, [navigate]);
   console.log(questions);
   const quizStartHandler = () => {
     setStep(2);

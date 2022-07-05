@@ -52,17 +52,20 @@ const Login = () => {
     if (isError) {
       toast.error(message);
     }
-    if (isSuccess) {
-      toast.success("Registration Successful");
+    if (isSuccess && student) {
       navigate("/login");
-    }
-
-    if (student) {
-      toast.success("Registration Successful");
     }
 
     dispatch(reset());
   }, [isError, isSuccess, message, student, navigate, dispatch]);
+
+  useEffect(() => {
+    //getStudent localStorage
+    const student = localStorage.getItem("student");
+    if (student) {
+      navigate("/questionTest");
+    }
+  }, [navigate]);
 
   if (isLoading) {
     return <Spinner />;

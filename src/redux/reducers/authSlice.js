@@ -28,6 +28,23 @@ export const registerStudent = createAsyncThunk(
   }
 );
 
+export const loginStudent = createAsyncThunk(
+  "auth/login",
+  async (student, thunkAPI) => {
+    try {
+      return await authServices.loginStudent(student);
+    } catch (error) {
+      const message =
+        (error.response &&
+          error.response.data &&
+          error.response.data.message) ||
+        error.message ||
+        error.toString();
+      return thunkAPI.rejectWithValue(message);
+    }
+  }
+);
+
 export const logoutStudent = createAsyncThunk("auth/logout", async () => {
   await authServices.logoutStudent();
 });
@@ -57,6 +74,23 @@ export const authSlice = createSlice({
         state.isError = true;
         state.message = action.payload.msg;
         state.student = null;
+      })
+      .addCase(loginStudent.pending, (state) => {
+        state.isLoading = true;
+      })
+      .addCase(loginStudent.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.isSuccess = true;
+        state.user = action.payload;
+      })
+      .addCase(loginStudent.rejected, (state, action) => {
+        state.isLoading = false;
+        state.isError = true;
+        state.message = action.payload;
+        state.user = null;
+      })
+      .addCase(logoutStudent.fulfilled, (state) => {
+        state.user = null;
       });
   },
 });

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { logo } from "../../Images";
 import "./Navbar.css";
@@ -15,6 +16,9 @@ const Navbar = ({ popup }) => {
     }
   }
   window.addEventListener("scroll", changeNavBgColor);
+
+  const student = useSelector((state) => state.auth?.student?.user);
+  console.log(student);
 
   return (
     <div
@@ -43,16 +47,20 @@ const Navbar = ({ popup }) => {
             </Link>
           </li>
         </ul>
-        <ul className="ctaLayer">
-          <li className="btnLogin">
-            <Link to="/login">Sign In</Link>
-          </li>
-          <li className="btnSign">
-            <Link className="link" to="/register">
-              sign Up
-            </Link>
-          </li>
-        </ul>
+        {student ? (
+          <p>{student.username}</p>
+        ) : (
+          <ul className="ctaLayer">
+            <li className="btnLogin">
+              <Link to="/login">Sign In</Link>
+            </li>
+            <li className="btnSign">
+              <Link className="link" to="/register">
+                sign Up
+              </Link>
+            </li>
+          </ul>
+        )}
       </div>
       <div className="mobileNav" onClick={() => setShow(!show)}>
         <div className="menu">
@@ -60,7 +68,7 @@ const Navbar = ({ popup }) => {
           <span></span>
           <span></span>
         </div>
-        <ul className="mobileList" style={{ right: show ? "0" : "-60vw" }}>
+        <ul className="mobileList" style={{ right: show ? "0" : "-70vw" }}>
           <li>
             <Link className="link" to="/">
               Home
@@ -79,7 +87,20 @@ const Navbar = ({ popup }) => {
               Take Question Test
             </Link>
           </li>
-          <li className="btnSign">Sign Up</li>
+          {student ? (
+            <p>{student.username}</p>
+          ) : (
+            <ul className="ctaLayer">
+              <li className="btnLogin">
+                <Link to="/login">Sign In</Link>
+              </li>
+              <li className="btnSign">
+                <Link className="link" to="/register">
+                  sign Up
+                </Link>
+              </li>
+            </ul>
+          )}
         </ul>
       </div>
     </div>

@@ -115,29 +115,28 @@
     top: 70px;
     background: #fcb526;
     z-index: 999;
-    width: 60vw;
+    width: 70vw;
     transition: var(--trans);
     color: var(--blue);
     padding: 40px;
     height: calc(100vh - 70px);
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-direction: column;
     list-style: none;
   }
 
-  .mobileList .btnSign {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 8px 30px;
-    border-radius: 10px;
-    background: var(--blue);
-    color: white;
-    font-size: 14px;
-    font-weight: 200;
-    cursor: pointer;
-    transition: var(--trans);
+  .mobileList li {
+    margin: 10px 0;
+  }
+
+  .mobileList .ctaLayer {
+    background: red;
+    list-style: none;
+  }
+
+  .ctaLayer .btnLogin {
+    background: red;
   }
 }
