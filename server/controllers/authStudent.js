@@ -7,13 +7,13 @@ module.exports.createStudent = async (req, res) => {
   const { username, email, password } = req.body;
   if (!username || !email || !password) {
     return res.status(400).json({
-      msg: "This fields are required",
+      message: "This fields are required",
     });
   }
   const oldStudent = await Student.findOne({ email });
   if (oldStudent)
     return res.status(400).json({
-      msg: "Student already exist with this email",
+      message: "Student already exist with this email",
     });
   const salt = await bcrypt.genSalt(10);
   const hashPass = await bcrypt.hash(password, salt);
@@ -28,7 +28,7 @@ module.exports.createStudent = async (req, res) => {
   user.save((err, user) => {
     if (err) {
       return res.status(400).json({
-        msg: "Error while creating user",
+        message: "Error while creating user",
       });
     }
     sendGrid.send({
@@ -42,9 +42,7 @@ module.exports.createStudent = async (req, res) => {
       <p>Please click on the link to verify your email</p>
       <a href="http://${req.headers.host}/api/auth/verify/${user.emailToken}">Verify Email</a>`,
     });
-    res.status(200).json({
-      user,
-    });
+    res.status(200).json(user);
   });
 };
 

@@ -28,6 +28,7 @@ const Login = () => {
     }
 
     if (isSuccess || user) {
+      window.location.reload();
       navigate("/");
     }
 

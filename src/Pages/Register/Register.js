@@ -53,7 +53,8 @@ const Login = () => {
       toast.error(message);
     }
     if (isSuccess && student) {
-      navigate("/login");
+      window.location.reload();
+      navigate("/questionTest");
     }
 
     dispatch(reset());
