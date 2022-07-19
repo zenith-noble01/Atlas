@@ -39,7 +39,7 @@ const StudentNav = ({ isOpen, setIsOpen }) => {
         </div>
       </div>
       <div className="content__nav">
-        <ul>
+        <ul className="content__nav__items">
           <li>
             <BiMoon className="icon" onClick={handleThemeChange} />
           </li>
@@ -61,7 +61,7 @@ const StudentNav = ({ isOpen, setIsOpen }) => {
                     <span>Profile</span>
                   </NavLink>
                 </li>
-                <li>
+                <li className="logout">
                   <MdPowerSettingsNew />
                   <span>Logout</span>
                 </li>

@@ -3,7 +3,13 @@ import "./App.css";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { Navbar, Lander, Spinner, Sidebar, StudentNav } from "./Components";
 import { ToastContainer } from "react-toastify";
-import { Login, Register, TakeQuestionTest, Dashboard } from "./Pages/";
+import {
+  Login,
+  Register,
+  TakeQuestionTest,
+  Dashboard,
+  StudentProfile,
+} from "./Pages/";
 import { useSelector } from "react-redux";
 // const
 const App = () => {
@@ -28,6 +34,7 @@ const App = () => {
         <Route element={<Login />} path="/Login" />
         <Route element={<Register />} path="/register" />
         <Route element={<TakeQuestionTest />} path="/questionTest" />
+        <Route element={<StudentProfile />} path="/profile" />
         <Route element={<Spinner />} path="/spinner" />
       </Routes>
       <ToastContainer />

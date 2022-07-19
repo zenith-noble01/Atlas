@@ -3,5 +3,6 @@ import TakeQuestionTest from "./TakeQuestionTest/TakeQuestionTest";
 import Login from "./Login/Login";
 import Dashboard from "./Dashboard/Dashboard";
 import Register from "./Register/Register";
+import StudentProfile from "./StudentProfile/StudentProfile";
 
-export { TakeQuestionTest, Login, Register, Dashboard };
+export { TakeQuestionTest, Login, Register, Dashboard, StudentProfile };

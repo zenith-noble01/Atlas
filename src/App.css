@@ -21,9 +21,9 @@
   --black: whitesmoke;
   --button: #2f353d;
   --button__light: #57595d;
-  --shadow: 0px 0px 10px #2f353d;
+  --shadow: 0px 0px 10px #393d42;
   --light__blue: #3867af15;
-  --thick__black: #ffffff;
+  --thick__black: #eeeeee;
 }
 
 h3 {
