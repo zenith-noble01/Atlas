@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 import { HiOutlineDuplicate } from "react-icons/hi";
 import { SiBookstack } from "react-icons/si";
 import { FiBook } from "react-icons/fi";
-import { FaFlagCheckered } from "react-icons/fa";
+import { CgTranscript } from "react-icons/cg";
 import { GiTestTubes } from "react-icons/gi";
 
 const Sidebar = ({ isOpen, setIsOpen }) => {
@@ -36,7 +36,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
           </li>
           <li>
             <NavLink to="/grades">
-              <FaFlagCheckered className="icons__icon" />
+              <CgTranscript className="icons__icon" />
               <span>Grades</span>
             </NavLink>
           </li>
