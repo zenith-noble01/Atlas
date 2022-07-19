@@ -6,15 +6,15 @@ import { ToastContainer } from "react-toastify";
 import { Login, Register, TakeQuestionTest, Dashboard } from "./Pages/";
 import { useSelector } from "react-redux";
 // const
-
 const App = () => {
   const location = useLocation();
   const pathname = location.pathname.slice(1);
   const [isOpen, setIsOpen] = useState(false);
   const student = useSelector((state) => state.auth?.student);
+  const theme = useSelector((state) => state.theme);
 
   return (
-    <div>
+    <div data-theme={theme}>
       {pathname === "login" ||
       pathname === "register" ||
       pathname === "Dashboard" ||

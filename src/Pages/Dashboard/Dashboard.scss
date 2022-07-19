@@ -1,7 +1,7 @@
 .app__dashboard {
   width: calc(100% - 300px);
   float: right;
-  background: whitesmoke;
+  background: var(--smoke);
   min-height: 100vh;
   padding: 5rem 2rem 2rem 2rem;
   color: var(--thick__black);

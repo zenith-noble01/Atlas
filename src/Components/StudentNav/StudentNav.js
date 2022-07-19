@@ -1,5 +1,6 @@
 import { logo } from "../../Images";
 import "./StudentNav.scss";
+import { useDispatch } from "react-redux";
 import {
   BiMoon,
   BiBell,
@@ -7,14 +8,21 @@ import {
   BiSearch,
   BiUser,
 } from "react-icons/bi";
+
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { NavLink } from "react-router-dom";
 import { MdPowerSettingsNew } from "react-icons/md";
+import { toggleTheme } from "../../redux/reducers/theme";
 
 const StudentNav = ({ isOpen, setIsOpen }) => {
-  console.log(isOpen);
+  const dispatch = useDispatch();
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  const handleThemeChange = () => {
+    dispatch(toggleTheme());
+  };
+
   return (
     <div className="student__nav">
       <div className="see__data">
@@ -33,7 +41,7 @@ const StudentNav = ({ isOpen, setIsOpen }) => {
       <div className="content__nav">
         <ul>
           <li>
-            <BiMoon className="icon" />
+            <BiMoon className="icon" onClick={handleThemeChange} />
           </li>
           <li>
             <BiBell className="icon" />

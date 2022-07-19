@@ -10,6 +10,7 @@
   z-index: 10;
   background-color: var(--white);
   box-shadow: 14px 10px 22px 0px rgba(0, 0, 0, 0.155);
+  transition: var(--trans);
 
   @media screen and (max-width: 768px) {
     display: flex;
@@ -46,7 +47,9 @@
       align-items: center;
       border-radius: 25px;
       padding: 0 1rem;
-      background: whitesmoke;
+      background: var(--smoke);
+      transition: var(--trans);
+      color: var(--black);
       flex: 1;
 
       @media screen and (max-width: 768px) {

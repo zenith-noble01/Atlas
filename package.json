@@ -27,6 +27,7 @@
     "redux": "^4.2.0",
     "sass": "^1.49.9",
     "styled-components": "^5.3.3",
+    "use-local-storage": "^2.3.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

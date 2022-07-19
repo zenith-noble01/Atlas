@@ -8,6 +8,8 @@ import { NavLink } from "react-router-dom";
 import { HiOutlineDuplicate } from "react-icons/hi";
 import { SiBookstack } from "react-icons/si";
 import { FiBook } from "react-icons/fi";
+import { FaFlagCheckered } from "react-icons/fa";
+import { GiTestTubes } from "react-icons/gi";
 
 const Sidebar = ({ isOpen, setIsOpen }) => {
   return (
@@ -30,6 +32,18 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             <NavLink to="/books">
               <SiBookstack />
               <span>Books</span>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/grades">
+              <FaFlagCheckered className="icons__icon" />
+              <span>Grades</span>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/maketest">
+              <GiTestTubes className="icons__icon" />
+              <span>Make A Test</span>
             </NavLink>
           </li>
           <li>

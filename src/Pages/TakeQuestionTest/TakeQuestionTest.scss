@@ -3,7 +3,7 @@
   width: calc(100% - 300px);
   padding: 5rem 4%;
   float: right;
-  background: whitesmoke;
+  background: var(--smoke);
   transition: var(--trans);
 
   @media screen and (max-width: 800px) {
@@ -25,6 +25,7 @@
       padding: 1rem;
       border-radius: 5px;
       transition: var(--trans);
+      cursor: pointer;
 
       &:hover {
         box-shadow: var(--shadow);
@@ -52,7 +53,7 @@
         height: 40px;
         padding: 5px 30px;
         border-radius: 5px;
-        background: #f7f7f7;
+        background: var(--button);
         color: var(--blue);
         font-size: 14px;
         font-weight: 200;
@@ -61,7 +62,7 @@
         border: none;
 
         &.disabled {
-          background: #f7f7f7;
+          background: var(--button);
           cursor: not-allowed;
           color: lightblue;
         }
