@@ -2,7 +2,8 @@
 
 :root {
   --white: #fff;
-  --black: #000;
+  --black: #57595d;
+  --thick__black: #2f353d;
   --blue: #285ca9;
   --yellow: #f7cb48;
   --border: 0.1rem solid white;

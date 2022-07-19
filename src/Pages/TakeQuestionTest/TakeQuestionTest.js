@@ -90,12 +90,14 @@ const App = () => {
   };
 
   return (
-    <div className="app__takequestions">
+    <div className="app__takequestions open">
       <div className="question__container">
         {subject.map((subject) => (
           <div
             className={
-              subject.try === "coming soon" ? "subject disabled" : "subject"
+              subject.try === "coming soon"
+                ? "subject disabled open"
+                : "subject"
             }
             aria-disabled={subject.try === "coming soon"}
             onClick={() => handleClick(subject.try)}

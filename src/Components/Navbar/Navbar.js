@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { logo } from "../../Images";
 import "./Navbar.css";
 
-const Navbar = ({ popup }) => {
+const Navbar = () => {
   const [changeColor, setChangeColor] = useState(false);
   const [show, setShow] = useState(false);
 
@@ -21,10 +21,7 @@ const Navbar = ({ popup }) => {
   console.log(student);
 
   return (
-    <div
-      className={changeColor ? "Navbar change" : "Navbar"}
-      style={{ zIndex: popup ? "0" : "999" }}
-    >
+    <div className={changeColor ? "Navbar change" : "Navbar"}>
       <img src={logo} alt="" />
       <div className="nav__items">
         <ul className="ulList">

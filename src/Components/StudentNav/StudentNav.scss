@@ -1,0 +1,169 @@
+.student__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3rem;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  background-color: var(--white);
+  box-shadow: 14px 10px 22px 0px rgba(0, 0, 0, 0.155);
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .see__data {
+    display: flex;
+    align-items: center;
+    flex: 0.5;
+    // position: relative;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+
+    .hamburger {
+      display: none;
+
+      @media screen and (max-width: 768px) {
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        color: var(--black);
+        font-size: 2rem;
+        cursor: pointer;
+      }
+    }
+
+    .input__data {
+      height: 40px;
+      margin-left: 2rem;
+      display: flex;
+      align-items: center;
+      border-radius: 25px;
+      padding: 0 1rem;
+      background: whitesmoke;
+      flex: 1;
+
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
+
+      .icon {
+        font-size: 1.4rem;
+        color: var(--thick__black);
+      }
+
+      input {
+        border: none;
+        background: transparent;
+        color: var(--thick__black);
+        outline: none;
+        height: 100%;
+        width: 100%;
+        margin-left: 1rem;
+      }
+    }
+
+    .st__logo {
+      display: flex;
+      align-items: center;
+      img {
+        width: 110px;
+        object-fit: cover;
+        height: 50px;
+      }
+
+      h4 {
+        bottom: 0;
+      }
+    }
+  }
+
+  .content__nav {
+    display: flex;
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
+
+      li {
+        margin-right: 1rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        transition: var(--trans);
+        color: var(--black);
+        position: relative;
+        cursor: pointer;
+        &:hover {
+          color: var(--thick__black);
+        }
+
+        .icon {
+          font-size: 1.125rem;
+          margin-right: 1rem;
+        }
+
+        .chev {
+          transition: var(--trans);
+          color: var(--blue);
+          &.rotate {
+            transform: rotate(180deg);
+          }
+        }
+
+        .dropdown {
+          position: absolute;
+          top: 40px;
+          right: 0;
+          display: block;
+          background: var(--white);
+          width: 150px;
+          padding: 1rem;
+          border-radius: 0 0 25px 25px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+          z-index: 1;
+          transition: var(--trans);
+          opacity: 1;
+
+          &.hide {
+            opacity: 0;
+            pointer-events: none;
+          }
+
+          ul {
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+
+            li {
+              svg {
+                width: 20px;
+                height: 20px;
+                margin-right: 1rem;
+              }
+
+              a {
+                display: flex;
+                align-items: center;
+              }
+            }
+
+            .dropdown__one {
+              margin-bottom: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,4 @@
 import Lander from "./lander/Lander";
-import Dashboard from "./Dashboard/Dashboard";
 import SeeQuestions from "./SeeQuestions/SeeQuestions";
 import Navbar from "./Navbar/Navbar";
 import Timer from "./timer";
@@ -9,10 +8,18 @@ import Start from "./Start";
 import Modal from "./Modal";
 import Spinner from "./Spinner/Spinner";
 import { FormatTime } from "./Format";
+import Sidebar from "./Sidebar/Sidebar";
+import StudentNav from "./StudentNav/StudentNav";
+import WhatIsNew from "./What'sNew";
+import Average from "./Average";
+import Completed from "./Completed";
+import MostActicve from "./MostActive";
+import RankEarned from "./RankEarned";
+import LatestAccomplishment from "./LatestAccomplishment/LatestAccomplishment";
+import Need from "./Need/Need";
 
 export {
   Lander,
-  Dashboard,
   SeeQuestions,
   Navbar,
   Timer,
@@ -22,4 +29,13 @@ export {
   Modal,
   Start,
   Spinner,
+  Sidebar,
+  StudentNav,
+  Average,
+  WhatIsNew,
+  Completed,
+  MostActicve,
+  RankEarned,
+  LatestAccomplishment,
+  Need,
 };

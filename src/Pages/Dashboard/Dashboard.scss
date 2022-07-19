@@ -1,0 +1,117 @@
+.app__dashboard {
+  width: calc(100% - 300px);
+  float: right;
+  background: whitesmoke;
+  min-height: 100vh;
+  padding: 5rem 2rem 2rem 2rem;
+  color: var(--thick__black);
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+    padding-top: 5rem;
+  }
+
+  .verify {
+    margin-bottom: 1rem;
+    background: var(--light__blue);
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  .dash__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.125rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+
+    @media screen and (max-width: 800px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  .dash__recommended {
+    display: flex;
+    font-weight: 700;
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+    .what__new__header {
+      font-size: 1.125rem;
+      margin-bottom: 1rem;
+    }
+
+    .dash__new__container {
+      display: grid;
+      // flex-wrap: wrap;
+      width: 100%;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 15px;
+
+      &.re {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        .new__container {
+          background: var(--white);
+          width: 100%;
+          padding: 1rem;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.129);
+          border-radius: 5px;
+          transition: var(--trans);
+
+          &:hover {
+            box-shadow: 14px 10px 22px 0px rgba(0, 0, 0, 0.155);
+          }
+
+          .percentage {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-weight: 200;
+
+            span {
+              margin-bottom: 1rem;
+              font-weight: 700;
+              font-size: 1.5rem;
+            }
+          }
+        }
+      }
+
+      @media screen and (max-width: 1000px) {
+        grid-template-columns: 1fr 1fr;
+      }
+      @media screen and (max-width: 800px) {
+        grid-template-columns: 1fr;
+      }
+      .new__container {
+        background: var(--white);
+        width: 100%;
+        padding: 1rem;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.129);
+        border-radius: 5px;
+        transition: var(--trans);
+
+        &:hover {
+          box-shadow: 14px 10px 22px 0px rgba(0, 0, 0, 0.155);
+        }
+
+        .new {
+          background: var(--light__blue);
+          width: fit-content;
+          padding: 0.4rem;
+          border-radius: 5px;
+          font-size: 0.9rem;
+          margin-bottom: 1rem;
+        }
+
+        .new__header {
+          p {
+            color: var(--blue);
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}

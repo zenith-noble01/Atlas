@@ -1,27 +1,43 @@
 .app__takequestions {
   display: flex;
-  width: 100%;
-  padding: 3rem 10%;
+  width: calc(100% - 300px);
+  padding: 5rem 4%;
+  float: right;
+  background: whitesmoke;
+  transition: var(--trans);
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+    padding-top: 5rem;
+  }
 
   .question__container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-
+    @media screen and (max-width: 800px) {
+      width: 100%;
+    }
     .subject {
       background: var(--blue);
       margin: 1rem;
-      width: 30%;
+      width: 46%;
       padding: 1rem;
       border-radius: 5px;
       transition: var(--trans);
+
       &:hover {
         box-shadow: var(--shadow);
       }
 
       @media screen and (max-width: 800px) {
         width: 100%;
+        // background: green;
       }
+
+      // @media screen and (max-width: 1200px) {
+      //   width: 43%;
+      // }
 
       h1 {
         color: var(--white);
