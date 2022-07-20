@@ -50,6 +50,13 @@
 
       &.re {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        @media screen and (max-width: 1000px) {
+          grid-template-columns: 1fr 1fr;
+        }
+        @media screen and (max-width: 800px) {
+          grid-template-columns: 1fr;
+        }
         .new__container {
           background: var(--white);
           width: 100%;

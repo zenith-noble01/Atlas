@@ -1,9 +1,5 @@
 .student__insights {
   margin: 3rem 0;
-  @media screen and (max-width: 800px) {
-    width: 100%;
-    padding-top: 5rem;
-  }
 
   .insight__header {
     font-size: 1.5rem;
@@ -19,6 +15,9 @@
     @media (max-width: 800px) {
       grid-template-columns: 1fr 1fr;
     }
+    @media (max-width: 500px) {
+      grid-template-columns: 1fr;
+    }
 
     .insight__content {
       background: var(--white);
@@ -27,6 +26,10 @@
       align-items: center;
       padding: 1.5rem;
       border-radius: 5px;
+
+      @media (max-width: 800px) {
+        flex-direction: column;
+      }
 
       .insight__content__icon {
         height: 70px;
@@ -37,6 +40,11 @@
         justify-content: center;
         align-items: center;
         margin-right: 1rem;
+
+        @media (max-width: 800px) {
+          flex-direction: column;
+          margin-bottom: 1rem;
+        }
 
         svg {
           transform: scale(1.5) rotate(-90deg);

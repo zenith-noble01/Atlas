@@ -67,48 +67,52 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
         </ul>
       </div>
 
-      {isOpen && (
-        <div className="mobile__side__container">
-          <ul className="mobile__side" onClick={() => setIsOpen(false)}>
-            <li>
-              <NavLink to="/">
-                <MdOutlineDashboard />
-                <span>Dashboard</span>
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/questionTest">
-                <HiOutlineDuplicate />
-                <span>Question Test</span>
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/books">
-                <SiBookstack />
-                <span>Books</span>
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/oppurtunities">
-                <FiBook />
-                <span>Oppurtunities</span>
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/feedbacks">
-                <MdOutlineFeedback className="icon" />
-                <span>Feebacks</span>
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/support">
-                <MdContactSupport className="icon" />
-                <span>Support</span>
-              </NavLink>
-            </li>
-          </ul>
-        </div>
-      )}
+      <div className="mobile__side__container">
+        <ul
+          className="mobile__side"
+          style={{
+            left: isOpen ? "0" : "-100%",
+          }}
+          onClick={() => setIsOpen(false)}
+        >
+          <li>
+            <NavLink to="/">
+              <MdOutlineDashboard />
+              <span>Dashboard</span>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/questionTest">
+              <HiOutlineDuplicate />
+              <span>Question Test</span>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/books">
+              <SiBookstack />
+              <span>Books</span>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/oppurtunities">
+              <FiBook />
+              <span>Oppurtunities</span>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/feedbacks">
+              <MdOutlineFeedback className="icon" />
+              <span>Feebacks</span>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/support">
+              <MdContactSupport className="icon" />
+              <span>Support</span>
+            </NavLink>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };

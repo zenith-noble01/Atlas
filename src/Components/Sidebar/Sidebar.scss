@@ -70,22 +70,20 @@
 
   .mobile__side__container {
     display: none;
+
     @media screen and (max-width: 800px) {
       display: block;
-      width: 100%;
+
       .mobile__side {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 0;
+        position: fixed;
+        top: 60px;
         left: 0;
-        height: 100%;
-        z-index: 5;
-        padding-top: 4.5rem;
-        background: var(--blue);
+        width: 60vw;
+        transition: var(--trans);
+        height: calc(100vh - 60px);
+        background: var(--white);
+
         li {
-          background: var(--white);
           a {
             height: 40px;
             display: flex;
@@ -93,10 +91,11 @@
             padding-left: 3rem;
             position: relative;
             color: var(--thick__black);
-
+            transition: var(--trans);
             &.active {
               position: relative;
               color: var(--blue);
+              background: var(--smoke);
 
               &::before {
                 content: "";
@@ -104,7 +103,7 @@
                 background: var(--blue);
                 height: 100%;
                 position: absolute;
-                left: 0;
+                right: 0;
                 top: 0;
               }
             }
