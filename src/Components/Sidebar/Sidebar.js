@@ -75,38 +75,38 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
           }}
           onClick={() => setIsOpen(false)}
         >
-          <li>
-            <NavLink to="/">
+          <li className="mobile__side-links">
+            <NavLink className="linksAncor" to="/">
               <MdOutlineDashboard />
               <span>Dashboard</span>
             </NavLink>
           </li>
-          <li>
-            <NavLink to="/questionTest">
+          <li className="mobile__side-links">
+            <NavLink className="linksAncor" to="/questionTest">
               <HiOutlineDuplicate />
               <span>Question Test</span>
             </NavLink>
           </li>
-          <li>
-            <NavLink to="/books">
+          <li className="mobile__side-links">
+            <NavLink className="linksAncor" to="/books">
               <SiBookstack />
               <span>Books</span>
             </NavLink>
           </li>
-          <li>
-            <NavLink to="/oppurtunities">
+          <li className="mobile__side-links">
+            <NavLink className="linksAncor" to="/oppurtunities">
               <FiBook />
               <span>Oppurtunities</span>
             </NavLink>
           </li>
-          <li>
-            <NavLink to="/feedbacks">
+          <li className="mobile__side-links">
+            <NavLink className="linksAncor" to="/feedbacks">
               <MdOutlineFeedback className="icon" />
               <span>Feebacks</span>
             </NavLink>
           </li>
-          <li>
-            <NavLink to="/support">
+          <li className="mobile__side-links">
+            <NavLink className="linksAncor" to="/support">
               <MdContactSupport className="icon" />
               <span>Support</span>
             </NavLink>

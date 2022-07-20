@@ -10,10 +10,10 @@ import {
 } from "react-icons/bi";
 
 import { useState } from "react";
-import { GiHamburgerMenu } from "react-icons/gi";
 import { NavLink } from "react-router-dom";
 import { MdPowerSettingsNew } from "react-icons/md";
 import { toggleTheme } from "../../redux/reducers/theme";
+import Hamburger from "../../Components/hamburger/Hamburger";
 
 const StudentNav = ({ isOpen, setIsOpen }) => {
   const dispatch = useDispatch();
@@ -26,10 +26,7 @@ const StudentNav = ({ isOpen, setIsOpen }) => {
   return (
     <div className="student__nav">
       <div className="see__data">
-        <GiHamburgerMenu
-          onClick={() => setIsOpen(!isOpen)}
-          className="hamburger"
-        />
+        <Hamburger isOpen={isOpen} setIsOpen={setIsOpen} />
         <div className="st__logo">
           <img src={logo} alt="" />
         </div>

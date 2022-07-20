@@ -21,23 +21,8 @@
     display: flex;
     align-items: center;
     flex: 0.5;
-    // position: relative;
     @media screen and (max-width: 800px) {
       width: 100%;
-    }
-
-    .hamburger {
-      display: none;
-
-      @media screen and (max-width: 800px) {
-        display: block;
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        color: var(--black);
-        font-size: 2rem;
-        cursor: pointer;
-      }
     }
 
     .input__data {
