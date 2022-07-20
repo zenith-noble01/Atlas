@@ -1,0 +1,61 @@
+.student__insights {
+  margin: 3rem 0;
+  @media screen and (max-width: 800px) {
+    width: 100%;
+    padding-top: 5rem;
+  }
+
+  .insight__header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .insight__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+
+    @media (max-width: 800px) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .insight__content {
+      background: var(--white);
+      transition: var(--trans);
+      display: flex;
+      align-items: center;
+      padding: 1.5rem;
+      border-radius: 5px;
+
+      .insight__content__icon {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        background: var(--smoke);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1rem;
+
+        svg {
+          transform: scale(1.5) rotate(-90deg);
+        }
+      }
+
+      .insight__content__text {
+        p {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-weight: bold;
+
+          span {
+            font-weight: 100;
+          }
+        }
+      }
+    }
+  }
+}

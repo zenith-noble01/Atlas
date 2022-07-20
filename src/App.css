@@ -29,3 +29,17 @@
 h3 {
   margin-bottom: 2rem;
 }
+
+.App {
+  background: var(--smoke);
+}
+
+.default__outlet {
+  display: flex;
+  width: calc(100% - 300px);
+  padding: 5rem 4%;
+  float: right;
+  background: var(--smoke);
+  transition: var(--trans);
+  min-height: 100vh;
+}

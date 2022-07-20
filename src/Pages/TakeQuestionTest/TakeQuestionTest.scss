@@ -1,11 +1,4 @@
 .app__takequestions {
-  display: flex;
-  width: calc(100% - 300px);
-  padding: 5rem 4%;
-  float: right;
-  background: var(--smoke);
-  transition: var(--trans);
-
   @media screen and (max-width: 800px) {
     width: 100%;
     padding-top: 5rem;
@@ -13,15 +6,15 @@
 
   .question__container {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
     @media screen and (max-width: 800px) {
       width: 100%;
+      grid-template-columns: 1fr;
     }
     .subject {
       background: var(--blue);
-      margin: 1rem;
-      width: 46%;
       padding: 1rem;
       border-radius: 5px;
       transition: var(--trans);
@@ -33,12 +26,7 @@
 
       @media screen and (max-width: 800px) {
         width: 100%;
-        // background: green;
       }
-
-      // @media screen and (max-width: 1200px) {
-      //   width: 43%;
-      // }
 
       h1 {
         color: var(--white);
@@ -95,6 +83,7 @@
       height: 90%;
       overflow-y: auto;
       padding: 1rem;
+      border-radius: 5px;
       ul {
         list-style: none;
       }
@@ -132,6 +121,7 @@
       p {
         font-size: 2rem;
         margin-bottom: 2rem;
+        color: var(--thick__black);
 
         @media screen and (max-width: 800px) {
           font-size: 1.2rem;
@@ -139,29 +129,23 @@
       }
 
       .years {
-        display: flex;
-        width: 100%;
-        margin: 1rem;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-around;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         justify-self: center;
+        gap: 1rem;
+        width: 100%;
 
         .year {
           background: var(--blue);
-          width: 40%;
-          margin: 1rem;
-          height: 50px;
-          padding: 10px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+          padding: 1rem;
           border-radius: 5px;
+          width: 100%;
           cursor: pointer;
           color: var(--white);
           transition: var(--trans);
+
           &:hover {
-            background: var(--grey);
+            background: var(--smoke);
             color: var(--blue);
           }
 
@@ -188,10 +172,12 @@
         justify-content: center;
 
         .start__card-content {
-          background: white;
+          background: var(--smoke);
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.129);
           width: 50%;
+          color: var(--thick__black);
           padding: 1rem;
+          border-radius: 5px;
 
           @media screen and (max-width: 800px) {
             width: 95%;
@@ -208,6 +194,7 @@
             color: var(--white);
             margin-top: 1rem;
             background: var(--blue);
+            border-radius: 5px;
           }
         }
       }
@@ -224,13 +211,13 @@
             top: 0;
             left: 0;
             width: 100%;
-            color: white;
+            color: var(--smoke);
             span {
-              background: #f7f7f7;
+              background: var(--smoke);
               padding: 6px 1rem;
               margin-left: 2rem;
               border-radius: 20px;
-              color: black;
+              color: var(--thick__black);
             }
           }
 
@@ -246,8 +233,10 @@
             }
 
             label {
-              background: #f5f5f5;
+              background: var(--smoke);
               cursor: pointer;
+              color: var(--thick__black);
+              border-radius: 5px;
 
               span {
                 @media screen and (max-width: 800px) {
@@ -280,6 +269,7 @@
               color: var(--white);
               margin-top: 1rem;
               background: var(--blue);
+              border-radius: 5px;
             }
           }
         }

@@ -12,7 +12,7 @@
   box-shadow: 14px 10px 22px 0px rgba(0, 0, 0, 0.155);
   transition: var(--trans);
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 800px) {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,14 +22,14 @@
     align-items: center;
     flex: 0.5;
     // position: relative;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 800px) {
       width: 100%;
     }
 
     .hamburger {
       display: none;
 
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 800px) {
         display: block;
         position: absolute;
         top: 10px;
@@ -52,7 +52,7 @@
       color: var(--black);
       flex: 1;
 
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 800px) {
         display: none;
       }
 
@@ -89,7 +89,7 @@
 
   .content__nav {
     display: flex;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 800px) {
       display: none;
     }
 

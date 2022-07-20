@@ -9,6 +9,7 @@ import {
   TakeQuestionTest,
   Dashboard,
   StudentProfile,
+  StudentEdits,
 } from "./Pages/";
 import { useSelector } from "react-redux";
 // const
@@ -20,7 +21,7 @@ const App = () => {
   const theme = useSelector((state) => state.theme);
 
   return (
-    <div data-theme={theme}>
+    <div className="App" data-theme={theme}>
       {pathname === "login" ||
       pathname === "register" ||
       pathname === "Dashboard" ||
@@ -35,6 +36,7 @@ const App = () => {
         <Route element={<Register />} path="/register" />
         <Route element={<TakeQuestionTest />} path="/questionTest" />
         <Route element={<StudentProfile />} path="/profile" />
+        <Route element={<StudentEdits />} path="/studentEdit" />
         <Route element={<Spinner />} path="/spinner" />
       </Routes>
       <ToastContainer />

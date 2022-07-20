@@ -4,5 +4,13 @@ import Login from "./Login/Login";
 import Dashboard from "./Dashboard/Dashboard";
 import Register from "./Register/Register";
 import StudentProfile from "./StudentProfile/StudentProfile";
+import StudentEdits from "./StudentEdit/StudentEdits";
 
-export { TakeQuestionTest, Login, Register, Dashboard, StudentProfile };
+export {
+  TakeQuestionTest,
+  Login,
+  Register,
+  Dashboard,
+  StudentProfile,
+  StudentEdits,
+};

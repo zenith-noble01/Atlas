@@ -17,6 +17,8 @@ import MostActicve from "./MostActive";
 import RankEarned from "./RankEarned";
 import LatestAccomplishment from "./LatestAccomplishment/LatestAccomplishment";
 import Need from "./Need/Need";
+import ProfileArchivement from "./profileArchivement/ProfileArchivement";
+import ProfileInsight from "./ProfileInsight/ProfileInsight";
 
 export {
   Lander,
@@ -38,4 +40,6 @@ export {
   RankEarned,
   LatestAccomplishment,
   Need,
+  ProfileArchivement,
+  ProfileInsight,
 };

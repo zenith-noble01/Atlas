@@ -90,7 +90,7 @@ const App = () => {
   };
 
   return (
-    <div className="app__takequestions open">
+    <div className="app__takequestions open default__outlet">
       <div className="question__container">
         {subject.map((subject) => (
           <div
