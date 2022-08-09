@@ -1,0 +1,9 @@
+.app__notes {
+  width: calc(100% - 300px);
+  padding: 5rem 4%;
+  float: right;
+  background: var(--smoke);
+  transition: var(--trans);
+  min-height: 100vh;
+  z-index: 999999999;
+}

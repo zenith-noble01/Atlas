@@ -10,6 +10,7 @@ import {
   Dashboard,
   StudentProfile,
   StudentEdits,
+  Notes,
 } from "./Pages/";
 import { useSelector } from "react-redux";
 // const
@@ -38,6 +39,7 @@ const App = () => {
         <Route element={<StudentProfile />} path="/profile" />
         <Route element={<StudentEdits />} path="/studentEdit" />
         <Route element={<Spinner />} path="/spinner" />
+        <Route element={<Notes />} path="/notes" />
       </Routes>
       <ToastContainer />
     </div>

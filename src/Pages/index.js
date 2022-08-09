@@ -5,6 +5,7 @@ import Dashboard from "./Dashboard/Dashboard";
 import Register from "./Register/Register";
 import StudentProfile from "./StudentProfile/StudentProfile";
 import StudentEdits from "./StudentEdit/StudentEdits";
+import Notes from "./Notes/Notes";
 
 export {
   TakeQuestionTest,
@@ -13,4 +14,5 @@ export {
   Dashboard,
   StudentProfile,
   StudentEdits,
+  Notes,
 };
