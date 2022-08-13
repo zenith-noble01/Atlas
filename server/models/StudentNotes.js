@@ -15,4 +15,4 @@ const studentNotesSchema = new mongoose.Schema({
   },
 });
 
-module.export = mongoose.model("StudentNotes", studentNotesSchema);
+module.exports = mongoose.model("StudentNotes", studentNotesSchema);

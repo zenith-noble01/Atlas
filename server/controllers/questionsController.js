@@ -12,7 +12,7 @@ module.exports.createQuestion = async (req, res) => {
       });
     }
     const newQuestion = await Question.create(req.body);
-    console.log(req.body);
+    // console.log(req.body);
     res.status(201).json(newQuestion);
   } catch (error) {
     console.log(error.message);

@@ -17,6 +17,7 @@ connectDB();
 
 app.use("/api/question", require("./routes/questionRoute"));
 app.use("/api/auth", require("./routes/authStudent"));
-// app.use("/api/authTeacher", require("./routes/authteacher"));
+app.use("/api/studentNote", require("./routes/studentNotes"));
+app.use("/api/progress", require("./routes/progress"));
 
 app.listen(PORT, () => console.log(`server is on ${PORT}`));
