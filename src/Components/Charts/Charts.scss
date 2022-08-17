@@ -1,0 +1,56 @@
+.charts__container {
+  .chart__header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .chart__content {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-bottom: 2rem;
+
+    .chart__one {
+      grid-template-columns: repeat(2, 1fr);
+      display: grid;
+      gap: 1rem;
+      .one {
+        background: var(--white);
+        padding: 1rem;
+        border-radius: 5px;
+        max-height: 200px;
+        position: relative !important;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.129);
+        display: flex;
+        gap: 0.5rem;
+        border-radius: 5px;
+        transition: var(--trans);
+
+        &:hover {
+          box-shadow: 14px 10px 22px 0px rgba(0, 0, 0, 0.155);
+        }
+
+        svg {
+          height: 100px;
+          width: 100px;
+        }
+      }
+    }
+
+    .chart__two {
+      background: var(--white);
+      padding: 1rem;
+      border-radius: 5px;
+      height: 100%;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.129);
+      transition: var(--trans);
+
+      &:hover {
+        box-shadow: 14px 10px 22px 0px rgba(0, 0, 0, 0.155);
+      }
+    }
+  }
+}

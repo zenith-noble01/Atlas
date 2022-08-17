@@ -1,0 +1,9 @@
+.newNote {
+  color: var(--black);
+  height: 100% !important;
+
+  .newNote__container {
+    width: 100%;
+    min-height: 100% !important;
+  }
+}

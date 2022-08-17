@@ -37,9 +37,12 @@ h3 {
 .default__outlet {
   display: flex;
   width: calc(100% - 300px);
-  padding: 5rem 4%;
+  padding: 5rem 4% 1rem 2rem;
   float: right;
   background: var(--smoke);
   transition: var(--trans);
   min-height: 100vh;
+}
+
+.sidebar {
 }

@@ -19,6 +19,7 @@ import LatestAccomplishment from "./LatestAccomplishment/LatestAccomplishment";
 import Need from "./Need/Need";
 import ProfileArchivement from "./profileArchivement/ProfileArchivement";
 import ProfileInsight from "./ProfileInsight/ProfileInsight";
+import Charts from "./Charts/Charts";
 
 export {
   Lander,
@@ -42,4 +43,5 @@ export {
   Need,
   ProfileArchivement,
   ProfileInsight,
+  Charts,
 };

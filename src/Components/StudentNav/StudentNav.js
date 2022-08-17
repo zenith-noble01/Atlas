@@ -23,6 +23,11 @@ const StudentNav = ({ isOpen, setIsOpen }) => {
     dispatch(toggleTheme());
   };
 
+  const handleLogOut = () => {
+    window.location.reload();
+    /*   JSON.stringify(localStorage.setItem("theme", "light")); */
+  };
+
   return (
     <div className="student__nav">
       <div className="see__data">
@@ -58,7 +63,7 @@ const StudentNav = ({ isOpen, setIsOpen }) => {
                     <span>Profile</span>
                   </NavLink>
                 </li>
-                <li className="logout">
+                <li className="logout" onClick={handleLogOut}>
                   <MdPowerSettingsNew />
                   <span>Logout</span>
                 </li>

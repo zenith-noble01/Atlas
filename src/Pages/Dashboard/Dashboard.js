@@ -9,6 +9,7 @@ import {
   RankEarned,
   LatestAccomplishment,
   Need,
+  Charts,
 } from "../../Components";
 
 const Dashboard = () => {
@@ -45,6 +46,7 @@ const Dashboard = () => {
           <RankEarned />
         </div>
       </div>
+      <Charts />
       <LatestAccomplishment />
       <Need />
     </div>

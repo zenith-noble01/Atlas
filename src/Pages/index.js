@@ -6,6 +6,8 @@ import Register from "./Register/Register";
 import StudentProfile from "./StudentProfile/StudentProfile";
 import StudentEdits from "./StudentEdit/StudentEdits";
 import Notes from "./Notes/Notes";
+import AllStudentNotes from "./AllStudentNotes/AllStudentNotes";
+import NewNote from "./NewNote/NewNote";
 
 export {
   TakeQuestionTest,
@@ -15,4 +17,6 @@ export {
   StudentProfile,
   StudentEdits,
   Notes,
+  AllStudentNotes,
+  NewNote,
 };

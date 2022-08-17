@@ -25,11 +25,15 @@ module.exports.getNotesByStudentId = async (req, res) => {
     }
     const studentNotes = await StudentNotes.find({ studentId });
     if (studentNotes.length === 0) {
-      return res.status(404).json({
+      return res.status(200).json({
         message: "No Notes Yet",
+        notes: [],
       });
     }
-    res.status(200).json(studentNotes);
+    res.status(200).json({
+      message: "here are your notes",
+      notes,
+    });
   } catch (error) {
     console.log(error);
   }
