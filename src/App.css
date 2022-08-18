@@ -13,6 +13,7 @@
   --light__blue: #285ca915;
   --button: #f7f7f7;
   --button__light: #f7f7f7;
+  --text-color: white;
 }
 [data-theme="dark"] {
   --white: #27292d;
@@ -24,6 +25,7 @@
   --shadow: 0px 0px 10px #393d42;
   --light__blue: #3867af15;
   --thick__black: #eeeeee;
+  --text-color: black;
 }
 
 h3 {
@@ -44,5 +46,13 @@ h3 {
   min-height: 100vh;
 }
 
-.sidebar {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+svg {
+  transition: var(--trans);
 }

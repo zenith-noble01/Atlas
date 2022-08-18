@@ -41,7 +41,6 @@ const AllStudentNotes = () => {
             <div className="note_preview__container">Preview</div>
             <div className="note-item-header">
               <h4>{note.title}</h4>
-
               <p>
                 {note.subject} <span>{note.date}</span>
               </p>

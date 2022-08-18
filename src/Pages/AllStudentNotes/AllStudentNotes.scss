@@ -28,6 +28,13 @@
       max-height: 300px;
       overflow: hidden;
       cursor: pointer;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.129);
+      border-radius: 5px;
+      transition: var(--trans);
+
+      &:hover {
+        box-shadow: 14px 10px 22px 0px rgba(0, 0, 0, 0.155);
+      }
 
       .note_preview__container {
         height: 200px;
@@ -35,11 +42,13 @@
         align-items: center;
         justify-content: center;
         background: var(--white);
+        color: var();
       }
 
       .note-item-header {
         background: var(--blue);
         padding: 1rem;
+        color: var(--text-color);
 
         p {
           display: flex;
