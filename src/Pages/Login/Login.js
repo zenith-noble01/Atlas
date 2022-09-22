@@ -57,7 +57,7 @@ const Login = () => {
     //getStudent localStorage
     const student = localStorage.getItem("student");
     if (student) {
-      navigate("/questionTest");
+      navigate("/assessment");
     }
   }, [navigate]);
 

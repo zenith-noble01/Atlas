@@ -32,7 +32,7 @@ module.exports.getNotesByStudentId = async (req, res) => {
     }
     res.status(200).json({
       message: "here are your notes",
-      notes,
+      // notes,
     });
   } catch (error) {
     console.log(error);

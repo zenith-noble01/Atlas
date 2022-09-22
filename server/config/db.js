@@ -15,8 +15,3 @@ const connectDB = async () => {
 };
 
 module.exports = connectDB;
-
-//overdrive
-//12 strong
-//insurgent
-//47 meters down

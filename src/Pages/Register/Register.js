@@ -54,7 +54,7 @@ const Login = () => {
     }
     if (isSuccess && student) {
       window.location.reload();
-      navigate("/questionTest");
+      navigate("/assessment");
     }
 
     dispatch(reset());
@@ -66,7 +66,7 @@ const Login = () => {
     //getStudent localStorage
     const student = localStorage.getItem("student");
     if (student) {
-      navigate("/questionTest");
+      navigate("/assessment");
     }
   }, [navigate]);
 
