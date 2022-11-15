@@ -46,7 +46,7 @@ const NewNote = () => {
 
   useEffect(() => {
     if (socket == null || quill == null) return;
- 
+
     const interval = setInterval(() => {
       socket.emit("save-document", quill.getContents());
     }, SAVE_INTERVAL_MS);
