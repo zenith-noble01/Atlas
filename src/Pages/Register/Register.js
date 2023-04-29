@@ -146,7 +146,7 @@ const Login = () => {
               </div>
               <Link to="/forgotpassword">Forgot Password?</Link>
             </div>
-            <button type="submit" >Register</button>
+            <button type="submit">Register</button>
           </form>
           <p className="new">
             Already on this Platform? <Link to="/login">Sign In</Link>

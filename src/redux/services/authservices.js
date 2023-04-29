@@ -1,9 +1,8 @@
 import axios from "axios";
-
-const AUTH__URL = "https://ticorg.herokuapp.com/api/auth/";
+import { auth } from "../../api/endpoints";
 
 const registerStudent = async (studentData) => {
-  const response = await axios.post(AUTH__URL + "register", studentData);
+  const response = await axios.post(auth + "register", studentData);
 
   if (response.data) {
     localStorage.setItem("student", JSON.stringify(response.data));
@@ -13,7 +12,7 @@ const registerStudent = async (studentData) => {
 };
 
 const loginStudent = async (userData) => {
-  const response = await axios.post(AUTH__URL + "login", userData);
+  const response = await axios.post(auth + "login", userData);
 
   if (response.data) {
     localStorage.setItem("student", JSON.stringify(response.data));
