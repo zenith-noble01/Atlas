@@ -3,6 +3,8 @@ import "./ProfileInsight.scss";
 import { FcElectricity } from "react-icons/fc";
 
 const ProfileInsight = () => {
+
+  
   return (
     <div className="student__insights">
       <div className="insight__header">

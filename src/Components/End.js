@@ -7,17 +7,17 @@ import { FormatTime } from "./";
 const End = ({ results, data, onReset, onAnswersCheck, time }) => {
   const [correctAnswers, setCorrectAnswers] = useState(0);
 
-  
-
   useEffect(() => {
     let correct = 0;
     results?.map((result, index) => {
       if (result.a === data[index].correct) {
         correct++;
       }
+
+      return null;
     });
     setCorrectAnswers(correct);
-  }, [results, data]);
+  }, [results, data, setCorrectAnswers]);
 
   let answerPercentage = Math.floor((correctAnswers / data.length) * 100);
   return (
@@ -26,7 +26,7 @@ const End = ({ results, data, onReset, onAnswersCheck, time }) => {
         <div className="content">
           <h3>Your results</h3>
           <p className="correct__length">
-            {correctAnswers} of {data?.length}
+            {correctAnswers} of {data?.length ?? 0}
           </p>
           <div className="circular__progress">
             <CircularProgressbar

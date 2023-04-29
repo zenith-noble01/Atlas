@@ -1,7 +1,7 @@
 .charts__container {
   .chart__header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     margin-bottom: 1rem;
   }
@@ -12,6 +12,14 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     margin-bottom: 2rem;
+
+    background: red;
+
+    @media screen and (max-width: 800px) {
+      .chart__content {
+        grid-template-columns: 1fr;
+      }
+    }
 
     .chart__one {
       grid-template-columns: repeat(2, 1fr);
@@ -50,6 +58,7 @@
 
       &:hover {
         box-shadow: 14px 10px 22px 0px rgba(0, 0, 0, 0.155);
+        cursor: pointer;
       }
     }
   }
