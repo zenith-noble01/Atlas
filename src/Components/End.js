@@ -7,6 +7,8 @@ import { FormatTime } from "./";
 const End = ({ results, data, onReset, onAnswersCheck, time }) => {
   const [correctAnswers, setCorrectAnswers] = useState(0);
 
+  
+
   useEffect(() => {
     let correct = 0;
     results?.map((result, index) => {
